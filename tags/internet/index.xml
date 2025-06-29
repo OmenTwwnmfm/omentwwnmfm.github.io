@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Internet on OmenTwwnmfm</title>
-        <link>http://localhost:1313/tags/internet/</link>
+        <link>https://www.oootons.top/tags/internet/</link>
         <description>Recent content in Internet on OmenTwwnmfm</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Power by OmenTwwnmfm</copyright>
-        <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.oootons.top/tags/internet/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>NO.002 ENSP安装使用指南</title>
-        <link>http://localhost:1313/p/zs-no.002/</link>
+        <link>https://www.oootons.top/p/zs-no.002/</link>
         <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/zs-no.002/</guid>
+        <guid>https://www.oootons.top/p/zs-no.002/</guid>
         <description>&lt;hr&gt;
 &lt;h1 id=&#34;一-在安装之前首先要删除原有的-virtualbox-和-ensp&#34;&gt;&lt;strong&gt;一、 在安装之前，首先要删除原有的 VirtualBox 和 ENSP&lt;/strong&gt;
 &lt;/h1&gt;&lt;p&gt;如没有安装，第一步和第二步可直接跳过。&lt;/p&gt;
