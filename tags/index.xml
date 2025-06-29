@@ -8,7 +8,7 @@
         <language>zh-cn</language>
         <copyright>Power by OmenTwwnmfm</copyright>
         <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.oootons.top/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Daily</title>
+        <title>日常生活</title>
         <link>https://www.oootons.top/tags/daily/</link>
         <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
         
@@ -16,7 +16,7 @@
         <description></description>
         </item>
         <item>
-        <title>Tools</title>
+        <title>工具</title>
         <link>https://www.oootons.top/tags/tools/</link>
         <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
         
@@ -24,7 +24,7 @@
         <description></description>
         </item>
         <item>
-        <title>Website</title>
+        <title>网站</title>
         <link>https://www.oootons.top/tags/website/</link>
         <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
         
@@ -32,7 +32,7 @@
         <description></description>
         </item>
         <item>
-        <title>Internet</title>
+        <title>网络</title>
         <link>https://www.oootons.top/tags/internet/</link>
         <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
         
@@ -40,7 +40,7 @@
         <description></description>
         </item>
         <item>
-        <title>System</title>
+        <title>系统</title>
         <link>https://www.oootons.top/tags/system/</link>
         <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
         
@@ -48,7 +48,7 @@
         <description></description>
         </item>
         <item>
-        <title>Prompt</title>
+        <title>提示词</title>
         <link>https://www.oootons.top/tags/prompt/</link>
         <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
         
@@ -56,11 +56,67 @@
         <description></description>
         </item>
         <item>
-        <title>Plugin</title>
+        <title>插件</title>
         <link>https://www.oootons.top/tags/plugin/</link>
         <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
         
         <guid>https://www.oootons.top/tags/plugin/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>编程</title>
+        <link>https://www.oootons.top/tags/programming/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/programming/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>出行</title>
+        <link>https://www.oootons.top/tags/travel/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/travel/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>发疯</title>
+        <link>https://www.oootons.top/tags/ababab/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/ababab/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>科技</title>
+        <link>https://www.oootons.top/tags/technology/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/technology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>生活</title>
+        <link>https://www.oootons.top/tags/life/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/life/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>一起看电影</title>
+        <link>https://www.oootons.top/tags/movie/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/movie/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>一起听歌</title>
+        <link>https://www.oootons.top/tags/music/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.oootons.top/tags/music/</guid>
         <description></description>
         </item>
         
