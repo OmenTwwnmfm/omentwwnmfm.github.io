@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="本文介绍利用Ventoy制作多功能U盘系统的完整指南，包含PE系统和Linux/Windows To Go的部署方案。详细讲解Ventoy的安装配置、主题美化以及各类镜像文件的制作技巧，提供虚拟硬盘创建与扩容方法，说明系统启动所需的安全设置。教程涵盖Oracle和VMware两种环境下的操作流程，适用于需要便携操作系统的技术用户，帮助打造功能完善的移动办公解决方案。">
+<title>NO.001 用Ventoy打造随身多系统工作站</title>
+
+<link rel='canonical' href='http://localhost:1313/p/zs-no.001/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="NO.001 用Ventoy打造随身多系统工作站">
+<meta property='og:description' content="本文介绍利用Ventoy制作多功能U盘系统的完整指南，包含PE系统和Linux/Windows To Go的部署方案。详细讲解Ventoy的安装配置、主题美化以及各类镜像文件的制作技巧，提供虚拟硬盘创建与扩容方法，说明系统启动所需的安全设置。教程涵盖Oracle和VMware两种环境下的操作流程，适用于需要便携操作系统的技术用户，帮助打造功能完善的移动办公解决方案。">
+<meta property='og:url' content='http://localhost:1313/p/zs-no.001/'>
+<meta property='og:site_name' content='OmenTwwnmfm'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='system' /><meta property='article:published_time' content='2025-05-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-05-20T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="NO.001 用Ventoy打造随身多系统工作站">
+<meta name="twitter:description" content="本文介绍利用Ventoy制作多功能U盘系统的完整指南，包含PE系统和Linux/Windows To Go的部署方案。详细讲解Ventoy的安装配置、主题美化以及各类镜像文件的制作技巧，提供虚拟硬盘创建与扩容方法，说明系统启动所需的安全设置。教程涵盖Oracle和VMware两种环境下的操作流程，适用于需要便携操作系统的技术用户，帮助打造功能完善的移动办公解决方案。">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_68f9c10189022b7f.png" width="300"
+                            height="276" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">OmenTwwnmfm</a></h1>
+            <h2 class="site-description">天在将黑未黑时最美</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='mailto:hdy0928@outlook.com'
+                        target="_blank"
+                        title="Mail"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/omentwwnmfm.png'
+                        target="_blank"
+                        title="Wechat"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-wechat"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z" /><path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233" /><path d="M10 8h.01" /><path d="M7 8h.01" /><path d="M15 14h.01" /><path d="M18 14h.01" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=567730996'
+                        target="_blank"
+                        title="Music"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M9 17v-13h10v13" /><path d="M9 8h10" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/OmenTwwnmfm'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/omentwwnmfm/'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/learn/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>青年大学习</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>硬核技术芝士</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/insane/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>梦到哪句说哪句</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/share/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>好物分享</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1下载ventoy制作软件">（1）下载Ventoy制作软件</a></li>
+        <li><a href="#2制作ventoy系统">（2）制作Ventoy系统</a></li>
+        <li><a href="#3美化设置">（3）美化设置</a>
+          <ol>
+            <li><a href="#a下载主题">a.下载主题</a></li>
+            <li><a href="#b复制主题">b.复制主题</a></li>
+            <li><a href="#c配置ventoy">c.配置Ventoy</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1选择喜欢的-pe">（1）选择喜欢的 PE</a></li>
+        <li><a href="#2拓展自己喜欢的工具">（2）拓展自己喜欢的工具</a></li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#0linux-vdisk-文件启动插件">（0）Linux vDisk 文件启动插件</a>
+          <ol>
+            <li><a href="#a安装-linux-系统到-vdisk"><strong>a.安装 Linux 系统到 vdisk</strong></a></li>
+            <li><a href="#b在系统下执行-vtoyboot-脚本"><strong>b.在系统下执行 vtoyboot 脚本</strong></a></li>
+            <li><a href="#c拷贝到u盘改后缀名为-vtoy-然后用-ventoy-启动"><strong>c.拷贝到U盘，改后缀名为 .vtoy 然后用 Ventoy 启动</strong></a></li>
+            <li><a href="#d关于启动后的系统升级"><strong>d.关于启动后的系统升级</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#1oracle-vm-virtualbox-制作注意">（1）Oracle VM VirtualBox 制作注意</a>
+          <ol>
+            <li><a href="#a下载-oracle-vm-virtualbox">a.下载 Oracle VM VirtualBox</a></li>
+            <li><a href="#b配置安装linux环境">b.配置安装Linux环境</a></li>
+            <li><a href="#c安装-ventoy-支持插件-vtoybootiso">c.安装 Ventoy 支持插件 vtoyboot.iso</a></li>
+            <li><a href="#d制作为-ventoy-支持的镜像">d.制作为 Ventoy 支持的镜像</a></li>
+          </ol>
+        </li>
+        <li><a href="#2vmware-workstation-pro-制作注意">（2）VMware Workstation Pro 制作注意</a>
+          <ol>
+            <li><a href="#a下载-vmware-workstation-pro">a.下载 VMware Workstation Pro</a></li>
+            <li><a href="#b下载-winntsetup">b.下载 WinNTSetup</a></li>
+            <li><a href="#c配置安装linux环境">c.配置安装Linux环境</a></li>
+            <li><a href="#c安装-ventoy-支持插件-vtoybootiso-1">c.安装 Ventoy 支持插件 vtoyboot.iso</a></li>
+          </ol>
+        </li>
+        <li><a href="#3关于-vhd-和-vdi">（3）关于 VHD 和 VDI</a>
+          <ol>
+            <li><a href="#a关于各虚拟硬盘之前的转换">a.关于各虚拟硬盘之前的转换</a></li>
+            <li><a href="#b关于对已经固定大小的虚拟硬盘进行扩容">b.关于对已经固定大小的虚拟硬盘进行扩容</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1下载-winntsetup">（1）下载 WinNTSetup</a></li>
+        <li><a href="#2选择镜像直接安装到虚拟硬盘-vhd-中"><strong>（2）选择镜像直接安装到虚拟硬盘 VHD 中</strong></a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                硬核技术芝士
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/zs-no.001/">NO.001 用Ventoy打造随身多系统工作站</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            本文介绍利用Ventoy制作多功能U盘系统的完整指南，包含PE系统和Linux/Windows To Go的部署方案。详细讲解Ventoy的安装配置、主题美化以及各类镜像文件的制作技巧，提供虚拟硬盘创建与扩容方法，说明系统启动所需的安全设置。教程涵盖Oracle和VMware两种环境下的操作流程，适用于需要便携操作系统的技术用户，帮助打造功能完善的移动办公解决方案。
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-05-20</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <hr>
+<h1 id="0前提">0.前提
+</h1><p><strong>拥有一个强大的U盘/硬盘（最差情况读取速度至少100mb/s）</strong></p>
+<hr>
+<h1 id="1ventoy制作">1.Ventoy制作
+</h1><h3 id="1下载ventoy制作软件">（1）下载Ventoy制作软件
+</h3><p><a class="link" href="https://www.ventoy.net/cn/"  target="_blank" rel="noopener"
+    >https://www.ventoy.net/cn/</a></p>
+<p><img src="https://www.notion.so/image/attachment%3A87eb938f-bd96-4096-87e4-04a77048eaf0%3Aimage.png?table=block&amp;id=1f981b32-e194-8023-8870-fd9341e92544&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="2制作ventoy系统">（2）制作Ventoy系统
+</h3><p>压缩包解压之后，打开 <strong>Ventoy2Disk.exe</strong> 程序</p>
+<p><img src="https://www.notion.so/image/attachment%3Aa56f5cd5-c114-4f6d-b56b-d53c7aae2080%3Aimage.png?table=block&amp;id=1f981b32-e194-802d-866f-f471ee1988d7&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1320&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>左上角配置选项-&gt;勾选安全启动支持-&gt;分区类型选GPT-&gt;分区设置选NTFS</strong></p>
+<p><img src="https://www.notion.so/image/attachment%3A4562bbe1-441a-4b6f-9cf4-a22b315ed2eb%3Aimage.png?table=block&amp;id=1f981b32-e194-8069-bcd2-f5a75b4571e9&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1320&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://www.notion.so/image/attachment%3Aa9c74066-7bb4-48fa-ad46-a74a29eb6e6d%3Aimage.png?table=block&amp;id=1f981b32-e194-80b8-a153-fbc7d4c5bf14&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1420&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>安装之前连续两次提示“安装后将清空U盘所有数据”</p>
+<p><img src="https://www.notion.so/image/attachment%3Aba6fd173-13c7-4cd1-828a-d6f6deb7d6ac%3Aimage.png?table=block&amp;id=1f981b32-e194-800e-9b71-dee47e2450ac&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1320&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="3美化设置">（3）美化设置
+</h3><h4 id="a下载主题">a.下载主题
+</h4><p>打开GRUB主题网站（因为Ventoy基于GRUB）</p>
+<p><a class="link" href="https://www.gnome-look.org/browse?cat=109&amp;ord=latest"  target="_blank" rel="noopener"
+    >https://www.gnome-look.org/browse?cat=109&ord=latest</a></p>
+<p>我最喜欢的三个</p>
+<p><strong>CyberEXS 1.0.0</strong>   <a class="link" href="https://www.yuque.com/attachments/yuque/0/2024/gz/36203516/1711534692733-b18caeb7-6072-4a26-8217-ac843f48e484.gz"  target="_blank" rel="noopener"
+    >📎CyberEXS-1.0.0.tar.gz</a></p>
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2024%2Fpng%2F36203516%2F1711534635244-b6054fdb-75d6-43bd-9d93-dc128f4d1e41.png?table=block&amp;id=1f981b32-e194-8088-ab2f-ce3559d5500f&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=960&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+		alt="img"
+	
+	
+></p>
+<p><a class="link" href="https://www.gnome-look.org/p/1968990/"  target="_blank" rel="noopener"
+    >https://www.gnome-look.org/p/1968990/</a></p>
+<p><strong>Fallout</strong>   <a class="link" href="https://www.yuque.com/attachments/yuque/0/2024/zip/36203516/1711535058266-4e9c965b-ea8c-4c31-8e42-f104d3d93fda.zip"  target="_blank" rel="noopener"
+    >📎fallout-grub-theme-master.zip</a></p>
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2024%2Fgif%2F36203516%2F1711534848194-5b9c0016-0ec1-45aa-9061-0978002569ba.gif?table=block&amp;id=1f981b32-e194-80c5-869a-f8668e100094&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><a class="link" href="https://www.gnome-look.org/p/1230882"  target="_blank" rel="noopener"
+    >https://www.gnome-look.org/p/1230882</a></p>
+<p><strong>Dark Eos grub theme</strong>   <a class="link" href="https://www.yuque.com/attachments/yuque/0/2024/gz/36203516/1711535395575-705fd647-047c-4b1f-b367-3677b286bc58.gz"  target="_blank" rel="noopener"
+    >📎dark-eos-grub.tar.gz</a></p>
+<p><img src="https://www.notion.so/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2024%2Fjpeg%2F36203516%2F1711535430219-7247c225-b5bc-4440-a6b7-cc1abeacd3ec.jpeg?table=block&amp;id=1f981b32-e194-805a-80b3-dee523549576&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=950&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><a class="link" href="https://www.gnome-look.org/p/2138019"  target="_blank" rel="noopener"
+    >https://www.gnome-look.org/p/2138019</a></p>
+<p>将下载好的主题进行解压缩，有的需要解压缩两次</p>
+<h4 id="b复制主题">b.复制主题
+</h4><p>在Ventoy系统U盘中新建文件夹，命名为 <strong>ventoy</strong> ，再在此文件夹中新建文件夹，命名为 <strong>themes</strong> <strong>（注意大小写）</strong></p>
+<p>将解压缩后含有主题的文件夹一起丢入 <strong>themes</strong> 文件夹中</p>
+<h4 id="c配置ventoy">c.配置Ventoy
+</h4><p>打开Ventoy安装程序文件中的 <strong>VentoyPlugson.exe</strong> 程序，点击启动，就会弹出web配置Ventoy界面</p>
+<p><img src="https://www.notion.so/image/attachment%3Ad78c1e34-cb3a-43a8-9c3a-d999ba3dbd0a%3Aimage.png?table=block&amp;id=1f981b32-e194-80c7-b469-c291a73dbc2b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1070&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="a主题配置插件">（a）主题配置插件
+</h5><p>主题配置文件——各主题 themes 下各主题的<strong>配置文件： theme.txt 的绝对路径</strong></p>
+<p>字体文件————各主题 themes 下各主题的<strong>字体文件：为 pf2 格式 的绝对路径</strong></p>
+<p><img src="https://www.notion.so/image/attachment%3Afb04de5a-19f3-4e39-a854-111ffa3075f4%3Aimage.png?table=block&amp;id=1f981b32-e194-806b-af46-c458c147219e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://www.notion.so/image/attachment%3Ab1457ae7-8458-4177-b82e-bc2db6d54fc3%3Aimage.png?table=block&amp;id=1f981b32-e194-801d-8cca-f973e8269b15&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="b菜单类型插件">（b）菜单类型插件
+</h5><p>新增 - 选择第一项</p>
+<p><strong>key ：搜索到镜像的文件名中的某个关键词 （严格执行大小写）</strong></p>
+<p><strong>类型：对应显示 icons 下的图标</strong></p>
+<p><img src="https://www.notion.so/image/attachment%3A735952ce-c994-4fd7-8fac-e6075b3bc51c%3Aimage.png?table=block&amp;id=1f981b32-e194-809a-8e98-f906bcd70d24&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="c菜单别名插件">（c）菜单别名插件
+</h5><p>新增 - 选择第一项</p>
+<p>文件路径：选择<strong>开机镜像查找时的绝对路径</strong></p>
+<p>别名：开机镜像不再显示文件名，而<strong>显示别名</strong></p>
+<p><img src="https://www.notion.so/image/attachment%3Ad79cce26-02ab-4ecf-945c-d9faa20b281d%3Aimage.png?table=block&amp;id=1f981b32-e194-80f1-91f8-cd066a62b131&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="d全局控制插件">（d）全局控制插件
+</h5><p>菜单语言：默认英文，可改中文</p>
+<p>指定搜索目录：由于Ventoy默认会搜索U盘内所有文件夹，在此设置指定搜索文件夹，不再搜索其他文件夹</p>
+<p>默认选中的镜像：与启动倒计时连用，倒计时结束后会默认进入此镜像</p>
+<p>最大搜索目录深度：设置指定搜索目录后就不用设置这个了</p>
+<p>（注：在文件下添加 .ventoyignore 的空文件，Ventoy就不再搜索该文件的所有文件）</p>
+<p><img src="https://www.notion.so/image/attachment%3A5ceb3709-a3bf-42f0-ae5b-58156df89db6%3Aimage.png?table=block&amp;id=1f981b32-e194-80a9-945f-f1eee0be38a2&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://www.notion.so/image/attachment%3A915ae2a4-f12e-4691-ad07-8a89f7121766%3Aimage.png?table=block&amp;id=1f981b32-e194-80b6-a329-eab70d9ee00e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1440&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<hr>
+<h1 id="2pe制作">2.PE制作
+</h1><h3 id="1选择喜欢的-pe">（1）选择喜欢的 PE
+</h3><p>我最喜欢的三个PE</p>
+<p><strong>FirPE</strong></p>
+<p><a class="link" href="https://firpe.cn/"  target="_blank" rel="noopener"
+    >https://firpe.cn/</a></p>
+<p><strong>微PE</strong></p>
+<p><a class="link" href="https://www.wepe.com.cn/"  target="_blank" rel="noopener"
+    >https://www.wepe.com.cn/</a></p>
+<p><strong>HotPE</strong></p>
+<p><a class="link" href="https://www.hotpe.top/"  target="_blank" rel="noopener"
+    >https://www.hotpe.top/</a></p>
+<p>下载安装程序后，直接制作 ISO 的 PE 镜像，直接丢入 Ventoy 中就会自动识别</p>
+<h3 id="2拓展自己喜欢的工具">（2）拓展自己喜欢的工具
+</h3><p>在这里指的是 <strong>便携版软件</strong> <strong>和</strong> <strong>单文件软件</strong>，特点就是直接解压缩就能使用，并不需要安装而影响注册表和需 C 盘使用</p>
+<p><a class="link" href="https://www.yuque.com/attachments/yuque/0/2024/xlsx/36203516/1715913139434-4019e941-f660-478c-83eb-89185b47975c.xlsx"  target="_blank" rel="noopener"
+    >OmenTwwnmfm.xlsx</a></p>
+<hr>
+<h1 id="3linux-to-go">3.Linux To Go
+</h1><h3 id="0linux-vdisk-文件启动插件">（0）Linux vDisk 文件启动插件
+</h3><p><a class="link" href="https://www.ventoy.net/cn/plugin_vtoyboot.html"  target="_blank" rel="noopener"
+    >https://www.ventoy.net/cn/plugin_vtoyboot.html</a></p>
+<p>Ventoy 使用此插件来支持在物理机上直接启动安装了 Linux系统的 vdisk 文件 （vhd/vdi/raw 等）。这种模式的优点有：</p>
+<ol>
+<li>系统是在真实物理机上运行，并不是在虚拟机里运行，没有性能损失。</li>
+<li>同一个 vhd/vdi 文件既可以在 Legacy BIOS 模式下启动，也可以在 UEFI 模式下启动。</li>
+<li>Linux系统无需独占一个磁盘或者分区，相当于把一个完整的Linux系统放在一个文件里。 比如，你的主系统是 C 盘里的 Windows 系统，你可以在D盘里放一些
+Deepin、UOS、Ubuntu、Arch 等系统的 VHD 文件，想启动哪个选哪个，不用了就把对应的 VHD 文件删除即可。</li>
+</ol>
+<p><strong>支持的 vdisk 格式</strong></p>
+<ol>
+<li><strong>固定大小的 vhd （注意只能是vhd, 不支持vhdx）</strong></li>
+<li><strong>固定大小的 vdi</strong></li>
+<li><strong>Raw Disk 镜像格式</strong></li>
+</ol>
+<p><img src="https://www.notion.so/image/attachment%3A14a93b20-b6ff-48d6-9f70-5c9f9beed8db%3Aimage.png?table=block&amp;id=1f981b32-e194-80fc-8884-dc2e875acde6&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1420&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>理论上，其他使用 dracut/initramfstool/mkinitcpio 作为 initramfs 构建工具的发行版也支持。只是没有实际进行测试。</strong></p>
+<h4 id="a安装-linux-系统到-vdisk"><strong>a.安装 Linux 系统到 vdisk</strong>
+</h4><p>创建固定大小的 vhd/vdi，注意只支持静态大小的，不支持动态扩展类型的。然后把支持的 Linux 系统安装到 vhd/vdi 中即可。
+安装过程和普通安装没有任何差别，可以借助 VirtualBox 来完成（创建硬盘时可以选择 vdi或vhd）。
+**注意：
+****1. 虚拟硬盘必须是全新创建的，不能使用之前用过的。
+**<strong>2. 新版本的 VirtualBox 在创建虚拟机时不要选择操作系统ISO文件，等创建完虚拟机之后再添加ISO文件进行安装。</strong></p>
+<p><img src="https://www.notion.so/image/attachment%3Ab3a2e097-41bf-4122-a369-edee92b44395%3Aimage.png?table=block&amp;id=1f981b32-e194-80ca-a55e-ed17b8f0ba4e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1420&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://www.notion.so/image/attachment%3A321f6ce6-7d46-499a-b895-810d59cb127d%3Aimage.png?table=block&amp;id=1f981b32-e194-8046-bf78-c6b646e9c29d&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1240&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>注意，为了最终的 vhd/vdi 文件既能在 Legacy BIOS 模式下启动，也能在 UEFI 模式下启动。
+<strong>安装系统时，VirtualBox 必须设置为 UEFI 模式！</strong>
+<strong>安装系统时，VirtualBox 必须设置为 UEFI 模式！</strong>
+<strong>安装系统时，VirtualBox 必须设置为 UEFI 模式！</strong>
+<img src="https://www.notion.so/image/attachment%3A50242ef3-1ad4-497e-bf6b-c4ba84339b14%3Aimage.png?table=block&amp;id=1f981b32-e194-80ed-b5f7-f4dcb08173c5&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1420&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>！！！ 注意 ！！！</strong>
+有一些系统安装完之后还需要再额外安装一个 grub 的包才可以，否则最终的 vhd/vdi 文件只能在 UEFI 模式下启动，无法在 Legacy BIOS 模式下启动。
+对于这种，在前面表格最后的 &ldquo;备注&rdquo; 一栏有说明，没有特殊说明的就不需要。比如，对于 Deepin 系统，需要安装 grub-pc-bin_xxxx.deb 包。以 deepin-desktop-community-1010-amd64.iso 为例， 需要安装 grub-pc-bin_2.02.24.3-1+eagle_amd64.deb 这个包，它位于 ISO文件的 <strong>/pool/main/g/grub2</strong>/ 目录下，可以<strong>直接使用 dpkg -i 命令来安装</strong>。
+另外，如果缺少这个包，在运行下面的 vtoyboot.sh 脚本时也会打印一个提示信息。当然，如果你只需要在 UEFI 模式下启动这个 vdisk 文件，不需要在 Legacy BIOS 模式下启动，那就不需要管它了。
+<strong>注意，系统安装完之后不能对虚拟机创建快照，否则会导致 vdi/vhd 无法识别。</strong></p>
+<h4 id="b在系统下执行-vtoyboot-脚本"><strong>b.在系统下执行 vtoyboot 脚本</strong>
+</h4><p>安装完成并启动到 Linux 系统中之后，执行 vtoyboot 脚本。这一步是为了在系统中做一些处理，以支持Ventoy启动。
+vtoyboot 是配套 Ventoy 开发的一个项目，单独发布。从 <a class="link" href="https://github.com/ventoy/vtoyboot/releases"  target="_blank" rel="noopener"
+    >https://github.com/ventoy/vtoyboot/releases</a> 下载压缩包即可。</p>
+<p><strong>下载到 Linux 系统中，解压，然后以root权限执行里面的脚本</strong> <strong>sudo bash vtoyboot.sh</strong> <strong>脚本执行完之后，使用</strong> <strong>poweroff</strong> <strong>命令关机。</strong>
+注意 vtoyboot 会经常更新以支持更多的 Linux 版本以及修复 BUG，所以请使用最新版本。</p>
+<h4 id="c拷贝到u盘改后缀名为-vtoy-然后用-ventoy-启动"><strong>c.拷贝到U盘，改后缀名为 .vtoy 然后用 Ventoy 启动</strong>
+</h4><p>完成前面2步之后，就可以把 vdi/vhd 文件拷贝到 U盘中，重启电脑，然后通过Ventoy启动它了。
+<strong>注意，必须把文件后缀名改为 .vtoy 才可以正常启动。</strong>
+推荐保留原来的后缀名，同时增加一个 .vtoy 后缀。比如： CentOS7.vhd.vtoy   ubuntu20.04.vdi.vtoy   Manjaro.vhd.vtoy</p>
+<h4 id="d关于启动后的系统升级"><strong>d.关于启动后的系统升级</strong>
+</h4><p>vDisk文件在物理机环境下启动之后，普通软件的安装、升级可以正常操作，没有限制。如果是对内核、驱动进行了升级、或者类似于通过 dnf update 命令进行了系统的大升级之后， 建议再重新执行一次 vtoyboot 脚本，防止下次重启之后vDisk文件无法启动。</p>
+<h3 id="1oracle-vm-virtualbox-制作注意">（1）Oracle VM VirtualBox 制作注意
+</h3><h4 id="a下载-oracle-vm-virtualbox">a.下载 Oracle VM VirtualBox
+</h4><p><a class="link" href="https://www.virtualbox.org/wiki/Downloads"  target="_blank" rel="noopener"
+    >https://www.virtualbox.org/wiki/Downloads</a></p>
+<h4 id="b配置安装linux环境">b.配置安装Linux环境
+</h4><p>主页 - &gt; 新建 - &gt; <strong>编辑虚拟机名字和存放虚拟机的位置</strong> - &gt; 设置内存大小和CPU核心数量（配置高安装快） - &gt; <strong>勾选启用UEFI引导（Ubuntu是这样的） - &gt; 设置虚拟硬盘大小（最大磁盘容量为以后只能使用这么多容量，勾选“固定大小”，选择“将虚拟磁盘存储为单个文件”）</strong> - &gt;  下一步到完成 - &gt; 开始构建虚拟机</p>
+<p>主页 - &gt;设置 - &gt; 左侧系统 - &gt; 取消勾选软驱 - &gt; 左侧存储 - &gt; 点击没有盘片 - &gt; 右侧光盘图标选择虚拟盘 - &gt; 浏览选择 Linux 的镜像 - &gt; OK - &gt; 上方启动开始安装系统</p>
+<h4 id="c安装-ventoy-支持插件-vtoybootiso">c.安装 Ventoy 支持插件 vtoyboot.iso
+</h4><p>（ vtoyboot.iso 可在 Ventoy 的 GitHub 仓库的找到）</p>
+<p><a class="link" href="https://github.com/ventoy/Ventoy/releases"  target="_blank" rel="noopener"
+    >https://github.com/ventoy/Ventoy/releases</a></p>
+<p><strong>Oracle VM VirtualBox 软件：</strong></p>
+<p>保持虚拟机在开机状态 - &gt; 切换到 Oracle VM VirtualBox 程序页面 - &gt; 中间存储 - &gt; 点击没有盘片 - &gt; 选择虚拟盘 - &gt; 浏览选择 vtoyboot.iso  - &gt; 切回虚拟机可看到挂载成功</p>
+<p>挂载成功后找到挂载的 vtoyboot-1.0.xx.tar.gz 文件 - &gt; 右键提取到桌面 - &gt; 右键在终端中打开 - &gt; 输入命令 <strong>sudo bash vtoyboot.sh</strong> 并输入登录密码 （报错切换 root 用户）- &gt; 回车跑代码等待完成</p>
+<p>（该插件建议每次 Linux 版本大更新之后运行一次）</p>
+<p>（增加后缀vtoy后，BIOS启动不了怎么办？Ventoy需要关闭安全启动使用）</p>
+<h4 id="d制作为-ventoy-支持的镜像">d.制作为 Ventoy 支持的镜像
+</h4><p>将制作好的 vdi 镜像文件后缀添加 <strong>.vtoy</strong></p>
+<h3 id="2vmware-workstation-pro-制作注意">（2）VMware Workstation Pro 制作注意
+</h3><h4 id="a下载-vmware-workstation-pro">a.下载 VMware Workstation Pro
+</h4><p><a class="link" href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html"  target="_blank" rel="noopener"
+    >https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html</a></p>
+<p>下载并安装</p>
+<h4 id="b下载-winntsetup">b.下载 WinNTSetup
+</h4><p><a class="link" href="https://winntsetup.en.lo4d.com/windows"  target="_blank" rel="noopener"
+    >https://winntsetup.en.lo4d.com/windows</a></p>
+<p><strong>下载并安装 - &gt; 右下角点击 VHD  - &gt; 创建 - &gt; 设置虚拟硬盘大小和虚拟硬盘格式 - &gt; 分区对齐和分配单位大小 - &gt; 分区格式选择 UEFI - &gt; 虚拟硬盘格式选择“固定大小，即时创建”（固定大小才会被 Ventoy 识别） - &gt; 浏览选择存放 VHD 文件的位置 - &gt; 创建成功</strong></p>
+<p><strong>（ VHD 被系统占用怎么办？）</strong></p>
+<p><strong>右下角点击 VHD  - &gt; 选择剥离 VHD  - &gt; 选择相应的 VHD 进行剥离</strong></p>
+<p>也可以用微软系统自带的磁盘管理（就是速度慢）</p>
+<p><strong>Win + X  - &gt; 选择磁盘管理 - &gt; 上方操作 - &gt; 创建 VHD  - &gt; 浏览选择创建的位置及名称 - &gt; 设置虚拟硬盘格式及其大小 - &gt; 选择虚拟硬盘类型为固定大小</strong></p>
+<p><strong>Win + X  - &gt; 选择磁盘管理 - &gt; 选中创建的 VHD 指定的磁盘 x  - &gt; 右键分离 VHD</strong></p>
+<h4 id="c配置安装linux环境">c.配置安装Linux环境
+</h4><p>主页 - &gt; 创建新的虚拟机 - &gt; 自定义 - &gt; 硬件兼容性17.5x - &gt; <strong>稍后安装系统</strong> - &gt; <strong>选择 Linux 系统及对应的版本</strong> - &gt; <strong>编辑制作镜像的名字及其存放的位置</strong> - &gt; 选择处理器配置（配置高安装快） - &gt; 选择虚拟机内存（配置高安装快） - &gt; 选择网络类型 - &gt; 选择 I/O 控制器类型 - &gt; 选择虚拟磁盘类型 - &gt; 创建新虚拟磁盘 - &gt; 指定磁盘容量 - &gt; 下一步到完成</p>
+<p>（可选择典型推荐一直下一步）</p>
+<p><strong>主页 - &gt;点击编辑虚拟机设置 - &gt; 点击硬盘 - &gt; 下方点击移除 - &gt; 下方点击添加 - &gt; 硬盘 - &gt; 使用现有的虚拟硬盘 - &gt; 浏览选择创建好的 VHD 虚拟硬盘 - &gt; 完成 - &gt; 转换</strong></p>
+<p><strong>主页 - &gt;点击编辑虚拟机设置 - &gt; 点击CD/DVD - &gt; 右界面选择使用 ISO 映像文件 - &gt; 浏览选择 Linux 的镜像 - &gt; 确定 - &gt; 开启此虚拟机后开始安装系统</strong></p>
+<h4 id="c安装-ventoy-支持插件-vtoybootiso-1">c.安装 Ventoy 支持插件 vtoyboot.iso
+</h4><p>（ vtoyboot.iso 可在 Ventoy 的 GitHub 仓库的找到）</p>
+<p><a class="link" href="https://github.com/ventoy/Ventoy/releases"  target="_blank" rel="noopener"
+    >https://github.com/ventoy/Ventoy/releases</a></p>
+<p><strong>VMware Workstation Pro 软件：</strong></p>
+<p>保持虚拟机在开机状态 - &gt; 右键上面该虚拟机的标签 - &gt; 设置 - &gt; 点击CD/DVD - &gt; 右界面选择使用 ISO 映像文件 - &gt; 浏览选择 vtoyboot.iso - &gt; 设备状态全部勾选 - &gt; 确定好挂载成功</p>
+<p>挂载成功后找到挂载的 vtoyboot-1.0.xx.tar.gz 文件 - &gt; 右键提取到桌面 - &gt; 右键在终端中打开 - &gt; 输入命令 <strong>sudo bash vtoyboot.sh</strong> 并输入登录密码 （报错切换 root 用户）- &gt; 回车跑代码等待完成</p>
+<p>（该插件建议每次 Linux 版本大更新之后运行一次）</p>
+<p>（增加后缀vtoy后，BIOS启动不了怎么办？Ventoy需要关闭安全启动使用）</p>
+<p>（系统安装完之后不能对虚拟机创建快照，否则会导致 vdi/vhd 无法识别）</p>
+<h3 id="3关于-vhd-和-vdi">（3）关于 VHD 和 VDI
+</h3><h4 id="a关于各虚拟硬盘之前的转换">a.关于各虚拟硬盘之前的转换
+</h4><p>利用 <strong>Oracle VM VirtualBox</strong> 安装程序下的 <strong>VBoxManage.exe</strong> 程序</p>
+<h5 id="avmdk-转换成-vdi">（a）VMDK 转换成 VDI
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">clonehd</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vmdk&#34;</span>  <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span>  <span class="nt">--format</span> <span class="nt">VDI</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="bvdi-转换成-vmdk">（b）VDI 转换成 VMDK
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">clonehd</span> <span class="nt">source</span><span class="p">.</span><span class="nc">vdi</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vmdk&#34;</span>  <span class="nt">--format</span> <span class="nt">VMDK</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="cvdi-转换成-vhd">（c）VDI 转换成 VHD
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">clonehd</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vhd&#34;</span>  <span class="nt">--format</span> <span class="nt">VHD</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="d从固定大小转换为动态分配">（d）从固定大小转换为动态分配
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">vboxmanage</span> <span class="nt">clonemedium</span> <span class="nt">disk</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span>  <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span>  <span class="err">–</span><span class="nt">variant</span> <span class="nt">Standard</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="e从动态分配转换为固定大小">（e）从动态分配转换为固定大小
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">vboxmanage</span> <span class="nt">clonemedium</span> <span class="nt">disk</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span>  <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span>  <span class="err">–</span><span class="nt">variant</span> <span class="nt">Fixed</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h5 id="fvdi-转换成-vhd-为固定大小">（f）VDI 转换成 VHD 为固定大小
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">vboxmanage</span> <span class="nt">clonemedium</span> <span class="nt">disk</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vhd&#34;</span> <span class="nt">--format</span> <span class="nt">VHD</span> <span class="nt">-variant</span> <span class="nt">Fixed</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="b关于对已经固定大小的虚拟硬盘进行扩容">b.关于对已经固定大小的虚拟硬盘进行扩容
+</h4><h5 id="avdi">（a）VDI
+</h5><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">showhdinfo</span> <span class="nt">D</span><span class="o">:</span><span class="err">\</span><span class="nt">AAA_Data</span><span class="err">\</span><span class="nt">下载</span><span class="err">\</span><span class="nt">Ubuntu</span><span class="p">.</span><span class="nc">vdi</span>   <span class="err">#</span><span class="p">.</span><span class="nc">查看虚拟磁盘空间信息</span><span class="err">，</span><span class="nt">确认确实是需要扩容的虚拟硬盘</span>
+</span></span><span class="line"><span class="cl"><span class="nt">set</span> <span class="o">/</span><span class="nt">a</span> <span class="nt">1024</span><span class="o">*</span><span class="nt">100</span>   <span class="err">#</span><span class="p">.</span><span class="nc">计算出要扩容的空间大小</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">modifyhd</span> <span class="nt">D</span><span class="o">:</span><span class="err">\</span><span class="nt">AAA_Data</span><span class="err">\</span><span class="nt">下载</span><span class="err">\</span><span class="nt">Ubuntu</span><span class="p">.</span><span class="nc">vdi</span> <span class="nt">--resize</span> <span class="nt">30720</span> <span class="err">（</span><span class="nt">报错</span><span class="err">）</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>解决方法：</p>
+<h6 id="1创建新虚拟介质命令">1.创建新虚拟介质命令
+</h6><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">createhd</span> <span class="nt">-filename</span> <span class="s2">&#34;D:\AAA_Data\下载\0_Ubuntu.vdi&#34;</span> <span class="nt">-size</span> <span class="nt">30720</span> <span class="nt">-format</span> <span class="nt">VDI</span> <span class="nt">-variant</span> <span class="nt">Fixed</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h6 id="2克隆命令">2.克隆命令
+</h6><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">VBoxManage</span><span class="p">.</span><span class="nc">exe</span> <span class="nt">clonehd</span> <span class="s2">&#34;D:\AAA_Data\下载\Ubuntu.vdi&#34;</span> <span class="s2">&#34;D:\AAA_Data\下载\0_Ubuntu.vdi&#34;</span> <span class="nt">--existing</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>原来的 0_Ubuntu.vdi 已经克隆到 Ubuntu.vdi</p>
+<h5 id="bvhd">（b）VHD
+</h5><p><strong>win键+R，输入命令diskpart</strong></p>
+<p>输入命令：<strong>sel vdisk file=&ldquo;X:\文件夹名\文件名&rdquo;（注意扩展名是vhd还是vhdx）</strong></p>
+<p>输入命令：<strong>expand vdisk maximum=扩容后的容量（注意单位是MB）</strong></p>
+<h5 id="c将新增的虚拟硬盘合并到-linux-所在的虚拟硬盘空间中">**（c）**将新增的虚拟硬盘合并到 Linux 所在的虚拟硬盘空间中
+</h5><p>利用专业的分区软件 <strong>DiskGenius</strong> 或 <strong>傲梅分区助手</strong> 进行对虚拟硬盘进行扩容</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">fdisk</span> <span class="o">/</span><span class="nt">dev</span><span class="o">/</span><span class="nt">sda</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">命令</span><span class="o">(</span><span class="nt">输入</span> <span class="nt">m</span> <span class="nt">获取帮助</span><span class="o">)</span><span class="err">：</span> <span class="nt">m</span> <span class="err">#</span><span class="p">.</span><span class="nc">帮助命令</span>
+</span></span><span class="line"><span class="cl"><span class="nt">帮助</span><span class="err">：</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">GPT</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">M</span>   <span class="nt">进入</span> <span class="nt">保护</span><span class="o">/</span><span class="nt">混合</span> <span class="nt">MBR</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">常规</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">d</span>   <span class="nt">删除分区</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">F</span>   <span class="nt">列出未分区的空闲区</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">l</span>   <span class="nt">列出已知分区类型</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">n</span>   <span class="nt">添加新分区</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">p</span>   <span class="nt">打印分区表</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">t</span>   <span class="nt">更改分区类型</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">v</span>   <span class="nt">检查分区表</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">i</span>   <span class="nt">打印某个分区的相关信息</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">杂项</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">m</span>   <span class="nt">打印此菜单</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">x</span>   <span class="nt">更多功能</span><span class="o">(</span><span class="nt">仅限专业人员</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">脚本</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">I</span>   <span class="nt">从</span> <span class="nt">sfdisk</span> <span class="nt">脚本文件加载磁盘布局</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">O</span>   <span class="nt">将磁盘布局转储为</span> <span class="nt">sfdisk</span> <span class="nt">脚本文件</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">保存并退出</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">w</span>   <span class="nt">将分区表写入磁盘并退出</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">q</span>   <span class="nt">退出而不保存更改</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">新建空磁盘标签</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">g</span>   <span class="nt">新建一份</span> <span class="nt">GPT</span> <span class="nt">分区表</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">G</span>   <span class="nt">新建一份空</span> <span class="nt">GPT</span> <span class="o">(</span><span class="nt">IRIX</span><span class="o">)</span> <span class="nt">分区表</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">o</span>   <span class="nt">新建一份的空</span> <span class="nt">DOS</span> <span class="nt">分区表</span>
+</span></span><span class="line"><span class="cl">   <span class="nt">s</span>   <span class="nt">新建一份空</span> <span class="nt">Sun</span> <span class="nt">分区表</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">命令</span><span class="o">(</span><span class="nt">输入</span> <span class="nt">m</span> <span class="nt">获取帮助</span><span class="o">)</span><span class="err">：</span> <span class="nt">p</span>   <span class="err">#</span><span class="p">.</span><span class="nc">查看分区情况</span><span class="err">，</span><span class="nt">记住磁盘的Start簇编号</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">Disk</span> <span class="o">/</span><span class="nt">dev</span><span class="o">/</span><span class="nt">sda</span><span class="err">：</span><span class="nt">30</span> <span class="nt">GiB</span><span class="err">，</span><span class="nt">32212254720</span> <span class="nt">字节</span><span class="err">，</span><span class="nt">62914560</span> <span class="nt">个扇区</span>
+</span></span><span class="line"><span class="cl"><span class="nt">Disk</span> <span class="nt">model</span><span class="o">:</span> <span class="nt">VMware</span> <span class="nt">Virtual</span> <span class="nt">S</span>
+</span></span><span class="line"><span class="cl"><span class="nt">单元</span><span class="err">：</span><span class="nt">扇区</span> <span class="o">/</span> <span class="nt">1</span> <span class="o">*</span> <span class="nt">512</span> <span class="o">=</span> <span class="nt">512</span> <span class="nt">字节</span>
+</span></span><span class="line"><span class="cl"><span class="nt">扇区大小</span><span class="o">(</span><span class="nt">逻辑</span><span class="o">/</span><span class="nt">物理</span><span class="o">)</span><span class="err">：</span><span class="nt">512</span> <span class="nt">字节</span> <span class="o">/</span> <span class="nt">512</span> <span class="nt">字节</span>
+</span></span><span class="line"><span class="cl"><span class="nt">I</span><span class="o">/</span><span class="nt">O</span> <span class="nt">大小</span><span class="o">(</span><span class="nt">最小</span><span class="o">/</span><span class="nt">最佳</span><span class="o">)</span><span class="err">：</span><span class="nt">512</span> <span class="nt">字节</span> <span class="o">/</span> <span class="nt">512</span> <span class="nt">字节</span>
+</span></span><span class="line"><span class="cl"><span class="nt">磁盘标签类型</span><span class="err">：</span><span class="nt">gpt</span>
+</span></span><span class="line"><span class="cl"><span class="nt">磁盘标识符</span><span class="err">：</span><span class="nt">F9794E72-E77F-4F20-A811-253983AB98A5</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">设备</span>          <span class="nt">起点</span>     <span class="nt">末尾</span>     <span class="nt">扇区</span>  <span class="nt">大小</span> <span class="nt">类型</span>
+</span></span><span class="line"><span class="cl"><span class="o">/</span><span class="nt">dev</span><span class="o">/</span><span class="nt">sda1</span>     <span class="nt">2048</span>  <span class="nt">1050619</span>  <span class="nt">1048572</span>  <span class="nt">512M</span> <span class="nt">EFI</span> <span class="nt">系统</span>
+</span></span><span class="line"><span class="cl"><span class="o">/</span><span class="nt">dev</span><span class="o">/</span><span class="nt">sda2</span>  <span class="nt">1050624</span> <span class="nt">52426751</span> <span class="nt">51376128</span> <span class="nt">24</span><span class="p">.</span><span class="nc">5G</span> <span class="nt">Linux</span> <span class="nt">文件系统</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">命令</span><span class="o">(</span><span class="nt">输入</span> <span class="nt">m</span> <span class="nt">获取帮助</span><span class="o">)</span><span class="err">：</span> <span class="nt">n</span>   <span class="err">#</span><span class="p">.</span><span class="nc">添加新分区</span>
+</span></span><span class="line"><span class="cl"><span class="nt">分区号</span> <span class="o">(</span><span class="nt">3-128</span><span class="o">,</span> <span class="nt">默认</span>  <span class="nt">3</span><span class="o">):</span> <span class="nt">3</span>   <span class="err">#</span><span class="p">.</span><span class="nc">分区号往后增</span>
+</span></span><span class="line"><span class="cl"><span class="nt">第一个扇区</span> <span class="o">(</span><span class="nt">52426752-62914526</span><span class="o">,</span> <span class="nt">默认</span> <span class="nt">52426752</span><span class="o">):</span>    <span class="err">#</span><span class="p">.</span><span class="nc">回车默认</span>
+</span></span><span class="line"><span class="cl"><span class="nt">Last</span> <span class="nt">sector</span><span class="o">,</span> <span class="o">+/</span><span class="nt">-sectors</span> <span class="nt">or</span> <span class="o">+/</span><span class="nt">-size</span><span class="p">{</span><span class="err">K,M,G,T,P</span><span class="p">}</span> <span class="o">(</span><span class="nt">52426752-62914526</span><span class="o">,</span> <span class="nt">默认</span> <span class="nt">62914526</span><span class="o">):</span>    <span class="err">#</span><span class="p">.</span><span class="nc">回车默认</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">创建了一个新分区</span> <span class="nt">3</span><span class="err">，</span><span class="nt">类型为</span><span class="err">“</span><span class="nt">Linux</span> <span class="nt">filesystem</span><span class="err">”，</span><span class="nt">大小为</span> <span class="nt">5</span> <span class="nt">GiB</span><span class="err">。</span>
+</span></span><span class="line"><span class="cl"><span class="nt">分区</span> <span class="p">#</span><span class="nn">3</span> <span class="nt">包含一个</span> <span class="nt">ext4</span> <span class="nt">签名</span><span class="err">。</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">您想移除该签名吗</span><span class="err">？</span> <span class="nt">是</span><span class="o">[</span><span class="nt">Y</span><span class="o">]/</span><span class="nt">否</span><span class="o">[</span><span class="nt">N</span><span class="o">]</span><span class="err">：</span> <span class="nt">n</span>   <span class="err">#</span><span class="p">.</span><span class="nc">是否移除分区标识选择No</span><span class="err">（</span><span class="nt">重要</span><span class="err">！）</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">命令</span><span class="o">(</span><span class="nt">输入</span> <span class="nt">m</span> <span class="nt">获取帮助</span><span class="o">)</span><span class="err">：</span> <span class="nt">w</span>   <span class="err">#</span><span class="p">.</span><span class="nc">保存退出</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">分区表已调整</span><span class="err">。</span>
+</span></span><span class="line"><span class="cl"><span class="nt">正在同步磁盘</span><span class="err">。</span>
+</span></span><span class="line"><span class="cl"><span class="nt">sudo</span> <span class="nt">apt-get</span> <span class="nt">install</span> <span class="nt">gparted</span>   <span class="err">#</span><span class="p">.</span><span class="nc">下载GParted</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>打开程序 <strong>GParted</strong> -&gt; 右键选择 /dev/sd3 -&gt; 卸载 -&gt; 删除 -&gt; 这时调整 /dev/sd2 的空间显示</p>
+<p><img src="https://www.notion.so/image/attachment%3Af155e50b-637f-41c1-9b1a-78052e2b6766%3Aimage.png?table=block&amp;id=1f981b32-e194-80e8-9b80-e3a9eb10d643&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1160&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>解决方法</p>
+<p>右键选择下方要调整大小的 /dev/sd2  -&gt; 信息</p>
+<p><img src="https://www.notion.so/image/attachment%3A4a3c564c-d398-4bb8-868d-2a76f90ffde4%3Aimage.png?table=block&amp;id=1f981b32-e194-800a-9741-c02a923e49e1&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://www.notion.so/image/attachment%3A04d7abb8-d02a-4f1b-b3d8-11cb2ace5db2%3Aimage.png?table=block&amp;id=1f981b32-e194-8081-947f-eafa02df9639&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1300&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>打开终端，进入root权限，重新挂载文件夹目录的读写权限</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">sudo</span> <span class="nt">-i</span>
+</span></span><span class="line"><span class="cl"><span class="nt">mount</span> <span class="nt">-o</span> <span class="nt">remount</span> <span class="nt">-rw</span> <span class="o">/</span>
+</span></span><span class="line"><span class="cl"><span class="nt">mount</span> <span class="nt">-o</span> <span class="nt">remount</span> <span class="nt">-rw</span> <span class="o">/</span><span class="nt">var</span><span class="o">/</span><span class="nt">snap</span><span class="o">/</span><span class="nt">firefox</span><span class="o">/</span><span class="nt">common</span><span class="o">/</span><span class="nt">host-hunspell</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>左上角GParted中刷新设备就可以直接调整 /dev/sd2 的大小（实在不行关闭软件重新打开）</p>
+<p><img src="https://www.notion.so/image/attachment%3A3637ff9e-8d1a-463d-9114-39b31c978100%3Aimage.png?table=block&amp;id=1f981b32-e194-800d-a3ef-fcfd99c01b18&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=2000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h1 id="4win-to-go">4.Win To Go
+</h1><h3 id="1下载-winntsetup">（1）下载 WinNTSetup
+</h3><p><a class="link" href="https://winntsetup.en.lo4d.com/windows"  target="_blank" rel="noopener"
+    >https://winntsetup.en.lo4d.com/windows</a></p>
+<p><strong>下载并安装 - &gt; 右下角点击 VHD  - &gt; 创建 - &gt; 设置虚拟硬盘大小和虚拟硬盘格式 - &gt; 分区对齐和分配单位大小 - &gt; 分区格式选择 UEFI - &gt; 虚拟硬盘格式选择“固定大小，即时创建”（固定大小才会被 Ventoy 识别） - &gt; 浏览选择存放 VHD 文件的位置 - &gt; 创建成功</strong></p>
+<p><strong>（ VHD 被系统占用怎么办？）</strong></p>
+<p><strong>Win + X  - &gt; 选择磁盘管理 - &gt; 选中创建的 VHD 指定的磁盘 x  - &gt; 右键分离 VHD</strong></p>
+<h3 id="2选择镜像直接安装到虚拟硬盘-vhd-中"><strong>（2）选择镜像直接安装到虚拟硬盘 VHD 中</strong>
+</h3><p>利用 WinNTSetup 工具或 Dism++ 等工具直接给 VHD 装载系统</p>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/system/">System</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Power by OmenTwwnmfm
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.c2521df523c13bf241775b8dfd4933a5dce590210a4c369b805b9dc014667e1e.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

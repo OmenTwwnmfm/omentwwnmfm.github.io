@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>System on OmenTwwnmfm</title>
+        <link>http://localhost:1313/tags/system/</link>
+        <description>Recent content in System on OmenTwwnmfm</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Power by OmenTwwnmfm</copyright>
+        <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/system/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NO.001 用Ventoy打造随身多系统工作站</title>
+        <link>http://localhost:1313/p/zs-no.001/</link>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/zs-no.001/</guid>
+        <description>&lt;hr&gt;
+&lt;h1 id=&#34;0前提&#34;&gt;0.前提
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;拥有一个强大的U盘/硬盘（最差情况读取速度至少100mb/s）&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1ventoy制作&#34;&gt;1.Ventoy制作
+&lt;/h1&gt;&lt;h3 id=&#34;1下载ventoy制作软件&#34;&gt;（1）下载Ventoy制作软件
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ventoy.net/cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.ventoy.net/cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A87eb938f-bd96-4096-87e4-04a77048eaf0%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-8023-8870-fd9341e92544&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2制作ventoy系统&#34;&gt;（2）制作Ventoy系统
+&lt;/h3&gt;&lt;p&gt;压缩包解压之后，打开 &lt;strong&gt;Ventoy2Disk.exe&lt;/strong&gt; 程序&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Aa56f5cd5-c114-4f6d-b56b-d53c7aae2080%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-802d-866f-f471ee1988d7&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1320&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;左上角配置选项-&amp;gt;勾选安全启动支持-&amp;gt;分区类型选GPT-&amp;gt;分区设置选NTFS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A4562bbe1-441a-4b6f-9cf4-a22b315ed2eb%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-8069-bcd2-f5a75b4571e9&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1320&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Aa9c74066-7bb4-48fa-ad46-a74a29eb6e6d%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80b8-a153-fbc7d4c5bf14&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1420&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;安装之前连续两次提示“安装后将清空U盘所有数据”&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Aba6fd173-13c7-4cd1-828a-d6f6deb7d6ac%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-800e-9b71-dee47e2450ac&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1320&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3美化设置&#34;&gt;（3）美化设置
+&lt;/h3&gt;&lt;h4 id=&#34;a下载主题&#34;&gt;a.下载主题
+&lt;/h4&gt;&lt;p&gt;打开GRUB主题网站（因为Ventoy基于GRUB）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gnome-look.org/browse?cat=109&amp;amp;ord=latest&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.gnome-look.org/browse?cat=109&amp;ord=latest&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我最喜欢的三个&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CyberEXS 1.0.0&lt;/strong&gt;   &lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/attachments/yuque/0/2024/gz/36203516/1711534692733-b18caeb7-6072-4a26-8217-ac843f48e484.gz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;📎CyberEXS-1.0.0.tar.gz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2024%2Fpng%2F36203516%2F1711534635244-b6054fdb-75d6-43bd-9d93-dc128f4d1e41.png?table=block&amp;amp;id=1f981b32-e194-8088-ab2f-ce3559d5500f&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=960&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gnome-look.org/p/1968990/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.gnome-look.org/p/1968990/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fallout&lt;/strong&gt;   &lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/attachments/yuque/0/2024/zip/36203516/1711535058266-4e9c965b-ea8c-4c31-8e42-f104d3d93fda.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;📎fallout-grub-theme-master.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2024%2Fgif%2F36203516%2F1711534848194-5b9c0016-0ec1-45aa-9061-0978002569ba.gif?table=block&amp;amp;id=1f981b32-e194-80c5-869a-f8668e100094&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gnome-look.org/p/1230882&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.gnome-look.org/p/1230882&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dark Eos grub theme&lt;/strong&gt;   &lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/attachments/yuque/0/2024/gz/36203516/1711535395575-705fd647-047c-4b1f-b367-3677b286bc58.gz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;📎dark-eos-grub.tar.gz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2024%2Fjpeg%2F36203516%2F1711535430219-7247c225-b5bc-4440-a6b7-cc1abeacd3ec.jpeg?table=block&amp;amp;id=1f981b32-e194-805a-80b3-dee523549576&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=950&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gnome-look.org/p/2138019&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.gnome-look.org/p/2138019&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;将下载好的主题进行解压缩，有的需要解压缩两次&lt;/p&gt;
+&lt;h4 id=&#34;b复制主题&#34;&gt;b.复制主题
+&lt;/h4&gt;&lt;p&gt;在Ventoy系统U盘中新建文件夹，命名为 &lt;strong&gt;ventoy&lt;/strong&gt; ，再在此文件夹中新建文件夹，命名为 &lt;strong&gt;themes&lt;/strong&gt; &lt;strong&gt;（注意大小写）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;将解压缩后含有主题的文件夹一起丢入 &lt;strong&gt;themes&lt;/strong&gt; 文件夹中&lt;/p&gt;
+&lt;h4 id=&#34;c配置ventoy&#34;&gt;c.配置Ventoy
+&lt;/h4&gt;&lt;p&gt;打开Ventoy安装程序文件中的 &lt;strong&gt;VentoyPlugson.exe&lt;/strong&gt; 程序，点击启动，就会弹出web配置Ventoy界面&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Ad78c1e34-cb3a-43a8-9c3a-d999ba3dbd0a%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80c7-b469-c291a73dbc2b&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1070&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;a主题配置插件&#34;&gt;（a）主题配置插件
+&lt;/h5&gt;&lt;p&gt;主题配置文件——各主题 themes 下各主题的&lt;strong&gt;配置文件： theme.txt 的绝对路径&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;字体文件————各主题 themes 下各主题的&lt;strong&gt;字体文件：为 pf2 格式 的绝对路径&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Afb04de5a-19f3-4e39-a854-111ffa3075f4%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-806b-af46-c458c147219e&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Ab1457ae7-8458-4177-b82e-bc2db6d54fc3%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-801d-8cca-f973e8269b15&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;b菜单类型插件&#34;&gt;（b）菜单类型插件
+&lt;/h5&gt;&lt;p&gt;新增 - 选择第一项&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;key ：搜索到镜像的文件名中的某个关键词 （严格执行大小写）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;类型：对应显示 icons 下的图标&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A735952ce-c994-4fd7-8fac-e6075b3bc51c%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-809a-8e98-f906bcd70d24&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;c菜单别名插件&#34;&gt;（c）菜单别名插件
+&lt;/h5&gt;&lt;p&gt;新增 - 选择第一项&lt;/p&gt;
+&lt;p&gt;文件路径：选择&lt;strong&gt;开机镜像查找时的绝对路径&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;别名：开机镜像不再显示文件名，而&lt;strong&gt;显示别名&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Ad79cce26-02ab-4ecf-945c-d9faa20b281d%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80f1-91f8-cd066a62b131&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;d全局控制插件&#34;&gt;（d）全局控制插件
+&lt;/h5&gt;&lt;p&gt;菜单语言：默认英文，可改中文&lt;/p&gt;
+&lt;p&gt;指定搜索目录：由于Ventoy默认会搜索U盘内所有文件夹，在此设置指定搜索文件夹，不再搜索其他文件夹&lt;/p&gt;
+&lt;p&gt;默认选中的镜像：与启动倒计时连用，倒计时结束后会默认进入此镜像&lt;/p&gt;
+&lt;p&gt;最大搜索目录深度：设置指定搜索目录后就不用设置这个了&lt;/p&gt;
+&lt;p&gt;（注：在文件下添加 .ventoyignore 的空文件，Ventoy就不再搜索该文件的所有文件）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A5ceb3709-a3bf-42f0-ae5b-58156df89db6%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80a9-945f-f1eee0be38a2&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A915ae2a4-f12e-4691-ad07-8a89f7121766%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80b6-a329-eab70d9ee00e&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1440&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;2pe制作&#34;&gt;2.PE制作
+&lt;/h1&gt;&lt;h3 id=&#34;1选择喜欢的-pe&#34;&gt;（1）选择喜欢的 PE
+&lt;/h3&gt;&lt;p&gt;我最喜欢的三个PE&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FirPE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://firpe.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://firpe.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;微PE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wepe.com.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.wepe.com.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HotPE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.hotpe.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.hotpe.top/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载安装程序后，直接制作 ISO 的 PE 镜像，直接丢入 Ventoy 中就会自动识别&lt;/p&gt;
+&lt;h3 id=&#34;2拓展自己喜欢的工具&#34;&gt;（2）拓展自己喜欢的工具
+&lt;/h3&gt;&lt;p&gt;在这里指的是 &lt;strong&gt;便携版软件&lt;/strong&gt; &lt;strong&gt;和&lt;/strong&gt; &lt;strong&gt;单文件软件&lt;/strong&gt;，特点就是直接解压缩就能使用，并不需要安装而影响注册表和需 C 盘使用&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/attachments/yuque/0/2024/xlsx/36203516/1715913139434-4019e941-f660-478c-83eb-89185b47975c.xlsx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OmenTwwnmfm.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;3linux-to-go&#34;&gt;3.Linux To Go
+&lt;/h1&gt;&lt;h3 id=&#34;0linux-vdisk-文件启动插件&#34;&gt;（0）Linux vDisk 文件启动插件
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ventoy.net/cn/plugin_vtoyboot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.ventoy.net/cn/plugin_vtoyboot.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ventoy 使用此插件来支持在物理机上直接启动安装了 Linux系统的 vdisk 文件 （vhd/vdi/raw 等）。这种模式的优点有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;系统是在真实物理机上运行，并不是在虚拟机里运行，没有性能损失。&lt;/li&gt;
+&lt;li&gt;同一个 vhd/vdi 文件既可以在 Legacy BIOS 模式下启动，也可以在 UEFI 模式下启动。&lt;/li&gt;
+&lt;li&gt;Linux系统无需独占一个磁盘或者分区，相当于把一个完整的Linux系统放在一个文件里。 比如，你的主系统是 C 盘里的 Windows 系统，你可以在D盘里放一些
+Deepin、UOS、Ubuntu、Arch 等系统的 VHD 文件，想启动哪个选哪个，不用了就把对应的 VHD 文件删除即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;支持的 vdisk 格式&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;固定大小的 vhd （注意只能是vhd, 不支持vhdx）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;固定大小的 vdi&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raw Disk 镜像格式&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A14a93b20-b6ff-48d6-9f70-5c9f9beed8db%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80fc-8884-dc2e875acde6&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1420&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;理论上，其他使用 dracut/initramfstool/mkinitcpio 作为 initramfs 构建工具的发行版也支持。只是没有实际进行测试。&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;a安装-linux-系统到-vdisk&#34;&gt;&lt;strong&gt;a.安装 Linux 系统到 vdisk&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;创建固定大小的 vhd/vdi，注意只支持静态大小的，不支持动态扩展类型的。然后把支持的 Linux 系统安装到 vhd/vdi 中即可。
+安装过程和普通安装没有任何差别，可以借助 VirtualBox 来完成（创建硬盘时可以选择 vdi或vhd）。
+**注意：
+****1. 虚拟硬盘必须是全新创建的，不能使用之前用过的。
+**&lt;strong&gt;2. 新版本的 VirtualBox 在创建虚拟机时不要选择操作系统ISO文件，等创建完虚拟机之后再添加ISO文件进行安装。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Ab3a2e097-41bf-4122-a369-edee92b44395%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80ca-a55e-ed17b8f0ba4e&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1420&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A321f6ce6-7d46-499a-b895-810d59cb127d%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-8046-bf78-c6b646e9c29d&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1240&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;注意，为了最终的 vhd/vdi 文件既能在 Legacy BIOS 模式下启动，也能在 UEFI 模式下启动。
+&lt;strong&gt;安装系统时，VirtualBox 必须设置为 UEFI 模式！&lt;/strong&gt;
+&lt;strong&gt;安装系统时，VirtualBox 必须设置为 UEFI 模式！&lt;/strong&gt;
+&lt;strong&gt;安装系统时，VirtualBox 必须设置为 UEFI 模式！&lt;/strong&gt;
+&lt;img src=&#34;https://www.notion.so/image/attachment%3A50242ef3-1ad4-497e-bf6b-c4ba84339b14%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80ed-b5f7-f4dcb08173c5&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1420&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;！！！ 注意 ！！！&lt;/strong&gt;
+有一些系统安装完之后还需要再额外安装一个 grub 的包才可以，否则最终的 vhd/vdi 文件只能在 UEFI 模式下启动，无法在 Legacy BIOS 模式下启动。
+对于这种，在前面表格最后的 &amp;ldquo;备注&amp;rdquo; 一栏有说明，没有特殊说明的就不需要。比如，对于 Deepin 系统，需要安装 grub-pc-bin_xxxx.deb 包。以 deepin-desktop-community-1010-amd64.iso 为例， 需要安装 grub-pc-bin_2.02.24.3-1+eagle_amd64.deb 这个包，它位于 ISO文件的 &lt;strong&gt;/pool/main/g/grub2&lt;/strong&gt;/ 目录下，可以&lt;strong&gt;直接使用 dpkg -i 命令来安装&lt;/strong&gt;。
+另外，如果缺少这个包，在运行下面的 vtoyboot.sh 脚本时也会打印一个提示信息。当然，如果你只需要在 UEFI 模式下启动这个 vdisk 文件，不需要在 Legacy BIOS 模式下启动，那就不需要管它了。
+&lt;strong&gt;注意，系统安装完之后不能对虚拟机创建快照，否则会导致 vdi/vhd 无法识别。&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;b在系统下执行-vtoyboot-脚本&#34;&gt;&lt;strong&gt;b.在系统下执行 vtoyboot 脚本&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;安装完成并启动到 Linux 系统中之后，执行 vtoyboot 脚本。这一步是为了在系统中做一些处理，以支持Ventoy启动。
+vtoyboot 是配套 Ventoy 开发的一个项目，单独发布。从 &lt;a class=&#34;link&#34; href=&#34;https://github.com/ventoy/vtoyboot/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ventoy/vtoyboot/releases&lt;/a&gt; 下载压缩包即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载到 Linux 系统中，解压，然后以root权限执行里面的脚本&lt;/strong&gt; &lt;strong&gt;sudo bash vtoyboot.sh&lt;/strong&gt; &lt;strong&gt;脚本执行完之后，使用&lt;/strong&gt; &lt;strong&gt;poweroff&lt;/strong&gt; &lt;strong&gt;命令关机。&lt;/strong&gt;
+注意 vtoyboot 会经常更新以支持更多的 Linux 版本以及修复 BUG，所以请使用最新版本。&lt;/p&gt;
+&lt;h4 id=&#34;c拷贝到u盘改后缀名为-vtoy-然后用-ventoy-启动&#34;&gt;&lt;strong&gt;c.拷贝到U盘，改后缀名为 .vtoy 然后用 Ventoy 启动&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;完成前面2步之后，就可以把 vdi/vhd 文件拷贝到 U盘中，重启电脑，然后通过Ventoy启动它了。
+&lt;strong&gt;注意，必须把文件后缀名改为 .vtoy 才可以正常启动。&lt;/strong&gt;
+推荐保留原来的后缀名，同时增加一个 .vtoy 后缀。比如： CentOS7.vhd.vtoy   ubuntu20.04.vdi.vtoy   Manjaro.vhd.vtoy&lt;/p&gt;
+&lt;h4 id=&#34;d关于启动后的系统升级&#34;&gt;&lt;strong&gt;d.关于启动后的系统升级&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;vDisk文件在物理机环境下启动之后，普通软件的安装、升级可以正常操作，没有限制。如果是对内核、驱动进行了升级、或者类似于通过 dnf update 命令进行了系统的大升级之后， 建议再重新执行一次 vtoyboot 脚本，防止下次重启之后vDisk文件无法启动。&lt;/p&gt;
+&lt;h3 id=&#34;1oracle-vm-virtualbox-制作注意&#34;&gt;（1）Oracle VM VirtualBox 制作注意
+&lt;/h3&gt;&lt;h4 id=&#34;a下载-oracle-vm-virtualbox&#34;&gt;a.下载 Oracle VM VirtualBox
+&lt;/h4&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;b配置安装linux环境&#34;&gt;b.配置安装Linux环境
+&lt;/h4&gt;&lt;p&gt;主页 - &amp;gt; 新建 - &amp;gt; &lt;strong&gt;编辑虚拟机名字和存放虚拟机的位置&lt;/strong&gt; - &amp;gt; 设置内存大小和CPU核心数量（配置高安装快） - &amp;gt; &lt;strong&gt;勾选启用UEFI引导（Ubuntu是这样的） - &amp;gt; 设置虚拟硬盘大小（最大磁盘容量为以后只能使用这么多容量，勾选“固定大小”，选择“将虚拟磁盘存储为单个文件”）&lt;/strong&gt; - &amp;gt;  下一步到完成 - &amp;gt; 开始构建虚拟机&lt;/p&gt;
+&lt;p&gt;主页 - &amp;gt;设置 - &amp;gt; 左侧系统 - &amp;gt; 取消勾选软驱 - &amp;gt; 左侧存储 - &amp;gt; 点击没有盘片 - &amp;gt; 右侧光盘图标选择虚拟盘 - &amp;gt; 浏览选择 Linux 的镜像 - &amp;gt; OK - &amp;gt; 上方启动开始安装系统&lt;/p&gt;
+&lt;h4 id=&#34;c安装-ventoy-支持插件-vtoybootiso&#34;&gt;c.安装 Ventoy 支持插件 vtoyboot.iso
+&lt;/h4&gt;&lt;p&gt;（ vtoyboot.iso 可在 Ventoy 的 GitHub 仓库的找到）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ventoy/Ventoy/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ventoy/Ventoy/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Oracle VM VirtualBox 软件：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;保持虚拟机在开机状态 - &amp;gt; 切换到 Oracle VM VirtualBox 程序页面 - &amp;gt; 中间存储 - &amp;gt; 点击没有盘片 - &amp;gt; 选择虚拟盘 - &amp;gt; 浏览选择 vtoyboot.iso  - &amp;gt; 切回虚拟机可看到挂载成功&lt;/p&gt;
+&lt;p&gt;挂载成功后找到挂载的 vtoyboot-1.0.xx.tar.gz 文件 - &amp;gt; 右键提取到桌面 - &amp;gt; 右键在终端中打开 - &amp;gt; 输入命令 &lt;strong&gt;sudo bash vtoyboot.sh&lt;/strong&gt; 并输入登录密码 （报错切换 root 用户）- &amp;gt; 回车跑代码等待完成&lt;/p&gt;
+&lt;p&gt;（该插件建议每次 Linux 版本大更新之后运行一次）&lt;/p&gt;
+&lt;p&gt;（增加后缀vtoy后，BIOS启动不了怎么办？Ventoy需要关闭安全启动使用）&lt;/p&gt;
+&lt;h4 id=&#34;d制作为-ventoy-支持的镜像&#34;&gt;d.制作为 Ventoy 支持的镜像
+&lt;/h4&gt;&lt;p&gt;将制作好的 vdi 镜像文件后缀添加 &lt;strong&gt;.vtoy&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2vmware-workstation-pro-制作注意&#34;&gt;（2）VMware Workstation Pro 制作注意
+&lt;/h3&gt;&lt;h4 id=&#34;a下载-vmware-workstation-pro&#34;&gt;a.下载 VMware Workstation Pro
+&lt;/h4&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载并安装&lt;/p&gt;
+&lt;h4 id=&#34;b下载-winntsetup&#34;&gt;b.下载 WinNTSetup
+&lt;/h4&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://winntsetup.en.lo4d.com/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://winntsetup.en.lo4d.com/windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载并安装 - &amp;gt; 右下角点击 VHD  - &amp;gt; 创建 - &amp;gt; 设置虚拟硬盘大小和虚拟硬盘格式 - &amp;gt; 分区对齐和分配单位大小 - &amp;gt; 分区格式选择 UEFI - &amp;gt; 虚拟硬盘格式选择“固定大小，即时创建”（固定大小才会被 Ventoy 识别） - &amp;gt; 浏览选择存放 VHD 文件的位置 - &amp;gt; 创建成功&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（ VHD 被系统占用怎么办？）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;右下角点击 VHD  - &amp;gt; 选择剥离 VHD  - &amp;gt; 选择相应的 VHD 进行剥离&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;也可以用微软系统自带的磁盘管理（就是速度慢）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Win + X  - &amp;gt; 选择磁盘管理 - &amp;gt; 上方操作 - &amp;gt; 创建 VHD  - &amp;gt; 浏览选择创建的位置及名称 - &amp;gt; 设置虚拟硬盘格式及其大小 - &amp;gt; 选择虚拟硬盘类型为固定大小&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Win + X  - &amp;gt; 选择磁盘管理 - &amp;gt; 选中创建的 VHD 指定的磁盘 x  - &amp;gt; 右键分离 VHD&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;c配置安装linux环境&#34;&gt;c.配置安装Linux环境
+&lt;/h4&gt;&lt;p&gt;主页 - &amp;gt; 创建新的虚拟机 - &amp;gt; 自定义 - &amp;gt; 硬件兼容性17.5x - &amp;gt; &lt;strong&gt;稍后安装系统&lt;/strong&gt; - &amp;gt; &lt;strong&gt;选择 Linux 系统及对应的版本&lt;/strong&gt; - &amp;gt; &lt;strong&gt;编辑制作镜像的名字及其存放的位置&lt;/strong&gt; - &amp;gt; 选择处理器配置（配置高安装快） - &amp;gt; 选择虚拟机内存（配置高安装快） - &amp;gt; 选择网络类型 - &amp;gt; 选择 I/O 控制器类型 - &amp;gt; 选择虚拟磁盘类型 - &amp;gt; 创建新虚拟磁盘 - &amp;gt; 指定磁盘容量 - &amp;gt; 下一步到完成&lt;/p&gt;
+&lt;p&gt;（可选择典型推荐一直下一步）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主页 - &amp;gt;点击编辑虚拟机设置 - &amp;gt; 点击硬盘 - &amp;gt; 下方点击移除 - &amp;gt; 下方点击添加 - &amp;gt; 硬盘 - &amp;gt; 使用现有的虚拟硬盘 - &amp;gt; 浏览选择创建好的 VHD 虚拟硬盘 - &amp;gt; 完成 - &amp;gt; 转换&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主页 - &amp;gt;点击编辑虚拟机设置 - &amp;gt; 点击CD/DVD - &amp;gt; 右界面选择使用 ISO 映像文件 - &amp;gt; 浏览选择 Linux 的镜像 - &amp;gt; 确定 - &amp;gt; 开启此虚拟机后开始安装系统&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;c安装-ventoy-支持插件-vtoybootiso-1&#34;&gt;c.安装 Ventoy 支持插件 vtoyboot.iso
+&lt;/h4&gt;&lt;p&gt;（ vtoyboot.iso 可在 Ventoy 的 GitHub 仓库的找到）&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ventoy/Ventoy/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ventoy/Ventoy/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VMware Workstation Pro 软件：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;保持虚拟机在开机状态 - &amp;gt; 右键上面该虚拟机的标签 - &amp;gt; 设置 - &amp;gt; 点击CD/DVD - &amp;gt; 右界面选择使用 ISO 映像文件 - &amp;gt; 浏览选择 vtoyboot.iso - &amp;gt; 设备状态全部勾选 - &amp;gt; 确定好挂载成功&lt;/p&gt;
+&lt;p&gt;挂载成功后找到挂载的 vtoyboot-1.0.xx.tar.gz 文件 - &amp;gt; 右键提取到桌面 - &amp;gt; 右键在终端中打开 - &amp;gt; 输入命令 &lt;strong&gt;sudo bash vtoyboot.sh&lt;/strong&gt; 并输入登录密码 （报错切换 root 用户）- &amp;gt; 回车跑代码等待完成&lt;/p&gt;
+&lt;p&gt;（该插件建议每次 Linux 版本大更新之后运行一次）&lt;/p&gt;
+&lt;p&gt;（增加后缀vtoy后，BIOS启动不了怎么办？Ventoy需要关闭安全启动使用）&lt;/p&gt;
+&lt;p&gt;（系统安装完之后不能对虚拟机创建快照，否则会导致 vdi/vhd 无法识别）&lt;/p&gt;
+&lt;h3 id=&#34;3关于-vhd-和-vdi&#34;&gt;（3）关于 VHD 和 VDI
+&lt;/h3&gt;&lt;h4 id=&#34;a关于各虚拟硬盘之前的转换&#34;&gt;a.关于各虚拟硬盘之前的转换
+&lt;/h4&gt;&lt;p&gt;利用 &lt;strong&gt;Oracle VM VirtualBox&lt;/strong&gt; 安装程序下的 &lt;strong&gt;VBoxManage.exe&lt;/strong&gt; 程序&lt;/p&gt;
+&lt;h5 id=&#34;avmdk-转换成-vdi&#34;&gt;（a）VMDK 转换成 VDI
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonehd&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vmdk&amp;#34;&lt;/span&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;--format&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;VDI&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;bvdi-转换成-vmdk&#34;&gt;（b）VDI 转换成 VMDK
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonehd&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;source&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;vdi&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vmdk&amp;#34;&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;--format&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;VMDK&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;cvdi-转换成-vhd&#34;&gt;（c）VDI 转换成 VHD
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonehd&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vhd&amp;#34;&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;--format&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;VHD&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;d从固定大小转换为动态分配&#34;&gt;（d）从固定大小转换为动态分配
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;vboxmanage&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonemedium&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;disk&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt;  &lt;span class=&#34;err&#34;&gt;–&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;variant&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Standard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;e从动态分配转换为固定大小&#34;&gt;（e）从动态分配转换为固定大小
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;vboxmanage&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonemedium&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;disk&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt;  &lt;span class=&#34;err&#34;&gt;–&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;variant&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Fixed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h5 id=&#34;fvdi-转换成-vhd-为固定大小&#34;&gt;（f）VDI 转换成 VHD 为固定大小
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;vboxmanage&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonemedium&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;disk&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vhd&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;--format&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;VHD&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-variant&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Fixed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;b关于对已经固定大小的虚拟硬盘进行扩容&#34;&gt;b.关于对已经固定大小的虚拟硬盘进行扩容
+&lt;/h4&gt;&lt;h5 id=&#34;avdi&#34;&gt;（a）VDI
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;showhdinfo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;AAA_Data&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;下载&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Ubuntu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;vdi&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;查看虚拟磁盘空间信息&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;确认确实是需要扩容的虚拟硬盘&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1024&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;100&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;计算出要扩容的空间大小&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;modifyhd&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;D&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;AAA_Data&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;下载&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Ubuntu&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;vdi&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;--resize&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;30720&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;（&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;报错&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;解决方法：&lt;/p&gt;
+&lt;h6 id=&#34;1创建新虚拟介质命令&#34;&gt;1.创建新虚拟介质命令
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;createhd&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-filename&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\0_Ubuntu.vdi&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-size&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;30720&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-format&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;VDI&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-variant&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Fixed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h6 id=&#34;2克隆命令&#34;&gt;2.克隆命令
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;VBoxManage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;clonehd&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\Ubuntu.vdi&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;D:\AAA_Data\下载\0_Ubuntu.vdi&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;--existing&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;原来的 0_Ubuntu.vdi 已经克隆到 Ubuntu.vdi&lt;/p&gt;
+&lt;h5 id=&#34;bvhd&#34;&gt;（b）VHD
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;win键+R，输入命令diskpart&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;输入命令：&lt;strong&gt;sel vdisk file=&amp;ldquo;X:\文件夹名\文件名&amp;rdquo;（注意扩展名是vhd还是vhdx）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;输入命令：&lt;strong&gt;expand vdisk maximum=扩容后的容量（注意单位是MB）&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&#34;c将新增的虚拟硬盘合并到-linux-所在的虚拟硬盘空间中&#34;&gt;**（c）**将新增的虚拟硬盘合并到 Linux 所在的虚拟硬盘空间中
+&lt;/h5&gt;&lt;p&gt;利用专业的分区软件 &lt;strong&gt;DiskGenius&lt;/strong&gt; 或 &lt;strong&gt;傲梅分区助手&lt;/strong&gt; 进行对虚拟硬盘进行扩容&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;59
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;fdisk&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;dev&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;sda&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;命令&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;输入&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;获取帮助&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;帮助命令&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;帮助&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;GPT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;M&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;进入&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;保护&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;混合&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;MBR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;常规&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;d&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;删除分区&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;F&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;列出未分区的空闲区&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;l&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;列出已知分区类型&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;n&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;添加新分区&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;打印分区表&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;t&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;更改分区类型&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;v&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;检查分区表&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;i&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;打印某个分区的相关信息&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;杂项&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;m&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;打印此菜单&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;x&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;更多功能&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;仅限专业人员&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;脚本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;I&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;从&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;sfdisk&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;脚本文件加载磁盘布局&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;O&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;将磁盘布局转储为&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;sfdisk&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;脚本文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;保存并退出&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;w&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;将分区表写入磁盘并退出&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;q&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;退出而不保存更改&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;新建空磁盘标签&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;g&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;新建一份&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;GPT&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;分区表&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;G&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;新建一份空&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;GPT&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;IRIX&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;分区表&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;o&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;新建一份的空&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;DOS&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;分区表&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nt&#34;&gt;s&lt;/span&gt;   &lt;span class=&#34;nt&#34;&gt;新建一份空&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Sun&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;分区表&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;命令&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;输入&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;获取帮助&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;查看分区情况&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;记住磁盘的Start簇编号&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Disk&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;dev&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;sda&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;30&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;GiB&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;32212254720&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;字节&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;62914560&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;个扇区&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Disk&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;VMware&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Virtual&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;S&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;单元&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;扇区&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;512&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;512&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;字节&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;扇区大小&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;逻辑&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;物理&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;512&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;字节&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;512&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;字节&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;I&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;O&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;大小&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;最小&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;最佳&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;512&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;字节&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;512&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;字节&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;磁盘标签类型&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;gpt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;磁盘标识符&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;F9794E72-E77F-4F20-A811-253983AB98A5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;设备&lt;/span&gt;          &lt;span class=&#34;nt&#34;&gt;起点&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;末尾&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;扇区&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;大小&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;类型&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;dev&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;sda1&lt;/span&gt;     &lt;span class=&#34;nt&#34;&gt;2048&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;1050619&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;1048572&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;512M&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;EFI&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;dev&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;sda2&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;1050624&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;52426751&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;51376128&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;5G&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;Linux&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;文件系统&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;命令&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;输入&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;获取帮助&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;n&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;添加新分区&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;分区号&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;3-128&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;默认&lt;/span&gt;  &lt;span class=&#34;nt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;):&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;3&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;分区号往后增&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;第一个扇区&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;52426752-62914526&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;默认&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;52426752&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;):&lt;/span&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;回车默认&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;Last&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;sector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;-sectors&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;or&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;-size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;K,M,G,T,P&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;52426752-62914526&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;默认&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;62914526&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;):&lt;/span&gt;    &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;回车默认&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;创建了一个新分区&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;类型为&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;“&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Linux&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;filesystem&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;”，&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;大小为&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;GiB&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;分区&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;包含一个&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;ext4&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;签名&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;您想移除该签名吗&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;？&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;是&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;否&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;N&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;n&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;是否移除分区标识选择No&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;（&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;重要&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;！）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;命令&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;输入&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;m&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;获取帮助&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;：&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;w&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;保存退出&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;分区表已调整&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;正在同步磁盘&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;gparted&lt;/span&gt;   &lt;span class=&#34;err&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;下载GParted&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;打开程序 &lt;strong&gt;GParted&lt;/strong&gt; -&amp;gt; 右键选择 /dev/sd3 -&amp;gt; 卸载 -&amp;gt; 删除 -&amp;gt; 这时调整 /dev/sd2 的空间显示&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3Af155e50b-637f-41c1-9b1a-78052e2b6766%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-80e8-9b80-e3a9eb10d643&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1160&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;解决方法&lt;/p&gt;
+&lt;p&gt;右键选择下方要调整大小的 /dev/sd2  -&amp;gt; 信息&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A4a3c564c-d398-4bb8-868d-2a76f90ffde4%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-800a-9741-c02a923e49e1&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A04d7abb8-d02a-4f1b-b3d8-11cb2ace5db2%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-8081-947f-eafa02df9639&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=1300&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;打开终端，进入root权限，重新挂载文件夹目录的读写权限&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-i&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;mount&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-o&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;remount&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-rw&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;mount&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-o&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;remount&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;-rw&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;snap&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;firefox&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;common&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;host-hunspell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;左上角GParted中刷新设备就可以直接调整 /dev/sd2 的大小（实在不行关闭软件重新打开）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.notion.so/image/attachment%3A3637ff9e-8d1a-463d-9114-39b31c978100%3Aimage.png?table=block&amp;amp;id=1f981b32-e194-800d-a3ef-fcfd99c01b18&amp;amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;amp;width=2000&amp;amp;userId=&amp;amp;cache=v2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;4win-to-go&#34;&gt;4.Win To Go
+&lt;/h1&gt;&lt;h3 id=&#34;1下载-winntsetup&#34;&gt;（1）下载 WinNTSetup
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://winntsetup.en.lo4d.com/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://winntsetup.en.lo4d.com/windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;下载并安装 - &amp;gt; 右下角点击 VHD  - &amp;gt; 创建 - &amp;gt; 设置虚拟硬盘大小和虚拟硬盘格式 - &amp;gt; 分区对齐和分配单位大小 - &amp;gt; 分区格式选择 UEFI - &amp;gt; 虚拟硬盘格式选择“固定大小，即时创建”（固定大小才会被 Ventoy 识别） - &amp;gt; 浏览选择存放 VHD 文件的位置 - &amp;gt; 创建成功&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（ VHD 被系统占用怎么办？）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Win + X  - &amp;gt; 选择磁盘管理 - &amp;gt; 选中创建的 VHD 指定的磁盘 x  - &amp;gt; 右键分离 VHD&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2选择镜像直接安装到虚拟硬盘-vhd-中&#34;&gt;&lt;strong&gt;（2）选择镜像直接安装到虚拟硬盘 VHD 中&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;利用 WinNTSetup 工具或 Dism++ 等工具直接给 VHD 装载系统&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

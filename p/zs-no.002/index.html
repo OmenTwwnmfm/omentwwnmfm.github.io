@@ -1,0 +1,1908 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="本文提供ENSP模拟器的完整安装与使用指南。从卸载旧版本、清除残留文件到安装VirtualBox、Wireshark等必备组件，详细讲解基础配置步骤与常见问题解决方案。包括设备启动报错处理、CPU优化、虚拟网卡设置等技巧，并介绍华为ENSP与华三HCL模拟器的共存方法。涵盖拓扑搭建、设备配置、数据抓包等核心功能操作。针对各类启动错误提供系统性的排查思路与修复方案，适合网络技术学习与实验环境搭建参考。">
+<title>NO.002 ENSP安装使用指南</title>
+
+<link rel='canonical' href='http://localhost:1313/p/zs-no.002/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="NO.002 ENSP安装使用指南">
+<meta property='og:description' content="本文提供ENSP模拟器的完整安装与使用指南。从卸载旧版本、清除残留文件到安装VirtualBox、Wireshark等必备组件，详细讲解基础配置步骤与常见问题解决方案。包括设备启动报错处理、CPU优化、虚拟网卡设置等技巧，并介绍华为ENSP与华三HCL模拟器的共存方法。涵盖拓扑搭建、设备配置、数据抓包等核心功能操作。针对各类启动错误提供系统性的排查思路与修复方案，适合网络技术学习与实验环境搭建参考。">
+<meta property='og:url' content='http://localhost:1313/p/zs-no.002/'>
+<meta property='og:site_name' content='OmenTwwnmfm'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='internet' /><meta property='article:published_time' content='2025-06-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-06-01T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="NO.002 ENSP安装使用指南">
+<meta name="twitter:description" content="本文提供ENSP模拟器的完整安装与使用指南。从卸载旧版本、清除残留文件到安装VirtualBox、Wireshark等必备组件，详细讲解基础配置步骤与常见问题解决方案。包括设备启动报错处理、CPU优化、虚拟网卡设置等技巧，并介绍华为ENSP与华三HCL模拟器的共存方法。涵盖拓扑搭建、设备配置、数据抓包等核心功能操作。针对各类启动错误提供系统性的排查思路与修复方案，适合网络技术学习与实验环境搭建参考。">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_68f9c10189022b7f.png" width="300"
+                            height="276" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">OmenTwwnmfm</a></h1>
+            <h2 class="site-description">天在将黑未黑时最美</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='mailto:hdy0928@outlook.com'
+                        target="_blank"
+                        title="Mail"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/omentwwnmfm.png'
+                        target="_blank"
+                        title="Wechat"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-wechat"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z" /><path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233" /><path d="M10 8h.01" /><path d="M7 8h.01" /><path d="M15 14h.01" /><path d="M18 14h.01" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://music.163.com/#/user/home?id=567730996'
+                        target="_blank"
+                        title="Music"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M9 17v-13h10v13" /><path d="M9 8h10" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/OmenTwwnmfm'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/omentwwnmfm/'
+                        target="_blank"
+                        title="Instagram"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/learn/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>青年大学习</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>硬核技术芝士</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/insane/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>梦到哪句说哪句</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/share/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-4chan"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" /><path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" /><path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" /><path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" /><path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" /></svg>
+                
+                <span>好物分享</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1virtualbox"><strong>1、VirtualBox</strong></a></li>
+        <li><a href="#2安装wireshark"><strong>2、安装Wireshark</strong></a></li>
+        <li><a href="#3安装winpcap"><strong>3、安装winpcap</strong></a></li>
+        <li><a href="#4安装ensp"><strong>4、安装ensp</strong></a></li>
+        <li><a href="#5增加环回口"><strong>5、增加环回口</strong></a></li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1关联wireshark"><strong>1、关联wireshark</strong></a></li>
+        <li><a href="#2换字体和颜色"><strong>2、换字体和颜色</strong></a></li>
+        <li><a href="#3换透明度"><strong>3、换透明度</strong></a></li>
+        <li><a href="#4基本操作"><strong>4、基本操作</strong></a>
+          <ol>
+            <li><a href="#1搭建拓扑"><strong>（1）搭建拓扑</strong></a></li>
+            <li><a href="#2连线"><strong>（2）连线</strong></a></li>
+            <li><a href="#3-开机与配置"><strong>（3） 开机与配置</strong></a></li>
+            <li><a href="#4数据报文捕获"><strong>（4）数据报文捕获</strong></a></li>
+            <li><a href="#5保存并关闭设备"><strong>（5）保存并关闭设备</strong></a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1-将注册表编辑器打开"><strong>1. 将注册表编辑器打开</strong></a></li>
+        <li><a href="#2-复制以下注册表路径"><strong>2. 复制以下注册表路径：</strong></a></li>
+        <li><a href="#3-将地址粘贴至注册表编辑器地址栏"><strong>3. 将地址粘贴至注册表编辑器地址栏</strong></a></li>
+        <li><a href="#4-回车进入地址所在区域"><strong>4. 回车进入地址所在区域</strong></a></li>
+        <li><a href="#5-选择version与versionext两项将数值更改为6014"><strong>5. 选择Version与VersionExt两项，将数值更改为6.0.14</strong></a></li>
+        <li><a href="#6-更改完成后选择hcl安装包进行安装"><strong>6. 更改完成后，选择HCL安装包，进行安装</strong></a></li>
+        <li><a href="#7-一直下一步即可路径建议使用默认路径避免出现未知错误"><strong>7. 一直下一步即可（路径建议使用默认路径，避免出现未知错误）</strong></a></li>
+        <li><a href="#8-完成安装后测试设备能否正常启动使用"><strong>8. 完成安装后测试设备能否正常启动使用</strong></a></li>
+        <li><a href="#9-测试使用正常后关闭设备关闭hcl模拟器"><strong>9. 测试使用正常后，关闭设备，关闭HCL模拟器</strong></a></li>
+        <li><a href="#10-再次打开注册表编辑器选择version与versionext两项将数值更改为5244其他版本按ensp已安装版本自行变动"><strong>10. 再次打开注册表编辑器，选择Version与VersionExt两项，将数值更改为5.2.44（其他版本按ensp已安装版本自行变动）</strong></a></li>
+        <li><a href="#11-更改完成后再次打开hcl进行设备运行测试正常使用后即可"><strong>11. 更改完成后，再次打开HCL进行设备运行测试，正常使用后即可。</strong></a></li>
+      </ol>
+    </li>
+  </ol>
+
+  <ol>
+    <li><a href="#1所有设备无法启动错误代码40"><strong>1、所有设备无法启动，错误代码40</strong></a>
+      <ol>
+        <li><a href="#方法一"><strong>方法一</strong></a>
+          <ol>
+            <li><a href="#1搜索框搜索启用或关闭windows功能"><strong>1、搜索框搜索“启用或关闭windows功能”</strong></a></li>
+            <li><a href="#2点击打开将以下3项全部取消勾选重启"><strong>2、点击打开，将以下3项全部取消勾选，重启</strong></a></li>
+            <li><a href="#3winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over"><strong>3、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#方法二"><strong>方法二</strong></a>
+          <ol>
+            <li><a href="#1在cmd管理员模式中用命令行关闭hyper-v然后重启"><strong>1、在CMD管理员模式中用命令行关闭hyper-V，然后重启</strong></a></li>
+            <li><a href="#2winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over"><strong>2、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#方法三"><strong>方法三</strong></a>
+          <ol>
+            <li><a href="#1winr打开运行框输入gpeditmsc进入本地组策略编辑器禁用打开基于虚拟化的安全然后重启"><strong>1、Win+r打开“运行框”，输入“gpedit.msc”，进入本地组策略编辑器，禁用“打开基于虚拟化的安全”，然后重启</strong></a></li>
+            <li><a href="#2winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over-1"><strong>2、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#方法四"><strong>方法四</strong></a>
+          <ol>
+            <li><a href="#1winr打开运行框输入regedit进入注册表进入以下的路径"><strong>1、Win+r打开“运行框”，输入“regedit”，进入注册表，进入以下的路径</strong></a></li>
+            <li><a href="#2将enablevirtualizationbasedsecurity的值修改为0没有的话创建dword32设置然后重启"><strong>2、将EnableVirtualizationBasedSecurity的值，修改为0，没有的话创建DWORD32设置，然后重启</strong></a></li>
+            <li><a href="#3winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over-1"><strong>3、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#方法五"><strong>方法五</strong></a>
+          <ol>
+            <li><a href="#1搜索框搜索设备安全性双击打开"><strong>1、搜索框搜索“设备安全性”，双击打开</strong></a></li>
+            <li><a href="#2打开内核隔离详细信息关闭内存完整性然后重启"><strong>2、打开“内核隔离详细信息”，关闭“内存完整性”，然后重启</strong></a></li>
+            <li><a href="#3winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over-2"><strong>3、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#方法六"><strong>方法六</strong></a>
+          <ol>
+            <li><a href="#1下载-device-guard-和-credential-guard工具不清楚的话可以百度搜索dgreadiness_"><strong>1、下载</strong> <a href="https://so.csdn.net/so/search?q=Device%20Guard&amp;spm=1001.2101.3001.7020"><strong>Device Guard</strong></a> <strong>和 Credential Guard工具，不清楚的话，可以百度搜索dgreadiness_v3.6</strong></a></li>
+            <li><a href="#2下载完解压应该是酱紫"><strong>2、下载完，解压，应该是酱紫</strong></a></li>
+            <li><a href="#3打开powershell管理员模式输入-set-executionpolicy-remotesigned-选择y"><strong>3、打开PowerShell（管理员模式），输入 set-ExecutionPolicy RemoteSigned ，选择y</strong></a></li>
+            <li><a href="#4cd到解压后的路径下然后输入以下命令执行该程序"><strong>4、cd到解压后的路径下，然后输入以下命令，执行该程序</strong></a></li>
+            <li><a href="#5然后等待几分钟重启电脑出现提示按两次-f3再次重启"><strong>5、然后等待几分钟，重启电脑，出现提示按两次 F3，再次重启</strong></a></li>
+            <li><a href="#6winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over"><strong>6、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#方法七-超级无敌究极牛逼-666-之法"><strong>方法七 超级无敌究极牛逼 666 之法</strong></a></li>
+        <li><a href="#方法八-宇宙无极限毁天灭地无敌雷霆闪电风火轮旋风半月斩"><strong>方法八 宇宙无极限毁天灭地无敌雷霆闪电风火轮旋风半月斩</strong></a>
+          <ol>
+            <li><a href="#步骤-1以管理员权限运行脚本"><strong>步骤 1：以管理员权限运行脚本</strong></a></li>
+            <li><a href="#步骤-2处理杀毒软件拦截"><strong>步骤 2：处理杀毒软件拦截</strong></a></li>
+            <li><a href="#步骤-3执行脚本并重启电脑"><strong>步骤 3：执行脚本并重启电脑</strong></a></li>
+          </ol>
+        </li>
+        <li><a href="#感谢"><strong>感谢</strong></a></li>
+      </ol>
+    </li>
+    <li><a href="#2所有部分设备无法启动错误代码4143"><strong>2、所有/部分设备无法启动，错误代码41、43</strong></a></li>
+    <li><a href="#3交换机无法启动"><strong>3、交换机无法启动</strong></a></li>
+    <li><a href="#4cpu占用过高"><strong>4、CPU占用过高</strong></a></li>
+    <li><a href="#"><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795883476-9179b430-1e76-451c-b5aa-6bd459d39be7.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_725%252Climit_0?table=block&amp;id=20281b32-e194-807d-bb27-f18a26bd66cc&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2" alt=""></a></li>
+    <li><a href="#5ensp报错40box报错raw-mode-is-unavailable-courtesy-of-hyper-v解决办法"><strong>5、ensp报错40，Box报错“Raw-mode is unavailable courtesy of Hyper-V”解决办法：</strong></a></li>
+    <li><a href="#6winpcap提示已安装更高版本解决办法"><strong>6、winpcap提示已安装更高版本解决办法</strong></a></li>
+    <li><a href="#7cloud云朵只有udp没有其他网卡"><strong>7、cloud云朵只有UDP，没有其他网卡</strong></a></li>
+    <li><a href="#8box启动ar设备报错error-relaunching-virtualbox-vm-process-5"><strong>8、box启动AR设备报错Error relaunching VirtualBox VM process: 5</strong></a></li>
+    <li><a href="#9不能为虚拟电脑-ar_"><strong>9、不能为虚拟电脑 AR_Base 打开一个新任务</strong></a></li>
+    <li><a href="#10启动ar设备失败错误代码41"><strong>10、启动AR设备失败，错误代码41</strong></a></li>
+    <li><a href="#11启动ar设备失败错误代码40the-vm-session-was-closed-before-any-attempt-to-power-it-on"><strong>11、启动AR设备失败，错误代码40，“The VM session was closed before any attempt to power it on.”</strong></a></li>
+    <li><a href="#12安装ensp和hcl以后hcl运行正常但是ensp提示virtualbox-server版本异常"><strong>12、安装eNSP和HCL以后，HCL运行正常，但是eNSP提示VirtualBox server版本异常</strong></a></li>
+    <li><a href="#13virtualbox-host-only-network2"><strong>13、VirtualBox Host-Only Network#2</strong></a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                硬核技术芝士
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/zs-no.002/">NO.002 ENSP安装使用指南</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            本文提供ENSP模拟器的完整安装与使用指南。从卸载旧版本、清除残留文件到安装VirtualBox、Wireshark等必备组件，详细讲解基础配置步骤与常见问题解决方案。包括设备启动报错处理、CPU优化、虚拟网卡设置等技巧，并介绍华为ENSP与华三HCL模拟器的共存方法。涵盖拓扑搭建、设备配置、数据抓包等核心功能操作。针对各类启动错误提供系统性的排查思路与修复方案，适合网络技术学习与实验环境搭建参考。
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-06-01</time>
+            </div>
+        
+
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <hr>
+<h1 id="一-在安装之前首先要删除原有的-virtualbox-和-ensp"><strong>一、 在安装之前，首先要删除原有的 VirtualBox 和 ENSP</strong>
+</h1><p>如没有安装，第一步和第二步可直接跳过。</p>
+<hr>
+<h1 id="二-卸载完成后清除卸载残留文件"><strong>二、 卸载完成后，清除卸载残留文件</strong>
+</h1><p>推荐使用GeekUninstaller和IObitUninstaller卸载</p>
+<p>推荐使用WiseCare365Pro</p>
+<hr>
+<h1 id="三安装软件"><strong>三、安装软件</strong>
+</h1><h3 id="1virtualbox"><strong>1、VirtualBox</strong>
+</h3><p>下载好安装包后解压，打开文件夹，找到VirtualBox，右击，以管理员身份运行，然后按照步骤一步步进行</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795865122-7767bd78-3771-406f-a846-d0ef5b2ffcb0.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8083-94cf-ffa9c4d06c5e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795865626-7c5eb4e5-8bdc-4f1c-8880-c0ea7a0355ee.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_538%252Climit_0?table=block&amp;id=20281b32-e194-802f-8107-daf45478b994&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1080&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795866042-dec49297-fbfe-4c8f-9499-f5c1510d431a.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80b4-94eb-d93e7f2f6a0b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795866522-54b39f99-c002-42a2-8b44-652205f31254.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-809d-9df5-ccc979f93a28&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795866908-f3db6c4b-c86f-4b7e-8e3d-8f63ffc5589b.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8017-9c12-cbaf58f786ed&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795867328-04f685ed-aa9d-4b12-9683-223541eff931.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8042-afe4-c65abf43c888&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795867770-874dd3be-b52c-4cb4-87c7-ef0c83cdd4f9.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80ab-a021-c2a7c081d977&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795868183-725dc09f-60e2-468d-bc12-bea0e9970559.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8004-a3c2-f4ac2b9dd399&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>到这一步，VirtualBox就安装好了。</p>
+<h3 id="2安装wireshark"><strong>2、安装Wireshark</strong>
+</h3><p>同样的在文件夹中找到Wireshark，并右击以管理员身份运行后进行安装。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795868712-927dc135-40d4-4e0b-ab9c-561a3ae1e4be.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8067-be7b-e7329e41b12a&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795869123-06abc495-fa8c-4b10-b926-574d126e60a3.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80e0-8b56-da14dd5d0f59&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795869447-ba84c8f3-ed22-40be-ba3a-d8e785056662.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80f7-b10b-ddabbf8cb1b4&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795869920-b2da673b-1e96-4d3e-8140-19702b1fbb23.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80cd-9f09-e327096db305&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795870313-53f67e8e-154a-4b97-ba38-dfe3ff9f2fc4.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-808b-aa28-c1ef08fe7101&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795870722-6de99756-3293-401c-9be9-abb69267de8a.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80b5-af23-c79b81725603&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795871144-2b0e0d49-0e2c-4a40-a48f-447fb40bda37.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80cc-8fd9-fd42c67b6d6d&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795871551-140a674d-8308-4a8c-af39-f38116382352.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8015-9cff-f62ea4c444ab&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795872056-0a2f1553-d892-4af5-86ce-329eef3d8854.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80b2-a6ea-e7c27d18d77c&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795872523-c6aa545f-c579-407a-8697-cd78c7025c3e.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80fb-9873-d4b65b343186&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795873067-19a63a2d-cd15-4627-900d-0c9972443805.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8012-b42c-e7a97aaca73b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795873460-a014c8ed-3357-450d-baec-845a74137d5d.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-808b-bbbe-df98c6fc31b9&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795873881-d373fa34-1279-4148-8c8c-750e23381039.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80c8-a574-c1326cd0ffb1&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795874312-df07f153-4f51-4ba6-a07d-97a9159ea359.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-800e-8d66-c96c5ba30f54&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>到这里Wireshark就安装完了。</p>
+<h3 id="3安装winpcap"><strong>3、安装winpcap</strong>
+</h3><p>这个基本不会出问题，下一步即可。</p>
+<h3 id="4安装ensp"><strong>4、安装ensp</strong>
+</h3><p>现在ensp日常有三个版本：</p>
+<p>（1）V100R002C00B510</p>
+<p>（2）V100R002C00B500</p>
+<p>（3）V100R003C00SPC100</p>
+<p>前两个版本推荐在win7使用，最后一个版本推荐在Windows10/11使用。</p>
+<p>在文件夹找到对应版本的ensp安装包，双击该应用程序</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795874640-75fbb50f-0f00-4780-82e4-50d8adbc429d.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8035-81c5-f29f09622642&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795874948-86bca846-175e-47dd-8dc7-36bb5a8c02f4.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80ea-a692-dbe5065ded85&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795875435-d93c5e86-2af8-48e4-b375-a9f29a465b3c.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8099-abad-f59a3e661ab8&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795875859-5f6f7627-56af-40f6-abb8-f6ac16ec4ad1.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-802e-a64d-fae7dd7e4690&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795876359-9e221110-90af-4bfd-a139-94b4ec1ed383.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-803b-9fbc-c46f27380646&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795876780-1d4d9613-1b84-46a3-9741-83588cc0b099.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-804f-9dec-c80737e6e03f&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795877154-025089e1-8c0d-400e-9d8c-d93bb2f9f491.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-80d2-ab9c-f3de7ceec9b8&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795877592-329bc5ae-6b69-4a63-88bb-e2f063b482a5.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8055-b59b-fe83b347118c&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795878001-6dad8a31-35f0-49f0-a875-42aa843cbd84.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-801e-ab6a-fe3728e2cb79&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795878399-55406410-2b62-4616-9c72-dee111163515.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8051-9fa6-df94344d654e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>接下来等待进度条跑完，点击完成即可。</p>
+<p>界面预览：</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795878746-c97f9f55-e1db-4844-b60b-759a4d622134.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_554%252Climit_0?table=block&amp;id=20281b32-e194-8073-b840-fb62c76400c8&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1110&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="5增加环回口"><strong>5、增加环回口</strong>
+</h3><p>主要用于将物理世界和ENSP进行过关联</p>
+<p>cmd&mdash;&gt;hdwwiz</p>
+<p>从列表手动改安装</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234692081-25ba0cd8-7dd3-4758-95ac-b6a41283a55b.png?table=block&amp;id=20281b32-e194-80b1-9c79-d38ea2f9369d&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=820&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>选择网络适配器</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234699675-e0301dc1-57c6-470b-bf6d-4f3836863ed5.png?table=block&amp;id=20281b32-e194-8001-9212-c4f6082bc8a8&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1290&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>选择MicroSoft&mdash;&gt;KM-TEST 还回适配器</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234707509-192761d5-649f-474f-acaf-76edcf947a47.png?table=block&amp;id=20281b32-e194-8074-bb36-c9f942857328&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1300&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>添加完成</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234719585-fabd0065-76ba-4f80-9bfb-8db5344dc8da.png?table=block&amp;id=20281b32-e194-80b5-925e-ddce0cceb4a2&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1290&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>此时网络连接中就多了一个环回适配器</p>
+<hr>
+<h1 id="四ensp的基础配置"><strong>四、ENSP的基础配置</strong>
+</h1><h3 id="1关联wireshark"><strong>1、关联wireshark</strong>
+</h3><p>选择Wireshark的安装路径</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234897538-d00704f4-91b7-474c-ba4c-de0b462ed087.png?table=block&amp;id=20281b32-e194-804b-88c7-eadf87866745&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1300&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="2换字体和颜色"><strong>2、换字体和颜色</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234903229-88b11fcc-6c0c-4065-b476-e84e57b70dd1.png?table=block&amp;id=20281b32-e194-80ce-bde8-c19decdf8735&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="3换透明度"><strong>3、换透明度</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699234915207-9205c51d-f7c3-4322-a86b-1d1b60a58ef4.png?table=block&amp;id=20281b32-e194-8073-8cc9-fd062297b56d&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=580&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="4基本操作"><strong>4、基本操作</strong>
+</h3><h4 id="1搭建拓扑"><strong>（1）搭建拓扑</strong>
+</h4><p>选取设备</p>
+<p>新建项目&mdash;&gt;路由器&mdash;&ndash; &gt;AR2220，拖拽出来</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235038342-f485da4c-8dca-4553-8b73-de33316a66ce.png?table=block&amp;id=20281b32-e194-80e7-ad6f-de9af6e40244&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>虚实结合</p>
+<h5 id="step-1-拖出一朵云"><strong>Step 1 拖出一朵云</strong>
+</h5><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235050630-7d2041cd-43bc-4820-834e-496fa0acc909.png?table=block&amp;id=20281b32-e194-80b9-b135-e9e9bfd43402&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1300&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="step-2绑定网卡"><strong>Step 2绑定网卡</strong>
+</h5><p>双击云，在弹出的窗口中的“绑定信息”中选择某张网卡（强烈不推荐绑定用于上网的网卡，例如无线网卡），选择端口类型为GE，点击“增加”，就多出一行信息。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235066035-62de5a38-4c98-4a18-bb6a-0acb22745bd6.png?table=block&amp;id=20281b32-e194-8018-8f74-ffdd84bd6935&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="step-3绑定云网卡"><strong>Step 3绑定&quot;云网卡&quot;</strong>
+</h5><p>绑定信息为UDP，端口类型为GE，点击增加</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235085766-59e45322-a845-4fd0-abb2-453e189c7073.png?table=block&amp;id=20281b32-e194-80b5-a766-d4d35903c520&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1290&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="step-4端口映射设置"><strong>Step 4端口映射设置</strong>
+</h5><p>将网卡和云网卡进行双向关联，互为进出。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235134981-0bdd5d86-a42b-4227-b94d-ac57f1f457aa.png?table=block&amp;id=20281b32-e194-8067-af18-f393d682251a&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1290&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>形成的拓扑</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235162009-561eb28d-8773-43c3-835b-59979cdcbd5f.png?table=block&amp;id=20281b32-e194-8062-8eb9-ea4b16f8a475&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1300&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2连线"><strong>（2）连线</strong>
+</h4><p>选择Copper，点击云选择网口，点击设备选择网口，从而进行互联。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235193206-5470a9c0-d682-4419-b56d-abd8a25af470.png?table=block&amp;id=20281b32-e194-800c-b9dd-d30cda7e4864&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1290&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235209969-0b28d3f6-14ad-429e-9afe-829df8346b63.png?table=block&amp;id=20281b32-e194-8088-ada0-ff65d0000d70&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="3-开机与配置"><strong>（3） 开机与配置</strong>
+</h4><h5 id="1开启设备"><strong>1）开启设备</strong>
+</h5><p>点击播放键，开机后端口的指示灯变成绿色</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235225109-2a16115f-0166-4b2a-922c-2cb43837dc9d.png?table=block&amp;id=20281b32-e194-80ef-afc0-f05d70090122&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="2配置设备"><strong>2）配置设备</strong>
+</h5><p>双击路由器，既可弹出配置页面，如果你觉得字体太小，可以按住Ctrl，通过向前滑动鼠标滚轮来将字体放大，同理，向后滑动则缩小。</p>
+<p>在路由器上输入以下代码，就给设备的端口配置了一个IP地址</p>
+<p><strong>system-view</strong></p>
+<p><strong>interface g0/0/0</strong></p>
+<p><strong>ip address 192.168.10.1 24</strong></p>
+<h5 id="3配置网卡"><strong>3）配置网卡</strong>
+</h5><p>配置云对应的网卡VMNet1</p>
+<p>配置为192.168.10.88/24</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235372861-2d65e7ea-41e2-443c-b563-6ee766f397f7.png?table=block&amp;id=20281b32-e194-80b2-ac89-e1658bf62492&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=480&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h5 id="4联通性测试"><strong>4）联通性测试</strong>
+</h5><p>在路由器上，<strong>ping192.168.10.88</strong></p>
+<p>看到下列回显则通信正常</p>
+<h4 id="4数据报文捕获"><strong>（4）数据报文捕获</strong>
+</h4><p>鼠标右键点击路由器，在菜单中选择“数据抓包”&mdash;&gt;选择端口GE0/0/0</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235436209-8b5635c4-8d0b-4836-a5e0-910363ee3367.png?table=block&amp;id=20281b32-e194-805e-b2fe-db96ee41d2c0&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>此时会自动弹出Wireshark</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235447015-d750af4a-fe78-4042-8946-2a03c6f001b9.png?table=block&amp;id=20281b32-e194-8038-ae77-d87fad3d0922&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>再次在路由器上ping 192.168.10.88，查看捕获的报文</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235623711-df2f779c-4133-4f2a-8bf9-edfb138f3208.png?table=block&amp;id=20281b32-e194-808c-927d-dbee72ef2a24&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="5保存并关闭设备"><strong>（5）保存并关闭设备</strong>
+</h4><p>在设备的用户模式下，输入命令</p>
+<p>save</p>
+<p>选择y</p>
+<p>这样设备就会对你之前做的一系列骚操作的内容都记录下来。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235646784-45d598b1-6f26-4015-9c10-e83efd475f55.png?table=block&amp;id=20281b32-e194-801c-ba74-cc5be3c00521&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1270&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>点击停止按钮，关闭设备，此时链路的指示灯变成红色</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235658420-6a85adfb-d1be-4970-a06f-7a3a30bdeff5.png?table=block&amp;id=20281b32-e194-802f-97ec-d0c2ba885510&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1280&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>关闭eNSP，可以根据需要进行拓扑的保存与否，点击“是”拓扑和配置信息就会保存下来了</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235675096-8140cd5d-dc18-4cc0-b5d1-a5e8b45d7235.png?table=block&amp;id=20281b32-e194-80cc-879c-e709fda556a0&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1060&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然后指定保存的位置和名字</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235681977-c0f7c551-d0f1-41dc-8c22-50a20218bc82.png?table=block&amp;id=20281b32-e194-80b5-a4f6-e5ca6d23e79d&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1290&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>下次打开就可以直接双击test，继续配置</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F36203516%2F1699235689979-cf19131c-ecfa-48f3-82c3-9eef858341f4.png?table=block&amp;id=20281b32-e194-80db-a3ef-f99adeaddf4c&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1270&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<hr>
+<h1 id="五华三模拟器与ensp共存win10win11推荐win7不太稳定"><strong>五、华三模拟器与ensp共存（Win10、Win11推荐，Win7不太稳定）</strong>
+</h1><p>根据上面步骤<a class="link" href="https://www.yuque.com/shitushimoduhuidebadaomengxin/it_books/mfpxumu7wppug7mo#F6VB6"  target="_blank" rel="noopener"
+    >安装好ensp</a>以后，下载HCL模拟器安装包<a class="link" href="https://www.h3c.com/cn/d_202302/1783214_30005_0.htm"  target="_blank" rel="noopener"
+    >5.7.1</a></p>
+<p>HCL其他支持共存版本有：HCL<a class="link" href="https://www.h3c.com/cn/d_202307/1893386_30005_0.htm"  target="_blank" rel="noopener"
+    >5.9.0</a>：竞赛功能优化：竞赛区分开卷/闭卷，闭卷竞赛将限制切屏次数；一键修复优化：排查异常虚拟网卡；新增终端设备：基于Openwrt的Server2设备，可使用Openwrt基础功能进行实验，并定制化配置了FTP、DNS、Radius认证、组播模拟、802.1x客户端等服务HCL<a class="link" href="https://www.h3c.com/cn/d_202303/1817976_30005_0.htm"  target="_blank" rel="noopener"
+    >5.7.2</a>：优化无线产品、Server服务器(TFTP、FTP、DNS功能优化)、抓包改为实时抓包展示（无线有bug）HCL<a class="link" href="https://www.h3c.com/cn/d_202211/1724439_30005_0.htm"  target="_blank" rel="noopener"
+    >5.5.0</a>：新增AC、AP、Phone设备HCL<a class="link" href="https://www.h3c.com/cn/d_202108/1434872_30005_0.htm"  target="_blank" rel="noopener"
+    >3.0.1</a>：兼容性最好</p>
+<h3 id="1-将注册表编辑器打开"><strong>1. 将注册表编辑器打开</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679796572425-c8f15f76-165f-4be6-a173-f9f8221286bc.png?table=block&amp;id=20281b32-e194-8003-b2a1-da9d67f73c56&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=360&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="2-复制以下注册表路径"><strong>2. 复制以下注册表路径：</strong>
+</h3><p>计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Oracle\VirtualBox</p>
+<h3 id="3-将地址粘贴至注册表编辑器地址栏"><strong>3. 将地址粘贴至注册表编辑器地址栏</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679796678605-cf931806-f9a3-45de-b8ac-a17f3b50cdb4.png?table=block&amp;id=20281b32-e194-80ea-9deb-e31884e30d53&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="4-回车进入地址所在区域"><strong>4. 回车进入地址所在区域</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679796653163-f0690630-88d8-45e3-a392-c4c0ffed0801.png?table=block&amp;id=20281b32-e194-8096-a304-c092125d1050&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="5-选择version与versionext两项将数值更改为6014"><strong>5. 选择Version与VersionExt两项，将数值更改为6.0.14</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797218167-43771032-84b1-4bbd-8620-6e9264774c2b.png?table=block&amp;id=20281b32-e194-8042-bfe3-fe5db4d4fae3&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=890&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797204666-30545f8f-cfdb-4120-bf57-9f8704429866.png?table=block&amp;id=20281b32-e194-8045-afd3-f382ae569ed5&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=890&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>如果不修改会提示：</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797427071-092a42fe-9d5f-4722-a9b7-04ccb8cbbf21.png?table=block&amp;id=20281b32-e194-8011-a51f-cb63bba3e56a&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=950&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="6-更改完成后选择hcl安装包进行安装"><strong>6. 更改完成后，选择HCL安装包，进行安装</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797397545-9067781c-8a27-4004-9497-8685a592ae21.png?table=block&amp;id=20281b32-e194-80bc-86cd-f27261c0e71e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=580&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797472866-aadd5318-0db5-4ecd-8007-294ac7bd982b.png?table=block&amp;id=20281b32-e194-802d-bab0-cf4b587a6273&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1000&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="7-一直下一步即可路径建议使用默认路径避免出现未知错误"><strong>7. 一直下一步即可（路径建议使用默认路径，避免出现未知错误）</strong>
+</h3><h3 id="8-完成安装后测试设备能否正常启动使用"><strong>8. 完成安装后测试设备能否正常启动使用</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797572238-c8fd1671-e6c2-4649-9203-86e21f79bec1.png?table=block&amp;id=20281b32-e194-8092-8cbe-d5d0b40fa897&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797940147-465b14f9-aa4c-4b8e-9db4-548a37dfc895.png?table=block&amp;id=20281b32-e194-8039-9e6b-c490ebb666ea&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679797968709-ad17a988-d128-4c94-a1e9-b36fdb93807c.png?table=block&amp;id=20281b32-e194-80f0-b906-d7692f6af521&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="9-测试使用正常后关闭设备关闭hcl模拟器"><strong>9. 测试使用正常后，关闭设备，关闭HCL模拟器</strong>
+</h3><h3 id="10-再次打开注册表编辑器选择version与versionext两项将数值更改为5244其他版本按ensp已安装版本自行变动"><strong>10. 再次打开注册表编辑器，选择Version与VersionExt两项，将数值更改为5.2.44（其他版本按ensp已安装版本自行变动）</strong>
+</h3><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679798089534-2cd3a823-2507-4b91-8407-a32f8f63adaa.png?table=block&amp;id=20281b32-e194-8047-906f-e51acd81f5ec&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=890&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679798102692-87abeef0-e187-4f15-8a49-6abb0bb68500.png?table=block&amp;id=20281b32-e194-80e7-927e-f423cb23e2aa&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=890&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h3 id="11-更改完成后再次打开hcl进行设备运行测试正常使用后即可"><strong>11. 更改完成后，再次打开HCL进行设备运行测试，正常使用后即可。</strong>
+</h3><hr>
+<h1 id="六设备安装后的问题指南"><strong>六、设备安装后的问题指南</strong>
+</h1><h2 id="1所有设备无法启动错误代码40"><strong>1、所有设备无法启动，错误代码40</strong>
+</h2><h3 id="方法一"><strong>方法一</strong>
+</h3><h4 id="1搜索框搜索启用或关闭windows功能"><strong>1、搜索框搜索“启用或关闭windows功能”</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097738255-84ad8ce3-f355-4a53-98b5-028bb9dba7c6.png?table=block&amp;id=20281b32-e194-80da-8bff-c1da1f623ff3&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2点击打开将以下3项全部取消勾选重启"><strong>2、点击打开，将以下3项全部取消勾选，重启</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097737880-ed07370a-4f04-483b-bd51-753fce2f300f.png?table=block&amp;id=20281b32-e194-8004-9fb9-eea4d03fd43e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=800&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="3winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over"><strong>3、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097786938-8aca7ce7-49a1-467d-bc7a-e5eb7d9415da.png?table=block&amp;id=20281b32-e194-803d-a50f-dceb35efc3c4&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><del>还不行的话</del>，继续</p>
+<h3 id="方法二"><strong>方法二</strong>
+</h3><h4 id="1在cmd管理员模式中用命令行关闭hyper-v然后重启"><strong>1、在CMD管理员模式中用命令行关闭hyper-V，然后重启</strong>
+</h4><p>bcdedit /set hypervisorlaunchtype off</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097737919-f666358a-60a2-49a0-bd76-55af99aef65f.png?table=block&amp;id=20281b32-e194-807e-9248-f243d544ace7&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1250&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over"><strong>2、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097886919-c1592c39-5270-45bb-ab4d-1480ac463d61.png?table=block&amp;id=20281b32-e194-80d9-b1a2-eec69fab126c&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1260&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><del>还不行的话</del>，继续</p>
+<h3 id="方法三"><strong>方法三</strong>
+</h3><h4 id="1winr打开运行框输入gpeditmsc进入本地组策略编辑器禁用打开基于虚拟化的安全然后重启"><strong>1、Win+r打开“运行框”，输入“gpedit.msc”，进入本地组策略编辑器，禁用“打开基于虚拟化的安全”，然后重启</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097739047-89b4f60b-5a08-48c3-b2ed-41f4ad92c7fa.png?table=block&amp;id=20281b32-e194-803c-9da6-c8119e04baec&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097739075-278e134e-ef3f-43d1-8e9f-ef8dfd94d0a1.png?table=block&amp;id=20281b32-e194-8092-8f66-ce1ec5e698c3&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1390&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over-1"><strong>2、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097987481-ceec52c3-9e98-4fab-976f-012d06f69905.png?table=block&amp;id=20281b32-e194-8062-be44-d04b56fb8194&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1260&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><del>还不行的话</del>，继续</p>
+<h3 id="方法四"><strong>方法四</strong>
+</h3><h4 id="1winr打开运行框输入regedit进入注册表进入以下的路径"><strong>1、Win+r打开“运行框”，输入“regedit”，进入注册表，进入以下的路径</strong>
+</h4><p>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097739277-f3c4fd09-6e71-4e7a-86b3-3b25977107cb.png?table=block&amp;id=20281b32-e194-806b-8ad5-eb60715157bb&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2将enablevirtualizationbasedsecurity的值修改为0没有的话创建dword32设置然后重启"><strong>2、将EnableVirtualizationBasedSecurity的值，修改为0，没有的话创建DWORD32设置，然后重启</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097739339-25b6290f-99d5-4d8c-9a4a-57c608883eed.png?table=block&amp;id=20281b32-e194-80bd-add2-e05b77d8f83e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="3winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over-1"><strong>3、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748098026999-cf70e47f-ef08-408c-818d-55dbe8f354e8.png?table=block&amp;id=20281b32-e194-8045-b9e1-c1059abe9bf7&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1260&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><del>还不行的话</del>，继续</p>
+<h3 id="方法五"><strong>方法五</strong>
+</h3><h4 id="1搜索框搜索设备安全性双击打开"><strong>1、搜索框搜索“设备安全性”，双击打开</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097740288-58fe1f9b-7962-447c-9b25-dd49d22a7db2.png?table=block&amp;id=20281b32-e194-80d5-bded-e0191d6225fd&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2打开内核隔离详细信息关闭内存完整性然后重启"><strong>2、打开“内核隔离详细信息”，关闭“内存完整性”，然后重启</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097740248-c60467b1-21f7-44d8-afae-23738be2378d.png?table=block&amp;id=20281b32-e194-80a4-939f-ce9b05a92191&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1310&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097740358-9412b7d1-971a-4f66-99a5-334bc967c209.png?table=block&amp;id=20281b32-e194-8089-ae58-f34a31157a34&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1300&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="3winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over-2"><strong>3、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748098064797-0860fd76-e0cb-48e5-a333-e844300b790b.png?table=block&amp;id=20281b32-e194-80c3-a469-db5414c93388&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1260&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><del>还不行的话</del>，继续</p>
+<h3 id="方法六"><strong>方法六</strong>
+</h3><h4 id="1下载-device-guard-和-credential-guard工具不清楚的话可以百度搜索dgreadiness_"><strong>1、下载</strong> <a class="link" href="https://so.csdn.net/so/search?q=Device%20Guard&amp;spm=1001.2101.3001.7020"  target="_blank" rel="noopener"
+    ><strong>Device Guard</strong></a> <strong>和 Credential Guard工具，不清楚的话，可以百度搜索dgreadiness_v3.6</strong>
+</h4><p>下载链接: <a class="link" href="https://www.microsoft.com/en-us/download/details.aspx?id=53337"  target="_blank" rel="noopener"
+    >Device Guard 和 Credential Guard 硬件准备工具</a></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097741012-17a6a6a8-5ca2-4fe9-891a-c20eae62d681.png?table=block&amp;id=20281b32-e194-8014-8fea-e81046a3eb05&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="2下载完解压应该是酱紫"><strong>2、下载完，解压，应该是酱紫</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097741085-d3af631f-ce24-462c-b7d0-21491daea6e9.png?table=block&amp;id=20281b32-e194-8033-a788-cccd700fc560&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="3打开powershell管理员模式输入-set-executionpolicy-remotesigned-选择y"><strong>3、打开PowerShell（管理员模式），输入 set-ExecutionPolicy RemoteSigned ，选择y</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097741034-5bebb12a-2038-4e1b-abd9-db42b84ec48b.png?table=block&amp;id=20281b32-e194-8067-9475-e132f0c29d12&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="4cd到解压后的路径下然后输入以下命令执行该程序"><strong>4、cd到解压后的路径下，然后输入以下命令，执行该程序</strong>
+</h4><p>.\DG_Readiness_Tool_v3.6.ps1 -Disable</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748097741318-085575a0-7852-4b39-8539-1685f08dce25.png?table=block&amp;id=20281b32-e194-807e-b1e3-d29d8eb45b62&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h4 id="5然后等待几分钟重启电脑出现提示按两次-f3再次重启"><strong>5、然后等待几分钟，重启电脑，出现提示按两次 F3，再次重启</strong>
+</h4><h4 id="6winr打开运行框输入msinfo32发现基于虚拟化的安全性状态是未启用over"><strong>6、Win+r打开“运行框”，输入“msinfo32”，发现“基于虚拟化的安全性”状态是“未启用”，Over~</strong>
+</h4><p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748098125777-c052526d-50cc-4719-8a5e-97de8d376b9a.png?table=block&amp;id=20281b32-e194-80d6-ad72-f74288053f4c&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1260&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><del>还不行的话</del>，继续</p>
+<h3 id="方法七-超级无敌究极牛逼-666-之法"><strong>方法七 超级无敌究极牛逼 666 之法</strong>
+</h3><p>前往雷电模拟器官网下载雷电模拟器</p>
+<p>有人会问：煮波煮波，是不是没办法了，玩原神摆烂呀</p>
+<p>当然不是，因为雷电模拟器会提示你的系统打开了虚拟化 点重启修复就行了</p>
+<p>启动模拟器时提示虚拟服务（hyper-v）已开启可以点击重启电脑按钮关闭</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748098412048-e68026d4-df6b-4d90-b96c-c885fcc681b2.png?table=block&amp;id=20281b32-e194-8087-8d85-f3035607cac1&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>但有的同学会说：煮波煮波，我还是没有关闭怎么办呀</p>
+<p>哈哈哈哈哈哈哈哈哈，那就剩下一个终结技能了</p>
+<h3 id="方法八-宇宙无极限毁天灭地无敌雷霆闪电风火轮旋风半月斩"><strong>方法八 宇宙无极限毁天灭地无敌雷霆闪电风火轮旋风半月斩</strong>
+</h3><p>点击链接下载工具：<a class="link" href="https://res.ldmnq.com/test/HyperV-off.exe"  target="_blank" rel="noopener"
+    >HyperV-off.exe</a></p>
+<h4 id="步骤-1以管理员权限运行脚本"><strong>步骤 1：以管理员权限运行脚本</strong>
+</h4><p>找到下载的程序文件 HyperV-off.exe。</p>
+<p><strong>右键点击文件</strong> → 选择 <strong>“以管理员身份运行”</strong>。</p>
+<p>若直接双击打开，可能因权限不足导致失败。</p>
+<h4 id="步骤-2处理杀毒软件拦截"><strong>步骤 2：处理杀毒软件拦截</strong>
+</h4><p>如果运行时报错“权限不足”或“被拦截”：</p>
+<p>检查杀毒软件是否已彻底退出（包括后台进程）。</p>
+<p>暂时关闭 Windows 防火墙（控制面板 → Windows Defender 防火墙 → 关闭）。</p>
+<p>将工具添加至杀毒软件的信任列表</p>
+<h4 id="步骤-3执行脚本并重启电脑"><strong>步骤 3：执行脚本并重启电脑</strong>
+</h4><p>脚本运行完成后，会提示“操作完成！重启电脑生效”。</p>
+<p><strong>立即重启电脑</strong>：</p>
+<p>重启后，修改的配置才会生效。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2025%2Fpng%2F36203516%2F1748098631188-89590d7b-773d-412e-ac7d-9a5a3b5a1d76.png?table=block&amp;id=20281b32-e194-8065-986f-fbc5c9192b9c&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>该提供的脚本在关闭 Hyper-V 时，会连带禁用依赖虚拟化服务的其他 Windows 功能，例如：</p>
+<p><strong>Windows Hello</strong>（面部/指纹识别登录）</p>
+<p><strong>Windows 沙盒</strong>（系统隔离测试环境）</p>
+<p><strong>WSL2</strong>（Windows 子系统 Linux 2.0）</p>
+<p><strong>虚拟机监控程序平台请在操作前确认是否接受这些影响</strong>！</p>
+<h3 id="感谢"><strong>感谢</strong>
+</h3><p><a class="link" href="https://blog.csdn.net/weixin_46119529/article/details/136914993"  target="_blank" rel="noopener"
+    >https://blog.csdn.net/weixin_46119529/article/details/136914993</a></p>
+<p><a class="link" href="https://blog.csdn.net/weixin_44244190/article/details/125368835"  target="_blank" rel="noopener"
+    >https://blog.csdn.net/weixin_44244190/article/details/125368835</a></p>
+<p><a class="link" href="https://www.bilibili.com/opus/917990899523256320"  target="_blank" rel="noopener"
+    >https://www.bilibili.com/opus/917990899523256320</a></p>
+<p><a class="link" href="https://help.ldmnq.com/docs/xu-ni-fu-wu-hyperv-guan-bi-jiao-cheng"  target="_blank" rel="noopener"
+    >https://help.ldmnq.com/docs/xu-ni-fu-wu-hyperv-guan-bi-jiao-cheng</a></p>
+<h2 id="2所有部分设备无法启动错误代码4143"><strong>2、所有/部分设备无法启动，错误代码41、43</strong>
+</h2><p>原因：</p>
+<p>●设备没有注册</p>
+<p>●设备注册失败</p>
+<p>●VirtualBox 版本不匹配</p>
+<p>检查以下情况：</p>
+<p>1虚拟网卡设置异常</p>
+<p>检查安装eNSP的PC上是否存在名为“VirtualBox Host-Only Network”的虚拟网卡</p>
+<p>● 如果不存在，添加虚拟网卡。</p>
+<p>● 如果存在，检查虚拟网卡的状态。</p>
+<p>● 如果虚拟网卡的名称为“VirtualBox Host-Only Ethernet Adapter #2”，可尝试点击eNSP主界面“菜单-工具-注册设备”重新注册设备。如果还是出现这样的错误，检查一下虚拟网卡的状态。</p>
+<p>检查虚拟网卡的状态。查看名为“VirtualBox Host-Only Network”的虚拟网卡是不是让禁用了</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795880065-50f36eca-9f56-4974-90a4-5ce086a3cc37.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_729%252Climit_0?table=block&amp;id=20281b32-e194-80ff-beec-d35739c6fb12&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>如果被禁用，启用这个虚拟网卡。</p>
+<p>若重启设备仍然失败，检查一下虚拟网卡的参数设置。</p>
+<p>检查虚拟网卡的参数设置检查虚拟网卡的设置是否符合图里的要求：</p>
+<p>IP地址为192.168.56.1，子网掩码为255.255.255.0</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795880513-c6127a28-c8b1-4d58-9b39-6da3c320671c.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_440%252Climit_0?table=block&amp;id=20281b32-e194-8026-833f-f9bcc7bbc8da&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=880&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>同时取消选中“DHCP服务器”页签的“启用服务器”。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795880864-9a5b32c0-0989-4317-9ff5-8a3b267c4e72.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_442%252Climit_0?table=block&amp;id=20281b32-e194-80d2-bd2f-f3816273a63b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=880&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>如果设置正常，设备启动仍失败，检查一下虚拟网卡属性设置</p>
+<p>Windows自带防火墙拦截</p>
+<p>操作顺序如下：</p>
+<p>控制面板 - 系统和安全 - Windows Defender 防火墙 - 启用或关闭 Windows Defender 防火墙 - 关闭 Windows Defender 防火墙</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795881177-f2f8b574-01dd-4fba-90ee-c333a6ac0059.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_1000%252Climit_0?table=block&amp;id=20281b32-e194-8046-9136-c199f68a51a7&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795881533-ffc3dabf-c981-41bc-a710-4357f595148f.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_1000%252Climit_0?table=block&amp;id=20281b32-e194-802e-ac48-fce5b0c110f0&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795882092-4acbf736-b3e1-4d6d-83ff-8e467e79d93c.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_1000%252Climit_0?table=block&amp;id=20281b32-e194-8030-9443-f08dfaf4d3e8&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795882614-9d29ae84-2a97-45c1-a0e4-b954c14edd19.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_1000%252Climit_0?table=block&amp;id=20281b32-e194-8099-a316-eba25d581260&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>杀毒软件拦截</p>
+<p>检查电脑中是否安装QQ管家、百度杀毒、卡巴斯基等软件，此类软件阻止了模拟设备间的通信，卸载以后再试试</p>
+<p>VirtualBox目录问题</p>
+<p>检查VirtualBox安装目录是否存在中文字符，如果路径中含有中午字符，卸载VirtualBox后重新安装，位置选择一个目录为英文字符的。</p>
+<p>硬件虚拟化未开启</p>
+<p>●自己检查一下电脑是否支持硬件虚拟化</p>
+<p><strong>BIOS启用虚拟化</strong></p>
+<p><strong>在 HP 计算机中启用虚拟化</strong></p>
+<p>●在计算机重新启动时按<strong>Esc</strong>键以查看启动选项。</p>
+<p>●接下来，按<strong>F10</strong>键进入 BIOS 设置（按照屏幕上的说明进行操作）。</p>
+<p>●转到<strong>System Configuration</strong>选项卡，选择<strong>Virtualization Technology</strong>并按<strong>Enter</strong>。</p>
+<p>●现在，选择<strong>Enabled</strong>并按<strong>Enter</strong>确认。</p>
+<p>●最后，按<strong>F10</strong>键并选择<strong>Yes</strong>保存更改并重新启动 PC。</p>
+<p><strong>在戴尔系统中启用虚拟化 (VT-x)</strong></p>
+<p>●在 PC 启动时按<strong>F2</strong>键进入 BIOS 设置。</p>
+<p>●在 BIOS 设置中，转到<strong>Advanced</strong>选项卡。在这里，选择<strong>Virtualization</strong>，然后按<strong>Enter</strong>键。</p>
+<p>●现在，选择<strong>Enabled</strong>并按<strong>Enter</strong>键确认您的选择。</p>
+<p>●最后，按<strong>F10</strong>键并选择<strong>是</strong>保存更改并将 PC 重新启动到 Windows。</p>
+<p><strong>在华硕 PC 中启用虚拟化 (VT-x/AMD-V)</strong></p>
+<p>●就像戴尔一样，在启动 PC 时按<strong>F2</strong>键进入 BIOS 设置。</p>
+<p>●同样，转到<strong>Advanced</strong>选项卡，选择<strong>Virtualization Technology</strong>，然后按<strong>Enter</strong>键更改设置。</p>
+<p>●接下来，选择<strong>Enabled</strong>并按<strong>Enter</strong>键确认。</p>
+<p>●最后，按<strong>F10</strong>键并选择<strong>是</strong>保存设置并重新启动计算机。</p>
+<p><strong>在 Acer 计算机中启用虚拟化</strong></p>
+<p>●启动时按<strong>F2</strong>键进入 BIOS 设置。</p>
+<p>●转到<strong>System Configuration</strong>选项卡，选择<strong>Virtualization Technology</strong>，然后按<strong>Enter</strong>更改设置。</p>
+<p>●选择<strong>Enabled</strong>并按<strong>Enter</strong>键确认您的选择。</p>
+<p>●最后，按<strong>F10</strong>键并选择<strong>是</strong>保存更改并将计算机重新启动到 Windows。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795882906-7a9adb29-cc41-47e5-a61b-82dca15fe08b.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_660%252Climit_0?table=block&amp;id=20281b32-e194-8089-a06d-c0618ac17b49&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1320&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>示例</p>
+<h2 id="3交换机无法启动"><strong>3、交换机无法启动</strong>
+</h2><p>问题现象：无限########################</p>
+<p>处理方法：</p>
+<p>以管理员运行CMD，输入以下命令试一下：</p>
+<p>●Win7、Win8和Win10系统，输入“lodctr /R”。</p>
+<p>●Windows xp系统，输入“lodctr /R:PerfStringBackup.ini”</p>
+<h2 id="4cpu占用过高"><strong>4、CPU占用过高</strong>
+</h2><p>解决办法：</p>
+<p>在bios中启用虚拟化技术</p>
+<p>打开VirtualBox工具，选中使用的设备类型（如路由就选择“AR_Base”），单击 设置 选项，选择 系统 ，处理器界面，数量视设备配置修改</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795883199-2f164431-503f-4dcc-b3a1-48b9dcf97a7c.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_725%252Climit_0?table=block&amp;id=20281b32-e194-80f5-9cee-c6d2ca756389&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>单击“硬件加速”页签，选中“启用 VT-x/AMD-V”和“启用嵌套分页”</p>
+<h2 id=""><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1679795883476-9179b430-1e76-451c-b5aa-6bd459d39be7.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_725%252Climit_0?table=block&amp;id=20281b32-e194-807d-bb27-f18a26bd66cc&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+</h2><p>点击 OK 确认设置</p>
+<h2 id="5ensp报错40box报错raw-mode-is-unavailable-courtesy-of-hyper-v解决办法"><strong>5、ensp报错40，Box报错“Raw-mode is unavailable courtesy of Hyper-V”解决办法：</strong>
+</h2><p>使用管理员权限允许cmd，输入一下命令bcdedit 查看hypervisorlaunchtype返回信息为非off，输入以下命令关闭bcdedit /set hypervisorlaunchtype off 重启电脑后再行测试 若需要提供hyper-v虚拟化，可输入一下命令bcdedit /set hypervisorlaunchtype auto</p>
+<h2 id="6winpcap提示已安装更高版本解决办法"><strong>6、winpcap提示已安装更高版本解决办法</strong>
+</h2><p>将 C:\Windows\SysWOW64/文件夹内的wpcap.dll重命名为 wpcap.dll.old</p>
+<p>将 C:\Windows\SysWOW64/文件夹内的packet.dll 重命名为packet.dll.old</p>
+<h2 id="7cloud云朵只有udp没有其他网卡"><strong>7、cloud云朵只有UDP，没有其他网卡</strong>
+</h2><p>导致原因：Winpcap版本太低(如1.9等版本)，系统版本太高（win10、win11）解决办法：卸载已有Winpcap，重启电脑后安装Winpcap 4.1.3</p>
+<h2 id="8box启动ar设备报错error-relaunching-virtualbox-vm-process-5"><strong>8、box启动AR设备报错Error relaunching VirtualBox VM process: 5</strong>
+</h2><p>command line: &ldquo;60eaff78-4bdd-042d-2e72-669728efd737-suplib-3rdchild &ndash;comment AR_Base &ndash;startvm 5aa4275f-3791-41f1-aa74-ffc1e93b01fb &ndash;no-startvm-errormsgbox &ldquo;&ndash;sup-hardening-log=d:\Program Files\Huawei\eNSP\VBoxServer\AR_BaselLogsVBoxHardening.log&rdquo;&rdquo; (rc=-104)Please try reinstalling VirtualBox.where: supR3HardenedWinReSpawn what: 5 VERR_INVALID_NAME (-104)- lnvalid (malformed) file/path name. 卸载完美世界对战平台即可（rushB又少了一个踩火的人）</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1683251945718-f8a7d027-1624-4773-80a3-e5638e28b607.png?table=block&amp;id=20281b32-e194-8014-8b2d-d277e568b09a&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1040&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h2 id="9不能为虚拟电脑-ar_"><strong>9、不能为虚拟电脑 AR_Base 打开一个新任务</strong>
+</h2><p>问题现象：原因：安装到非默认路径以外的其他路径，权限不足与软件冲突导致处理建议：卸载box并重启电脑，将Box安装到默认路径下即可10、win7下box打开提示获取 VirtualBox COM对象失败。应用程序将被中断 错误代码ENOINTEREACE(OX80004002)问题现象：</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1687098966149-5a2cbca2-69ed-4c24-8767-b4cb6bfecb4b.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_564%252Climit_0?table=block&amp;id=20281b32-e194-8007-9f73-fdec626e1128&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1130&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>处理办法：</p>
+<p>win+R打开运行界面，输入regedit回车，打开注册表管理器，找到路径为：HKEY_CLASSES_ROOT\CLSID{00020420-0000-0000-C000-000000000046}\InprocServer32</p>
+<p>在打开的界面中选择InprocServer32</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1687099296286-ba361a25-f1ae-4d92-aee2-0024a538c5f7.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_565%252Climit_0?table=block&amp;id=20281b32-e194-80fc-b107-f6760e913832&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1130&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>在右侧的分栏中选择默认，双击打开，将原来的oleaut32.dll改为带有路径的C:\Windows\System32\oleaut32.dll</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1687099411458-24c6cb38-ac67-404e-ba07-2caa4bb85dcf.png%3Fx-oss-process%3Dimage%252Fresize%252Cw_570%252Climit_0?table=block&amp;id=20281b32-e194-80fd-98e9-fed984b010d5&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1140&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>然后点击确定，关闭注册表编辑器，重新运行box即可正常使用</p>
+<h2 id="10启动ar设备失败错误代码41"><strong>10、启动AR设备失败，错误代码41</strong>
+</h2><p>将Oracle VM VirtualBox的AR_Base、WLAN_AC_Base、WLAN_AD_Base、WLAN_SAP_Base、WLAN_AP_Base选中后，鼠标右键删除</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693643347724-15ab546f-c68d-43c5-87aa-d721cdaffc3e.png?table=block&amp;id=20281b32-e194-8037-8d2e-f75c10db8e4b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693643488821-b4652190-50b6-4c84-aa2c-9097927b0930.png?table=block&amp;id=20281b32-e194-8020-83d8-f0b8077d710e&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>选择删除所有文件</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693643533345-6ce4d99f-f2e9-40ac-b5cb-966dfd74f424.png?table=block&amp;id=20281b32-e194-80f5-9982-e72e37341564&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>删除后，选择管理 - 虚拟介质管理器，将里边AR_Base、WLAN_AC_Base、WLAN_AD_Base、WLAN_SAP_Base、WLAN_AP_Base及下级文件删除。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693643691567-e57e0eb2-7c7e-4d4e-899d-cfe694353041.png?table=block&amp;id=20281b32-e194-80d4-affc-ea8aa0b7b92b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>打开eNSP软件安装目录，将下图所示文件夹删除，然后打开eNSP，直接左上角选择菜单 - 工具 - 设备注册，设备类型全部勾选，然后点击注册，注册成功后，拉一台设备检查是否启动正常。</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693643860901-2462b6c4-f995-4f8e-9e57-1cc85d172d36.png?table=block&amp;id=20281b32-e194-809a-a4ae-ccf825acb7d0&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<h2 id="11启动ar设备失败错误代码40the-vm-session-was-closed-before-any-attempt-to-power-it-on"><strong>11、启动AR设备失败，错误代码40，“The VM session was closed before any attempt to power it on.”</strong>
+</h2><p><strong>管理员运行</strong>Oracle VM VirtualBox软件，选择AR_Base、WLAN_AC_Base、WLAN_AD_Base、WLAN_SAP_Base、WLAN_AP_Base选中后，鼠标右键删除（如果提示删除失败，请关闭ensp软件后，再删除）一直提示删除失败请看以下操作：打开Oracle VM VirtualBox软件，选择管理 - 虚拟介质管理</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693901653862-8d7d723c-9576-4159-b2e3-49688bf133c7.png?table=block&amp;id=20281b32-e194-80c4-8aec-e58f0e9d2619&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>选择AR_Base、WLAN_AC_Base、WLAN_AD_Base、WLAN_SAP_Base、WLAN_AP_Base左侧的下拉箭头，选择{xxxxxx}，这时我们发现删除是灰色的</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693901894008-15ce91ef-cec6-4f03-947e-d0859c5c6d60.png?table=block&amp;id=20281b32-e194-804b-8768-fa7c94b09c50&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>点击上面的释放按钮，在弹出的窗口中选择释放 - 删除文件（其他的AR_Base、WLAN_AC_Base、WLAN_AD_Base、WLAN_SAP_Base、WLAN_AP_Base等设备进行同样的操作）</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693901916626-3b29cf3f-7bc5-4f2b-8b25-c8c131b2fbb6.png?table=block&amp;id=20281b32-e194-8048-9511-ee7e3174995b&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>操作完成后关闭虚拟介质管理器，再进行AR_Base、WLAN_AC_Base、WLAN_AD_Base、WLAN_SAP_Base、WLAN_AP_Base设备删除</p>
+<p><img src="https://omentwwnmfm.notion.site/image/https%3A%2F%2Fcdn.nlark.com%2Fyuque%2F0%2F2023%2Fpng%2F27220545%2F1693902121535-441e773a-afb8-4343-afe3-070175bdf865.png?table=block&amp;id=20281b32-e194-80ad-b73c-d02e1d81c814&amp;spaceId=201a5b5d-f4f0-4ef8-8f5e-e8e43ce2b60f&amp;width=1400&amp;userId=&amp;cache=v2"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>删除后，<strong>管理员运行</strong>eNSP软件，重新进行设备注册（<a class="link" href="https://www.yuque.com/shitushimoduhuidebadaomengxin/it_books/mfpxumu7wppug7mo#l4Psi"  target="_blank" rel="noopener"
+    >步骤5</a>），添加AR2220启动测试是否正常</p>
+<h2 id="12安装ensp和hcl以后hcl运行正常但是ensp提示virtualbox-server版本异常"><strong>12、安装eNSP和HCL以后，HCL运行正常，但是eNSP提示VirtualBox server版本异常</strong>
+</h2><p>原因分析：1、Oracle VM VirtualBox版本不对，不是推荐的5.2.442、<a class="link" href="https://www.yuque.com/shitushimoduhuidebadaomengxin/it_books/mfpxumu7wppug7mo#ZvBRt"  target="_blank" rel="noopener"
+    >注册表更改</a>后未还原（自行检查）</p>
+<h2 id="13virtualbox-host-only-network2"><strong>13、VirtualBox Host-Only Network#2</strong>
+</h2><p>问题原因：在启动AC AP AR设备时，需要借助虚拟网卡VirtualBox Host-Only Network，而电脑中不存在VirtualBox Host-Only Network只有VirtualBox Host-Only Network#2，设备无法去找到VirtualBox Host-Only Network。</p>
+<p>正常的eNSP和virtual Box安装完成，建立的是VirtualBox Host Only Network。而由于不正常的操作进行了多次的卸载和安装。系统中的注册表占用了VirtualBox Host Only Network，也就是说卸载时没有卸载干净，导致新建的虚拟网卡一直是#2而不是默认的VirtualBox Host Only Network。若将名字改为原来的“VirtualBox Host-Only Network”后提示“无法重命名该连接。具有指定名的连接已经存在。指定一个不同的名称。”也就是说，原来的网卡还是存在，只是网卡隐藏了。</p>
+<p>解决方法：删除注册表中的VirtualBox Host Only Network信息。</p>
+<p>若权限不足下载<a class="link" href="https://king321.cn/wp-content/uploads/2021/07/RunAsTI.rar"  target="_blank" rel="noopener"
+    >RunAsTI工具</a> 运行该工具提升权限。</p>
+<p>运行打开窗口，输入 regedit</p>
+<p>在注册表编辑器中搜索以下路径</p>
+<p><strong>\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\NetworkSetup2\Interface</strong></p>
+<p>找到如图所示一个文件夹，这就是“Virtualbox Host-Only Network Adapter”虚拟网卡残留的信息，然后将其删除。</p>
+<p>之后在eNSP中重新注册设备解决。重新注册</p>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/internet/">Internet</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Power by OmenTwwnmfm
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.c2521df523c13bf241775b8dfd4933a5dce590210a4c369b805b9dc014667e1e.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

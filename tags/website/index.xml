@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Website on OmenTwwnmfm</title>
+        <link>http://localhost:1313/tags/website/</link>
+        <description>Recent content in Website on OmenTwwnmfm</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Power by OmenTwwnmfm</copyright>
+        <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/website/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NO.007 暮野荒原</title>
+        <link>http://localhost:1313/p/hw-no.007/</link>
+        <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/hw-no.007/</guid>
+        <description>&lt;hr&gt;
+&lt;h2 id=&#34;有趣的网站&#34;&gt;&amp;raquo;&amp;gt;有趣的网站
+&lt;/h2&gt;&lt;h4 id=&#34;1-缘生笔记---blog&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://blog.ysicing.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;缘生笔记 - Blog&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Solitudes 项目是缘生（ysicing）的个人博客「缘生笔记」的技术实现，主要用于记录和分享他在Go/Rust等编程语言学习中的技术心得与实践经验。该项目涵盖技术杂谈、实用工具推荐、游戏评测等多方面内容，如Artifactory部署、MinIO功能评测等，提供RSS订阅和微信公众号服务。&lt;/p&gt;
+&lt;h4 id=&#34;2-老生常谈---blog&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://laosheng.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;老生常谈 - Blog&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;老生常谈²⁰²⁵ （Laosheng.top）是一个以&amp;quot;集成网页&amp;quot;为核心的民间研究型导航网站，致力于为网民高效提供权威官方信息。网站聚焦四大领域：法律（含民法典、法院系统）、新闻（覆盖全国333城媒体）、政务服务（高校、央企、政府部门）及全球化（一带一路、国际组织）。其特色是通过独创的&amp;quot;大规模集成网页(LSIP)&amp;ldquo;技术，将上千个官方网址结构化归类，方便用户一键直达信源。创始人&amp;quot;大萌&amp;quot;自2020年起坚持无广告运营，严格遵循知识共享协议，旨在对抗APP信息割裂，复兴浏览器高效检索的价值。2025年新版新增了政法区划、国家一级博物馆导航等功能，持续优化跨终端访问体验。&lt;/p&gt;
+&lt;h4 id=&#34;3-高等院校三千所---全国高校介绍&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://laosheng.top/fuwu/yuanxiao&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;高等院校三千所 - 全国高校介绍&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;持续更新全国超3000所高等院校的详细名录与官方数据。项目创新性地采用&amp;quot;大规模集成网页(LSIP)&amp;ldquo;技术，按照军事院校、中管高校、部属本科、省属本科、高职专科5大层级分类，形成可视化&amp;quot;中国高校层级图谱&amp;rdquo;。2025年新版已同步教育部最新名单，涵盖44所军校招生信息、31所中管高校官网直链，并对艺术类、中医药、央企共建等特色院校进行符号化标注。平台兼具搜索引擎功能，支持按省份/类型快速定位，并持续跟踪高校合并、转设等动态变更，为考生提供客观稳定的择校参考体系。&lt;/p&gt;
+&lt;h4 id=&#34;4-大学生创新创业项目资源库---大学生比赛创业资料&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://cy.urongda.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;大学生创新创业项目资源库 - 大学生比赛创业资料&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“创业大全 - 大学生创新创业项目资源库”是一个专注于青年双创的一站式服务平台，提供覆盖互联网+、挑战杯、国创赛等主流赛事的21,985份免费资源（含商业计划书模板、案例及技术资料）。平台突破性地整合了AI智能阅读、关键词高亮搜索、云端存储等功能，学生可快速获取80+赛道的实战素材，93.4GB资源支持即改即用，无需注册即可下载，有效解决创业初期资料匮乏的痛点。&lt;/p&gt;
+&lt;h4 id=&#34;5-科技爱好者周刊-issues---网站推荐和开源项目&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ruanyf/weekly/issues&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;科技爱好者周刊 issues - 网站推荐和开源项目&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是GitHub上ruanyf/weekly项目的议题（Issues）列表，用户可以在这里提交新议题、讨论现有问题或查看开发动态。最新议题包括网站推荐、开源项目提交和工具自荐等内容。&lt;/p&gt;
+&lt;h4 id=&#34;6-linux-开荒指南---初始化配置&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://github.com/witt-bit/pc-guide/blob/master/linux/linux-guide.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Linux 开荒指南 - 初始化配置&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个GitHub仓库中的Linux指南文档，详细介绍了Linux开发环境的搭建、系统配置、软件推荐及常见问题解决方案。内容包括Linux发行版对比、桌面环境切换、Shell配置（如zsh和oh-my-zsh）、软件安装方式（包管理/源码/二进制）、效率工具（如tmux/htop）以及QQ/微信等国产软件适配。文档还提供备份技巧、Chrome插件和系统维护建议，适合从入门到进阶的Linux用户参考。&lt;/p&gt;
+&lt;h4 id=&#34;7-职场沟通小诸葛---ai助力优化沟通技巧&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://procommai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;职场沟通小诸葛 - AI助力优化沟通技巧&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“职场沟通小诸葛”是一款AI智能沟通优化工具，专为解决职场表达难题设计。它能帮助你精准优化各类职场沟通内容，如邮件、汇报、申请等，提供多种风格表达方案。无论是向上管理、跨部门协作，还是团队沟通，都能快速生成专业得体的表达。采用银行级数据加密，确保信息安全，让你告别职场沟通焦虑，提升职场竞争力。&lt;/p&gt;
+&lt;h4 id=&#34;8-金句盲盒---随机名言名句&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;http://jinju.yotooapp.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;金句盲盒 - 随机名言名句&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;金句盲盒是一个在线互动平台，汇集电影、音乐、阅读等领域的经典语录，以随机抽取的形式为用户提供灵感与启发。通过简洁优美的金句，帮助用户在碎片时间获取精神养分，开启思考与共鸣。支持用户提交原创金句，打造共享智慧的轻量级社区。&lt;/p&gt;
+&lt;h4 id=&#34;9-海棠诗社---古诗词的数字桃源&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://haitang.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;海棠诗社 - 古诗词的数字桃源&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;海棠诗社，名字灵感源自《红楼梦》第三十七回《秋爽斋偶结海棠社 蘅芜苑夜拟菊花题》，在这一回中，贾宝玉与林黛玉、薛宝钗等人在秋爽斋偶然结成了海棠诗社，旨在通过诗歌来表达对自然美景的赞美和内心情感的抒发。&lt;/p&gt;
+&lt;p&gt;按照《宋词三百首》《白香词谱》等权威选本分类，同时设有季节、情感、意象等主题标签。平台精选李白、苏轼等历代名家作品，并提供&amp;quot;唐诗三百&amp;quot;&amp;ldquo;孩子的诗&amp;quot;等分级读物，通过智能算法为不同年龄层用户推荐&amp;quot;小学古诗&amp;quot;&amp;ldquo;高中古诗&amp;quot;等内容，将传统文化的精髓以数字化的方式呈现。&lt;/p&gt;
+&lt;h4 id=&#34;10-ask-me-anything---简洁易懂的ai回答&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://ama.stockai.trade/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ask Me Anything - 简洁易懂的AI回答&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;Ask Me Anything&amp;rdquo;（AMA）是 stockai.trade 推出的智能问答服务，通过自然语言处理技术为用户提供即时、专业的解答。该平台覆盖科技、金融、网络等多元主题。其核心优势在于基于AI的精准响应和简洁易懂的表达，适合快速获取知识的场景。由web.stockai.trade驱动，体现了现代AI技术在信息检索领域的应用创新。&lt;/p&gt;
+&lt;h4 id=&#34;11-程序员容易读错的单词---学专业术语&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://word.aolifu.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;程序员容易读错的单词 - 学专业术语&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;程序员容易读错的单词&amp;quot;是一个实用的在线资源，专门收集技术领域中常被误读的英文术语。该项目以对比形式呈现正确发音（英美音标+音频）与常见错误读法，覆盖从编程语言（如Java）、工具（如Git）到专业术语（如async）等300+词汇。通过清晰的音标标注和即时音频播放，帮助开发者纠正发音问题，提升专业交流能力。网站采用简洁的表格布局，支持中英文双语标注，尤其适合非英语母语的程序员学习参考，兼具实用性和趣味性。&lt;/p&gt;
+&lt;h4 id=&#34;12-ai-voice-cloning---体验超真实的ai语音克隆&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://aivoicecloning.io/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI Voice Cloning - 体验超真实的AI语音克隆&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AI Voice Cloning 是一款领先的 AI 语音生成工具，仅需3秒音频即可高精度克隆任何人的声音，支持中英日韩等多种语言。其高度仿真的语音合成技术精准还原语调情感，操作简单，适用于内容创作、游戏配音、教育等场景。提供免费基础版和商业高级版，注重隐私安全。&lt;/p&gt;
+&lt;h4 id=&#34;13-subway---全国地铁网络数据&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://github.com/thecuvii/subway&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;subway - 全国地铁网络数据&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;中国部分城市地铁可视化是一个基于Vue3和Deck.gl开发的Web应用，展示2023年6月前国内主要城市地铁网络数据。项目采用Nuxt3框架，支持交互式探索地铁线路、站点分布，并提供响应式设计。数据来源于官方渠道，覆盖北京、上海等城市地铁系统，通过Pinia管理状态，使用TypeScript开发保证类型安全，MIT协议开源。&lt;/p&gt;
+&lt;h4 id=&#34;14-kuakua夸夸---ai与心理学的碰撞&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;http://kuakua.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;kuakua夸夸 - AI与心理学的碰撞&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Kuakua 是结合积极心理学和AI技术的平台，提升用户的幸福感和心理健康。通过提供多语言支持、心理学资源、AI辅助工具、正念练习和生活方式建议，帮助用户在日常中实践积极心理学原理。用户通过每日学习模块和参与积极词汇投票等活动，逐步提升自己的幸福感。Kuakua 鼓励用户反馈，不断改进和优化服务，提升个人福祉的有力工具。&lt;/p&gt;
+&lt;h4 id=&#34;15-动画巡礼地图---共享动画取景圣地地标&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://anitabi.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;动画巡礼地图 - 共享动画取景圣地地标&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;anitabi map 动画巡礼地图是一个共享动画取景圣地地标与截图的工具，旨在解决巡礼前期的找点和截图工作。&lt;/p&gt;
+&lt;p&gt;它收录了部分动画和漫画的圣地地标及对应截图，帮助用户找到现实世界中漫画场景的位置。用户可以通过城市、动画名、地标名进行搜索，或定位查找附近的圣地。&lt;/p&gt;
+&lt;h4 id=&#34;16-通辽宇宙知识库---小约翰可汗官方网站&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://www.tongliaouniverse.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;通辽宇宙知识库 - 小约翰可汗官方网站&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;通辽宇宙知识库&amp;quot;是一个围绕B站UP主小约翰可汗创立的网络文化主题平台，主要收集整理其视频中衍生的&amp;quot;通辽宇宙&amp;quot;相关梗与文化内容。该网站系统梳理了&amp;quot;通辽宇宙&amp;quot;世界观的核心概念，包括虚拟的三大定律、成员国体系、事业编等特色设定。平台深入解读奇葩小国历史、硬核人物传记等系列内容，提供视频资源库、梗文化解析和互动知识问答功能，旨在构建一个趣味性与知识性兼备的亚文化社群空间。&lt;/p&gt;
+&lt;h4 id=&#34;17-核弹地图---可视化核弹效果&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://nuclearsecrecy.com/nukemap/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;核弹地图 - 可视化核弹效果&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;核弹地图是一个用于可视化核弹效果的网站。它使用开源物理和武器模型，为核爆炸的后果提供了简化的视图，帮助人们直观理解核武器的威力。支持在全球地图上输入任意城市或具体位置，支持选择核弹的当量（从历史上的“小男孩”15千吨到虚构的100兆吨级别），并决定是空中爆炸还是地面爆炸。起爆炸后可生成爆炸后的影响范围，包括火球半径、热辐射范围、冲击波破坏区域以及可能的伤亡人数估算。还可以开启辐射尘埃分布模拟，甚至叠加风向数据，查看核污染的扩散情况。&lt;/p&gt;
+&lt;h4 id=&#34;18-variflight---全球航班实时跟踪地图&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://flightadsb.variflight.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VariFlight - 全球航班实时跟踪地图&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;VariFlight 全球航班实时跟踪雷达，为用户提供飞机实时跟踪地图，飞机飞行轨迹回放，航班轨迹数据下载，航班状态，ADS-B设备申请使用，飞机图片展示信息服务。&lt;/p&gt;
+&lt;h4 id=&#34;19-唐宋文学编年地图---全面地了解诗人的一生&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://cnkgraph.com/Map/PoetLife&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;唐宋文学编年地图 - 全面地了解诗人的一生&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;由中南民族大学文传学院教授王兆鹏主持制作的《唐宋文学编年地图》在线平台，按照诗人分类，可呈现出诗人一生行走的足迹，并介绍诗人在不同地点创作的诗歌作品，能够帮助我们更加直观地了解诗人的生平和诗歌的创作背景。此外，网站还提供丝路诗路，历代诗人地域分布等地图。教师可借助该工具更加形象地为学生们讲解诗人生平与诗歌作品。诗词爱好者也可以据此更加全面地了解诗人的一生。&lt;/p&gt;
+&lt;h4 id=&#34;20-世界历史地图集---探索不同历史时期地区和战争的信息&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://www.oldmapsonline.org/zh/history/regions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;世界历史地图集 - 探索不同历史时期地区和战争的信息&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;TimeMap是一款基于Old Maps Online平台的交互式世界历史地图集，可以探索不同历史时期、地区和战争的信息。&lt;/p&gt;
+&lt;h4 id=&#34;21-ventusky---全球气象地图&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://www.ventusky.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ventusky - 全球气象地图&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Ventusky 是一个提供全球天气预测地图的网站, 它专注于展示风、雨和温度等气象信息。用户可以通过这个平台查看不同高度的气温数据、降水量、云层覆盖、风速、风向、湿度、露点温度等详细气象数据。&lt;/p&gt;
+&lt;p&gt;Ventusky 界面允许用户查看当前日期的天气预测, 也可以查看历史数据和未来几天的预报。此外, 网站还提供了风动画功能, 用户可以选择不同的动画强度和风格来观察风的变化。&lt;/p&gt;
+&lt;h4 id=&#34;22-全球电源插头和电压指南---一站式电子设备用电解决方案&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://worldpowerplug.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;全球电源插头和电压指南 - 一站式电子设备用电解决方案&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;WorldPowerPlug是一个全球电源适配指南网站，帮助国际旅行者快速查询各国的电压标准和插头类型。网站按大洲分类展示191个国家的电源信息，详细图解15种常见插头规格，并提供热门国家快速查询功能。特色包括多语言支持、适配器选购建议和电压转换知识，为出国用户提供一站式电子设备用电解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;23-musclewiki---专注健身训练的在线平台&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://musclewiki.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MuscleWiki - 专注健身训练的在线平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;MuscleWiki 是一个专注健身训练的在线平台，提供科学化运动指导服务。网站集合了力量训练、器材使用、拉伸恢复等多元内容，包含哑铃、杠铃、自重训练等14种训练方式分类。其特色是通过3分钟视频教程，以可视化方式呈现不同肌肉群的针对性训练方案。创新推出的AI训练计划生成器，能根据用户性别、训练水平智能定制个性化方案。平台整合了前沿运动科学成果，如引体向上辅助训练等实证有效的训练技巧，帮助用户高效达成增肌目标。&lt;/p&gt;
+&lt;h4 id=&#34;24-restore-old-photos---三秒钟修复老照片&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://restore-old-photos.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Restore Old Photos - 三秒钟修复老照片&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Restore Old Photos是一款AI照片修复工具，能一键修复老照片的划痕、褪色等问题，还能将黑白照片智能上色。无需专业技能，用户只需上传照片即可在12秒内获得高清修复效果，支持批量处理和多种分辨率输出。该工具适用于家庭相册修复、纪念品制作等场景，提供免费预览和多种付费方案，已帮助全球59个国家用户修复69万+照片。采用云端处理技术保障隐私安全，所有操作均可通过网页端完成，移动设备也能流畅使用。&lt;/p&gt;
+&lt;h4 id=&#34;25-photorestoration---ai修复照片&#34;&gt;25. &lt;a class=&#34;link&#34; href=&#34;https://photo-restoration.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PhotoRestoration - AI修复照片&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;PhotoRestoration是一款免费AI照片修复工具，利用先进的GFPGAN技术自动修复老照片的划痕、褪色和破损问题。用户只需上传照片，AI就能智能分析并完成专业级修复，支持高清输出和效果对比，操作简单无需专业技能。&lt;/p&gt;
+&lt;h4 id=&#34;26-agentwise---快速发现最适合需求的ai工具&#34;&gt;26. &lt;a class=&#34;link&#34; href=&#34;https://agentwise.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AgentWise - 快速发现最适合需求的AI工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AgentWise 是一个专注于AI代理（AI Agents）的导航平台，帮助用户快速发现最适合需求的AI工具。 它精选了多个领域的优秀AI代理，涵盖教育学习、内容创作、代码开发、营销增长等方向，并提供分类和搜索功能。 平台不仅展示热门AI代理，还收录开源项目如AutoGPT、MetaGPT等，让开发者能找到有价值的技术资源。 特点包括&amp;quot;本月最热&amp;rdquo;、&amp;ldquo;增长最快&amp;quot;等榜单，帮助用户紧跟AI领域的最新趋势和创新产品。 适合普通用户寻找生产力工具，也适合开发者探索前沿AI代理技术。&lt;/p&gt;
+&lt;h4 id=&#34;27-tiktok-story-viewer---匿名浏览-tiktok-故事&#34;&gt;27. &lt;a class=&#34;link&#34; href=&#34;https://storyviewer.ai/tiktok-story-viewer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TikTok Story Viewer - 匿名浏览 TikTok 故事&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;TikTok Story Viewer是一款免费在线工具，专为匿名浏览 TikTok 故事。用户无需注册账号，通过输入用户名即可无痕查看公开故事内容。该工具支持跨设备使用，具备故事下载功能，且不会向创作者泄露浏览记录。采用纯网页端操作，不索取个人信息，在合法范围内为社交媒体调研、内容分析或隐私浏览提供解决方案。其核心优势在于完全匿名、零门槛和即时访问，满足用户对隐私保护与便捷体验的双重需求。&lt;/p&gt;
+&lt;h4 id=&#34;28-instagram-story-viewer---匿名查看-instagram-故事&#34;&gt;28. &lt;a class=&#34;link&#34; href=&#34;https://storyviewer.ai/instagram-story-viewer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Instagram Story Viewer - 匿名查看 Instagram 故事&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Instagram Story Viewer 是一个免费的在线工具，帮助用户匿名查看 Instagram 故事，无需登录或注册。只需输入目标用户的账号名，即可快速访问其公开或私密故事，完全保护浏览者的隐私。该工具操作简单、安全高效，适合想悄悄查看内容而不留下痕迹的用户。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;实用的工具&#34;&gt;&amp;raquo;&amp;gt;实用的工具
+&lt;/h2&gt;&lt;h4 id=&#34;1-riesai---在日常浏览中创造沉浸式英语学习环境&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://ries.ai/zh/learn-english&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ries.AI - 在日常浏览中创造沉浸式英语学习环境&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Ries.AI是一款创新的英语学习工具，通过浏览器扩展将英语学习无缝融入日常生活。该工具利用AI技术将用户浏览的中文网页和视频内容实时改造，用英语高频词汇渐进替换部分中文内容。基于&amp;quot;可理解性输入&amp;quot;理论，系统会智能调节改造难度，确保学习效果。这种方式能在用户正常的网络浏览中创造大量英语接触机会，显著提升学习效率。支持主流平台如B站、微博、知乎等，让学习自然发生而不需刻意安排。&lt;/p&gt;
+&lt;h4 id=&#34;2-dualpip--双语字幕画中画播放器&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://www.rabbitpair.com/zh/products/dualpip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DualPiP – 双语字幕画中画播放器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DualPiP是一款Chrome/Edge浏览器扩展，支持双语字幕画中画播放。它能将视频以小窗口形式悬浮播放，同时显示双语字幕和弹幕，方便用户边看边学习。 该工具适用于各类视频网站，提供进度条缩略图、快捷键控制等功能，适合外语学习或追剧。&lt;/p&gt;
+&lt;h4 id=&#34;3-study-reminder---基于遗忘曲线原理开发&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://github.com/English-Assistant/Study-Reminder&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Study-Reminder - 基于遗忘曲线原理开发&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Study Reminder 是一个智能学习辅助工具，基于遗忘曲线原理开发。它帮助用户制定科学的复习计划，提升学习效率。项目提供课程管理、学习打卡、智能复习提醒等功能，支持多端同步。采用 React + NestJS 技术栈，模块化设计，支持 Docker 快速部署。通过自定义规则和实时通知，助力用户构建系统的复习体系，适用于语言学习等需要长期记忆的场景。&lt;/p&gt;
+&lt;h4 id=&#34;4-aidocgenius---智能文档处理工具&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://github.com/jiangmuran/AIDocGenius&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AIDocGenius - 智能文档处理工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AIDocGenius 是一个基于 AI 的智能文档处理工具。它支持文档摘要生成、多语言翻译、内容分析、格式转换和关键信息提取等功能。项目提供 Python API、命令行工具和 Web 服务三种使用方式，支持 Docker 容器化部署。&lt;/p&gt;
+&lt;h4 id=&#34;5-ainee---notebooklm的免费替代方案&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://github.com/luyu0279/Ainee&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ainee - NotebookLM的免费替代方案&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Ainee是一款AI学习助手，旨在通过智能技术革新知识管理方式。它能捕捉并整理音频、文本、文件、视频等多格式内容，构建统一知识库。支持实时笔记、AI摘要生成、知识图谱创建、智能问答等功能，可作为NotebookLM的免费替代方案。适用于学生、研究者、职场人士等群体，帮助用户高效学习、整理和分享知识内容。项目采用Python+Node.js技术栈，包含网页爬虫、知识处理等模块，提供开箱即用的Docker部署方案。&lt;/p&gt;
+&lt;h4 id=&#34;6-影梭---定位修改&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ZCShou/GoGoGo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;影梭 - 定位修改&lt;/strong&gt;&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;影梭是一个基于 Android 调试 API + 百度地图及定位 SDK 实现的安卓定位修改工具，并且同时实现了一个可以自由控制移动的摇杆。使用影梭，不需要 ROOT 权限就可以随意修改自己的当前位置以及模拟移动。&lt;/p&gt;
+&lt;h4 id=&#34;7-openhashtab---快速计算和校验文件哈希值&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://github.com/namazso/OpenHashTab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenHashTab - 快速计算和校验文件哈希值&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;OpenHashTab 是一个Windows右键扩展工具，可以快速计算和校验文件哈希值。支持28种算法（如MD5/SHA/CRC等），内建病毒总比检查功能，可导出校验文件。开源免费，兼容Win7+系统，提供多语言界面。比同类软件HashTab更轻量高效，开发者持续维护更新。&lt;/p&gt;
+&lt;h4 id=&#34;8-resumetojob---开源在线简历制作工具&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ltlylfun/ResumeToJob&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ResumeToJob - 开源在线简历制作工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ResumeToJob是一款开源的在线简历制作工具，提供多种精美模板，帮助用户专注于内容而非格式。支持响应式设计、Markdown编辑、PDF导出及隐私保护，基于Next.js和TypeScript开发。适用于求职者快速创建专业简历。&lt;/p&gt;
+&lt;h4 id=&#34;9-magicjobs---ai-简历优化&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://magicjobs.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MagicJobs - AI 简历优化&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;MagicJobs是一款AI简历优化工具，专为求职者设计。它智能分析职位描述（JD）的关键点，自动优化简历内容，精准提升与岗位的匹配度。内置Deepseek技术，经过资深HR训练，可帮助用户针对性改进简历，显著提高求职成功率。全程免费且保护隐私，三步操作即可生成专业简历，是高效求职的首选助手。&lt;/p&gt;
+&lt;h4 id=&#34;10-linkchecker--检测网站url有效性&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://github.com/isixe/LinkChecker&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkChecker- 检测网站URL有效性&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LinkChecker是一个用于检测网站URL有效性的工具，可以检查链接是否有效，并分类标记失效链接。它支持分域名统计外部链接引用情况，同时可识别RSS订阅源，帮助用户快速排查网站中的无效链接。该项目基于TypeScript开发，采用MIT开源协议，提供实时检测和可视化报告功能，可通过本地部署或在线Demo体验。&lt;/p&gt;
+&lt;h4 id=&#34;11-linksumm---输入url让ai为您总结&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://linksumm.aimerge.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkSumm - 输入URL让AI为您总结&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;只需要输入URL就能快速生成摘要，提供两种请求模式（快速/深度）和多款AI模型选择（DeepSeek、Doubao Pro等），能帮助用户高效获取网页核心信息。安装浏览器扩展后，还能实现更便捷的一键总结功能，是知识工作者快速浏览网络内容的得力助手。&lt;/p&gt;
+&lt;h4 id=&#34;12-chromium-style-qr-code---url-转换-chromium-风格二维码&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://github.com/liuliangsir/chromium-style-qrcode-generator-with-wasm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chromium Style QR Code - url 转换 chromium 风格二维码&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个基于Rust和WebAssembly的高性能二维码生成器，完美复现Chromium浏览器风格的QR码效果。项目采用WASM技术实现高效生成，支持实时预览、智能复制和高质量下载功能，专为Web应用设计。生成的QR码具有像素级精度，与Chrome原生QR码完全一致，并内置了Chromium经典恐龙图标作为中心logo。&lt;/p&gt;
+&lt;h4 id=&#34;13-text-to-svg---简约文字logo&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://github.com/JiuRanYa/text-to-svg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;text-to-svg - 简约文字logo&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这个项目是一个在线工具，可将Google字体快速转换为SVG路径，支持自定义字体上传和多参数调整。用户可以自由设置字体大小、间距、曲线精度，还能添加填充色和描边效果。生成路径后可直接下载SVG或DXF格式，适用于Logo设计、激光雕刻等场景。特色是实时预览和动画功能，适合设计师和开发者快速获得矢量文字资源。&lt;/p&gt;
+&lt;h4 id=&#34;14-ai-illustration---ai-notion风格插画&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://github.com/yiquan00/AI-illustration-generator-demo-&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI-illustration - AI Notion风格插画&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AI Notion风格插画生成器是一个开源的在线工具，使用Next.js和TypeScript构建，可生成符合Notion美学的扁平化插画。支持用户注册、积分购买、Stripe支付和社交分享，采用PostgreSQL存储数据并通过Cloudflare R2管理图片。专注提供简洁直观的界面，适用于博客、杂志等场景。&lt;/p&gt;
+&lt;h4 id=&#34;15-paper---markdown-微信公众号编辑器&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://github.com/xiaolinbaba/Paper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Paper - Markdown 微信公众号编辑器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Paper 是一款轻量级纯前端单 HTML 文件实现的微信公众号 Markdown 编辑器，支持实时预览、多图片横向滑动、信息卡片等特色功能。其预览区与微信公众号编辑器完全等宽，提供现代化三栏布局，无需后端即可运行。该项目完全开源，支持自定义样式，可直接下载 HTML 文件离线使用或部署到 Cloudflare Pages。&lt;/p&gt;
+&lt;h4 id=&#34;16-env-preview--预览环境变量的值&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Simon-He95/env-preview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;env-preview- 预览环境变量的值&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Env Preview 是 VS Code 的一款扩展插件，可在代码编辑器中直接预览环境变量的值。支持多种语法格式（如 process.env 或 import.meta.env），实时显示不同.env文件中的变量值，并支持快速跳转定义和复制值，帮助开发者高效管理环境配置。&lt;/p&gt;
+&lt;h4 id=&#34;17-all-in-ssl---ssl证书自动化管理&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://allinssl.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;All in SSL - SSL证书自动化管理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ALLinSSL是一个开源免费的SSL证书自动化管理平台，支持一键申请、部署和续期多种证书（如Let&amp;rsquo;s Encrypt）。它提供可视化仪表盘和跨云平台支持（阿里云、腾讯云等），通过全自动化流程降低运维成本，适用于个人开发者和企业用户。开源社区驱动，核心功能完全免费。&lt;/p&gt;
+&lt;h4 id=&#34;18-cloudflare-ai-insight-daily---ai资讯聚合平台&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CloudFlare-AI-Insight-Daily - AI资讯聚合平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个基于Cloudflare Workers构建的AI资讯聚合平台，通过Google Gemini模型自动分析每日AI领域的热点新闻、学术论文和开源项目，并生成结构化日报和播客脚本。支持多种阅读方式（网页/RSS/公众号），帮助用户高效获取前沿AI动态。采用Serverless架构，开源可定制。&lt;/p&gt;
+&lt;h4 id=&#34;19-晕车缓解工具---听一段特定频率的音频一分钟&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://suan.pingflash.com/zh/motion-sickness&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;晕车缓解工具 - 听一段特定频率的音频一分钟&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;日本名古屋大学新鲜出炉的研究，只要听一段特定频率的音频一分钟，就能有效缓解晕车症状。原理是，100Hz 的音频能够激活耳石反射通路，从而调节前庭功能，进而缓解晕动症状。&lt;/p&gt;
+&lt;h4 id=&#34;20-特殊符号复制工具---1000特殊字符&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://special-characters.aitoolshubs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;特殊符号复制工具 - 1000+特殊字符&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;专业的特殊符号复制工具，包含1000+特殊字符，支持数学符号、货币符号、箭头、希腊字母等多种分类。一键复制，提升Word文档编辑效率。&lt;/p&gt;
+&lt;h4 id=&#34;21-usaddrgen---美国地址生成器&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://www.usaddrgen.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;usaddrgen - 美国地址生成器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;美国地址生成器是一个在线工具，可以随机生成虚构的美国地址及配套的个人身份信息（如姓名、电话、职业等），适用于测试、开发或学习用途。所有数据均为模拟生成，请勿用于非法活动。&lt;/p&gt;
+&lt;h4 id=&#34;22-openderisk---风险智能管理系统&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://github.com/derisk-ai/OpenDerisk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenDerisk - 风险智能管理系统&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;OpenDeRisk 是一个AI原生的风险智能管理系统，通过多智能体协同实现7*24小时全栈式应用防护。该项目基于开源架构打造，整合了OpenRCA数据集（26GB）的根因分析能力，采用SRE-Agent、Code-Agent等数字员工协同工作，提供可视化证据链和深度诊断能力。技术栈包含Python/TypeScript，核心功能包括日志分析、动态编码诊断和三维可视化，企业用户可快速部署实现对复杂运维问题的智能定位与处置。&lt;/p&gt;
+&lt;h4 id=&#34;23-altapps---收录主流装机必备的大多数软件&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://zh.altapps.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Altapps - 收录主流装机必备的大多数软件&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Altapps 网站收录了基本上主流、装机必备的大多数软件，你在这里可以寻找到它们的免费代替品。 网站还支持多国语言，你可以通过点击右上角来切换语言。 例如需要寻找微软 Ofiice 的免费代替品，你只需要搜索 Microsoft Office 关键词，后在列表下面会显示相关的代替品了，会标识是否免费、免费增值应用等信息。&lt;/p&gt;
+&lt;h4 id=&#34;24-newreleases---通知来自许多编程平台的新版本发布&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://newreleases.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NewReleases - 通知来自许多编程平台的新版本发布&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NewReleases是一项简单的服务，用于通知来自许多编程平台的新版本发布，例如GitHub，PyPI，Maven，NPM，Gems，Cargo，Packagist，Docker Hub等。通知可能会传递到您的电子邮件，Slack频道，Telegram，Google Hangouts聊天，Microsoft Teams或自定义Webhook。还有NewReleases API可自动执行软件包管理。如果发行版包含发行说明，则它将包含在通知中。电子邮件通知的频率可以根据每个项目进行配置，还可以过滤预发布，更新和使用正则表达式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;awesome&#34;&gt;&amp;raquo;&amp;gt;awesome
+&lt;/h2&gt;&lt;h4 id=&#34;1-sindresorhusawesome3691k&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://github.com/sindresorhus/awesome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sindresorhus/awesome&lt;/a&gt;（369.1k）
+&lt;/h4&gt;&lt;p&gt;本项目收集整理了各种有趣技术主题的精选列表，涵盖编程语言、前端开发、人工智能、大数据、网络安全等众多领域。该项目采用CC0-1.0许可协议，拥有近37万星标和3万分支，社区贡献者超过1200人，被誉为技术资源的&amp;quot;百科全书&amp;rdquo;。每个主题列表都包含相关工具的推荐链接，是开发者寻找优质资源的重要参考目录。&lt;/p&gt;
+&lt;h4 id=&#34;2-vintaawesome-python2468k&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://github.com/vinta/awesome-python&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vinta/awesome-python&lt;/a&gt;（246.8k）
+&lt;/h4&gt;&lt;p&gt;本项目旨在整理 Python 生态中优秀的框架、库、工具和资源。它按功能分类（如 Web 开发、机器学习、爬虫等），收录了 Django、Flask、PyTorch 等知名库，并提供简介和链接。项目强调“精选”与“实用性”，每周更新，适合开发者快速发现高质量工具。目前获得 24.7 万个星标，是 Python 开发者常用的参考清单。&lt;/p&gt;
+&lt;h4 id=&#34;3-avelinoawesome-go146k&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://github.com/avelino/awesome-go&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;avelino/awesome-go&lt;/a&gt;（146k）
+&lt;/h4&gt;&lt;p&gt;本项目汇集了Go语言生态中优秀的框架、库和软件工具。项目按功能分类整理，包含网络开发、数据库、机器学习等领域，并附有详细说明和链接。它定期更新，受到Go开发者广泛关注，是寻找高质量Go资源的权威指南。项目采用MIT许可，鼓励社区贡献，是Go程序员必备的参考目录。&lt;/p&gt;
+&lt;h4 id=&#34;4-awesome-selfhostedawesome-selfhosted233k&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://github.com/awesome-selfhosted/awesome-selfhosted&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;awesome-selfhosted/awesome-selfhosted&lt;/a&gt;（233k）
+&lt;/h4&gt;&lt;p&gt;本项目收录了可以自行托管的开源网络服务和 Web 应用程序，涵盖博客平台、云存储、社交媒体、自动化工具等多种类型。目标是帮助用户摆脱对 SaaS 的依赖，完全掌控自己的数据。项目拥有超过 600 个子分类（如文件管理、电子邮件、视频会议等），所有软件均为 自由开源（FOSS），部分标记为「非自由」的有单独列表。支持 HTML 和 Markdown 格式查看，鼓励社区贡献。提供隐私优先、去中心化的自托管方案。&lt;/p&gt;
+&lt;h4 id=&#34;5-papers-we-lovepapers-we-love939k&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://github.com/papers-we-love/papers-we-love&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;papers-we-love/papers-we-love&lt;/a&gt;（93.9k）
+&lt;/h4&gt;&lt;p&gt;本项目是一个围绕阅读、讨论和学习计算机科学学术论文的开发者社区。该项目通过GitHub仓库整理优秀的论文资源，提供分类目录和外部链接（部分可直接下载）。社区在全球有多个线下分会，通过Meetup和Discord推动交流，并附有论文阅读指南。鼓励贡献添加论文、优化分类或推荐其他资源库。其名称和标志归PWL Ltd所有，需授权使用。&lt;/p&gt;
+&lt;h4 id=&#34;6-wasabeefawesome-android-ui528k&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://github.com/wasabeef/awesome-android-ui&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wasabeef/awesome-android-ui&lt;/a&gt;（52.8k）
+&lt;/h4&gt;&lt;p&gt;该项目旨在收集和整理高质量的 Android UI/UX 开源库。该项目按组件分类（如布局、按钮、列表、动画等），每个条目包含库名称、许可证和演示截图或 GIF。目前已收录超过 300 个精选库，涵盖 Jetpack Compose、Material Design、交互动画等热门领域，为开发者提供一站式灵感与代码资源，是 Android 开发者的高效工具指南。&lt;/p&gt;
+&lt;h4 id=&#34;7-jaywcjloveawesome-mac839k&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://github.com/jaywcjlove/awesome-mac&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;jaywcjlove/awesome-mac&lt;/a&gt;（83.9k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的 macOS 优质软件合集，收集了各类生产力工具、开发软件、设计工具、实用程序等，涵盖文本编辑、办公套件、笔记应用、开发者工具、系统增强等类别。项目开源在 GitHub，持续更新，提供中英双语版本，按 MIT 协议授权，是 Mac 用户和开发者的宝藏资源库。所有推荐均标注开源、免费或付费，部分含官网/商店链接。&lt;/p&gt;
+&lt;h4 id=&#34;8-hack-with-githubawesome-hacking937k&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Hack-with-Github/Awesome-Hacking&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hack-with-Github/Awesome-Hacking&lt;/a&gt;（93.7k）
+&lt;/h4&gt;&lt;p&gt;该项目是GitHub上一个热门的安全研究资源合集，专门为黑客、渗透测试员和安全研究人员打造。它收集了大量分类整理的工具、教程、漏洞赏金项目、CTF资源和各类安全技术参考列表，覆盖移动安全、IoT安全、社会工程学、威胁情报等20多个细分领域，持续汇集全球安全社区的最新优质资源，是网络安全从业者的知识宝库。&lt;/p&gt;
+&lt;h4 id=&#34;9-sindresorhusawesome-nodejs614k&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://github.com/sindresorhus/awesome-nodejs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sindresorhus/awesome-nodejs&lt;/a&gt;（61.4k）
+&lt;/h4&gt;&lt;p&gt;该项目收集了大量高质量的 Node.js 包、库、框架、教程和工具，涵盖开发、调试、测试、数据库、Web 开发等多个领域。目标是帮助开发者快速找到适合需求的 Node.js 生态资源，提升开发效率。&lt;/p&gt;
+&lt;h4 id=&#34;10-vsouzaawesome-ios491k&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://github.com/vsouza/awesome-ios&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vsouza/awesome-ios&lt;/a&gt;（49.1k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精选的 iOS 生态系统资源列表，收录了最优秀的开源项目和工具，涵盖 Objective-C 和 Swift 开发。项目按分类整理，包括 UI 组件、网络、动画、AR、机器学习等 70+ 技术领域，为开发者提供全面的开发参考。支持 SwiftUI、Combine 等现代技术，并持续更新维护，是 iOS 开发者必备的资源库，可帮助快速发现高质量工具和框架。&lt;/p&gt;
+&lt;h4 id=&#34;11-maximabramchuckawesome-interview-questions754k&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://github.com/MaximAbramchuck/awesome-interview-questions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MaximAbramchuck/awesome-interview-questions&lt;/a&gt;（75.4k）
+&lt;/h4&gt;&lt;p&gt;该项目收集整理各类编程语言、框架、数据库和开发领域的面试题。涵盖了前端、后端、移动开发（如Android/iOS）、算法、系统设计等内容，是开发者准备技术面试的实用资源库。&lt;/p&gt;
+&lt;h4 id=&#34;12-prakhar1989awesome-courses61k&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://github.com/prakhar1989/awesome-courses&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;prakhar1989/awesome-courses&lt;/a&gt;（61k）
+&lt;/h4&gt;&lt;p&gt;该项目收录了全球顶尖大学提供的免费高质量计算机科学课程资源。项目内容涵盖计算机科学多个核心领域，如算法、系统编程、机器学习、数据库等，包括公开的课程资料、视频讲座、作业和考试题。该项目非常适合自学者和开发者查找优质的在线学习资料，按需获取名校课程内容，提升技术能力。&lt;/p&gt;
+&lt;h4 id=&#34;13-trimstraythe-book-of-secret-knowledge174k&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://github.com/trimstray/the-book-of-secret-knowledge&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;trimstray/the-book-of-secret-knowledge&lt;/a&gt;（174k）
+&lt;/h4&gt;&lt;p&gt;该项目汇集了系统管理、网络安全、DevOps等领域的实用资源，包括工具清单、教程、速查表、博客、黑客技巧和命令行工具等。涵盖Linux/Unix系统、容器编排、渗透测试、编程语言等内容，面向运维工程师、安全研究员和技术爱好者。项目强调实用性，收录高质量资源，成为技术人员的宝藏手册。&lt;/p&gt;
+&lt;h4 id=&#34;14-tiimgreengithub-cheat-sheet511k&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://github.com/tiimgreen/github-cheat-sheet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tiimgreen/github-cheat-sheet&lt;/a&gt;（51.1k）
+&lt;/h4&gt;&lt;p&gt;该项目收集了各种高效使用 Git 和 GitHub 的隐藏技巧和实用功能，涵盖代码比较、分支管理、Markdown 增强（如表情符号支持）、Issues/Pull Requests 优化操作、CI/CD 集成等场景。提供多语言版本（包括中文），通过简洁的示例和分类索引，帮助开发者快速掌握 GitHub 高级功能，提高协作效率。&lt;/p&gt;
+&lt;h4 id=&#34;15-521xueweihanhellogithub118k&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://github.com/521xueweihan/HelloGitHub&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;521xueweihan/HelloGitHub&lt;/a&gt;（118k）
+&lt;/h4&gt;&lt;p&gt;HelloGitHub是一个开源项目分享平台，致力于推荐 GitHub 上有趣、入门级的开源项目，帮助开发者轻松入门开源世界。&lt;/p&gt;
+&lt;p&gt;每月更新：以月刊形式发布，涵盖编程语言、工具、书籍、实战项目等。&lt;/p&gt;
+&lt;p&gt;项目精选：适合新手学习，降低上手难度，激发对开源的兴趣。&lt;/p&gt;
+&lt;p&gt;多语言支持：提供中文、英文、日语内容，官网提供更好阅读体验。&lt;/p&gt;
+&lt;h4 id=&#34;16-solidoawesome-flutter562k&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Solido/awesome-flutter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Solido/awesome-flutter&lt;/a&gt;（56.2k）
+&lt;/h4&gt;&lt;p&gt;该项目专注于整理Flutter生态的精品资源。它系统收录了开发者工具、UI库、导航组件、状态管理框架（如Bloc、Riverpod）、动画引擎、开源应用示例等全栈解决方案，特别推荐StreamChat等企业级SDK。包含国际化、测试、桌面端嵌入等专项指南，并覆盖Firebase、机器学习等进阶主题。项目按功能分类，附代码片段和演示链接，全球开发者社区持续维护，是Flutter开发者的权威技术栈导航。&lt;/p&gt;
+&lt;h4 id=&#34;17-dypsilonfrontend-dev-bookmarks44k&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://github.com/dypsilon/frontend-dev-bookmarks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dypsilon/frontend-dev-bookmarks&lt;/a&gt;（44k）
+&lt;/h4&gt;&lt;p&gt;该项目涵盖了动画、架构、兼容性、生态系统、语言与协议、UI组件及工作流等多个分类。项目以分类清晰的小文件形式组织，也提供聚合版的大文件，适合开发者快速查找工具、库或最佳实践。&lt;/p&gt;
+&lt;h4 id=&#34;18-binhnguyennusawesome-scalability626k&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://github.com/binhnguyennus/awesome-scalability&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;binhnguyennus/awesome-scalability&lt;/a&gt;（62.6k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个关于大规模系统可扩展性、可靠性和性能的开源知识库，收集了来自知名工程师的架构设计原则、技术实践和案例分析。项目涵盖了微服务、分布式缓存、数据库分片、消息队列等技术，并包含 Airbnb、Facebook、Netflix 等公司的实战案例。它还提供了系统设计面试资源和团队扩展建议，帮助开发者掌握构建高性能分布式系统的核心模式。适合工程师、架构师和技术管理者参考学习。&lt;/p&gt;
+&lt;h4 id=&#34;19-fffarazawesome-cpp643k&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://github.com/fffaraz/awesome-cpp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;fffaraz/awesome-cpp&lt;/a&gt;（64.3k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的 C++（和 C）框架、库、资源和工具集合。它涵盖了标准库、开发框架、网络、图形、机器学习等众多领域，并分类列出高质量的开源项目，旨在帮助开发者快速找到可靠的 C++ 资源。每个条目包含名称、功能和许可证信息，定期更新，适合初学者和高级开发者参考。&lt;/p&gt;
+&lt;h4 id=&#34;20-akullppawesome-java44k&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://github.com/akullpp/awesome-java&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;akullpp/awesome-java&lt;/a&gt;（44k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精选的 Java 框架、库和软件列表，涵盖了 Java 开发的各个方面，包括架构、人工智能、构建工具、数据库、Web 开发、微服务、测试等。该项目持续更新，并按类别组织，便于开发者快速找到高质量的工具和资源。适合 Java 开发者学习、参考和使用。&lt;/p&gt;
+&lt;h4 id=&#34;21-ziadozawesome-php317k&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ziadoz/awesome-php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ziadoz/awesome-php&lt;/a&gt;（31.7k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的 PHP 资源列表，涵盖优秀的库、工具和框架。该项目由社区维护，包含各种领域的 PHP 资源，如开发框架（Laravel、Symfony）、数据库工具、测试库、安全方案、模板引擎、API 构建工具等。目标是帮助开发者快速找到高质量的 PHP 资源，提升开发效率。项目按功能分类，遵循开放协作原则，欢迎贡献。许可证为 WTFPL，强调自由使用和共享。适合 PHP 开发者和学习者参考。&lt;/p&gt;
+&lt;h4 id=&#34;22-agarrharrawesome-cli-apps168k&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://github.com/agarrharr/awesome-cli-apps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;agarrharr/awesome-cli-apps&lt;/a&gt;（16.8k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精选的命令行工具集合，涵盖开发、生产力、娱乐、数据操作等类别。该项目收录了大量实用 CLI 工具，如 youtube-dl（视频下载）、htop（系统监控）、tldr（简化文档）、fzf（模糊搜索）等，旨在帮助用户高效完成终端任务。每个工具附有简介，适合开发者、极客和 Linux/macOS 用户提升工作效率。项目持续更新，灵感来自 Awesome 系列，采用 MIT 许可证开源。&lt;/p&gt;
+&lt;h4 id=&#34;23-dkhamsingopen-source-ios-apps453k&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://github.com/dkhamsing/open-source-ios-apps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dkhamsing/open-source-ios-apps&lt;/a&gt;（45.3k）
+&lt;/h4&gt;&lt;p&gt;该项目汇集了大量开源的iOS、iPadOS、watchOS、tvOS和visionOS应用。这个列表包含了各种类型的应用，如浏览器、计算器、日历、游戏、社交媒体工具、开发者工具等，所有项目均以开源许可证发布，适合学习、参考或直接复用。项目定期更新，邀请开发者贡献代码或提交新的开源应用。&lt;/p&gt;
+&lt;p&gt;仓库以清晰的分类（如Apple TV、Apple Vision、游戏、工具等）整理应用，并提供应用截图、描述、技术栈（如Swift、React Native、Flutter等）和App Store链接（如适用）。目标是促进开源生态发展，帮助开发者发现优质项目。&lt;/p&gt;
+&lt;h4 id=&#34;24-serhii-londaropen-source-mac-os-apps442k&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://github.com/serhii-londar/open-source-mac-os-apps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;serhii-londar/open-source-mac-os-apps&lt;/a&gt;（44.2k）
+&lt;/h4&gt;&lt;p&gt;该项目涵盖了音频、浏览器、开发工具、生产力、系统管理等多个类别。项目由社区维护，收录了数百个高质量的跨平台和原生应用，旨在帮助用户发现免费的开源软件，并鼓励开发者参与贡献。支持多语言开发（如 Swift、Objective-C、Python 等），提供应用截图和官网链接，方便用户快速了解和使用。适合开发者、设计师及普通用户探索 macOS 生态的开源解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;25-brilloutawesome-react-components447k&#34;&gt;25. &lt;a class=&#34;link&#34; href=&#34;https://github.com/brillout/awesome-react-components&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;brillout/awesome-react-components&lt;/a&gt;（44.7k）
+&lt;/h4&gt;&lt;p&gt;该项目专注于独特、高质量且解决实际问题的方案。它涵盖 UI 组件（表格、轮播、图表等）、表单控件（日期选择器、富文本编辑）、实用工具（国际化、性能优化）以及开发工具等分类。每个条目强调项目的创意性、实用性及活跃维护状态，避免收录过度知名或过时的内容。项目要求贡献者在提交新资源时同步移除低质量条目，确保清单精简优质。适合开发者快速查找灵感或解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;26-goabstractawesome-design-tools367k&#34;&gt;26. &lt;a class=&#34;link&#34; href=&#34;https://github.com/goabstract/Awesome-Design-Tools&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;goabstract/Awesome-Design-Tools&lt;/a&gt;（36.7k）
+&lt;/h4&gt;&lt;p&gt;该项目收录了各种设计和开发工具，涵盖 UI/UX 设计、原型制作、动画、无障碍设计等多个领域。该项目分类整理了大量免费和付费工具，并支持社区贡献。是设计师和开发者的实用资源库，帮助用户快速找到合适的工具提高工作效率。&lt;/p&gt;
+&lt;h4 id=&#34;27-sindresorhusawesome-electron264k&#34;&gt;27. &lt;a class=&#34;link&#34; href=&#34;https://github.com/sindresorhus/awesome-electron&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sindresorhus/awesome-electron&lt;/a&gt;（26.4k）
+&lt;/h4&gt;&lt;p&gt;该项目专门收集与 Electron 框架相关的优秀工具、库、示例应用和开发资源。Electron 是一个使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用的框架（如 VS Code、Slack 等）。该项目由社区维护，涵盖开发全周期的实用内容，包括应用案例、脚手架工具、组件库、调试技巧、打包方案及学习资料（文章/视频），适合初学者和进阶开发者参考，助力高效开发跨平台桌面应用。&lt;/p&gt;
+&lt;h4 id=&#34;28-alebcayawesome-shell345k&#34;&gt;28. &lt;a class=&#34;link&#34; href=&#34;https://github.com/alebcay/awesome-shell&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;alebcay/awesome-shell&lt;/a&gt;（34.5k）
+&lt;/h4&gt;&lt;p&gt;该项目收录了各类优秀的命令行工具、框架、指南和资源，涵盖了Shell开发相关的方方面面。该项目受到awesome-php的启发，包含了对Bash、Zsh、Fish等多种Shell的支持，汇总了命令行生产力工具、开发者实用程序、Shell脚本开发框架等500多个高质量项目。无论是Shell新手还是资深开发者，都能从中找到提升终端效率的神器,是命令行爱好者的极佳参考资源。&lt;/p&gt;
+&lt;h4 id=&#34;29-matteocrippaawesome-swift254k&#34;&gt;29. &lt;a class=&#34;link&#34; href=&#34;https://github.com/matteocrippa/awesome-swift&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;matteocrippa/awesome-swift&lt;/a&gt;（25.4k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个由社区协作维护的精选Swift资源大全，收录了2400+个优秀的Swift库、框架、工具和指南。该项目按功能分类组织，涵盖UI开发、网络请求、动画、AI、测试等30多个领域，并提供学习资料和命令行工具，是iOS/macOS开发者的实用宝典，帮助快速查找所需解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;30-mungellawesome-for-beginners747k&#34;&gt;30. &lt;a class=&#34;link&#34; href=&#34;https://github.com/MunGell/awesome-for-beginners&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MunGell/awesome-for-beginners&lt;/a&gt;（74.7k）
+&lt;/h4&gt;&lt;p&gt;该项目专门为编程新手提供友好的开源项目合集。该项目按编程语言分类（如 Python、JavaScript、Java 等），收录了大量标注有 &amp;ldquo;good first issue&amp;rdquo; 或类似标签的开源项目。这些项目通常包含简单的任务和明确的贡献指南，帮助初学者通过实战学习开源协作。项目还涵盖非程序员可参与的文档改进、设计等贡献方式，并推荐了 First Contributions 等新手教学资源，是进入开源世界的理想起点。&lt;/p&gt;
+&lt;h4 id=&#34;31-lukasz-madonawesome-remote-job384k&#34;&gt;31. &lt;a class=&#34;link&#34; href=&#34;https://github.com/lukasz-madon/awesome-remote-job&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;lukasz-madon/awesome-remote-job&lt;/a&gt;（38.4k）
+&lt;/h4&gt;&lt;p&gt;该项目涵盖了远程工作相关的文章、视频、书籍、招聘平台、工具、公司推荐等。该项目提供了全面的远程工作指南，包括如何高效工作、招聘远程人才、管理分布式团队等实用资源。适合求职者、远程工作者和企业管理者使用，旨在帮助更多人成功实现远程办公。该项目开源且持续更新，深受开发者和远程工作爱好者欢迎。&lt;/p&gt;
+&lt;h4 id=&#34;32-veggiemonkawesome-docker326k&#34;&gt;32. &lt;a class=&#34;link&#34; href=&#34;https://github.com/veggiemonk/awesome-docker&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;veggiemonk/awesome-docker&lt;/a&gt;（32.6k）
+&lt;/h4&gt;&lt;p&gt;该项目收集了各种与Docker相关的优秀工具、项目和服务。这个项目涵盖了Docker的全生命周期使用，包括开发环境、构建工具、CI/CD集成、容器编排、安全扫描、监控系统等，并按类别细分，如Docker镜像、网络、存储管理等。它不仅收录了官方产品如Docker Engine和Docker Compose，还包含了社区开发的创新工具如Lazydocker（终端UI）、Trivy（漏洞扫描）等。项目强调实用性，每个条目都经过维护者测试，附带有用标签标识项目状态（如已废弃或商业产品），是Docker生态系统的实用指南宝典。&lt;/p&gt;
+&lt;h4 id=&#34;33-viatskoawesome-vscode267k&#34;&gt;33. &lt;a class=&#34;link&#34; href=&#34;https://github.com/viatsko/awesome-vscode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;viatsko/awesome-vscode&lt;/a&gt;（26.7k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精选的 Visual Studio Code (VS Code) 扩展和资源集合。涵盖了主题、语法高亮、代码片段、调试工具、生产力增强等多种扩展，帮助开发者提升开发体验。项目按语言、技术栈分类，支持 Atom、Vim 等其他编辑器用户的迁移。所有资源均为社区推荐，质量可靠且持续更新。适合 VS Code 用户挖掘高效工具，优化工作流。&lt;/p&gt;
+&lt;h4 id=&#34;34-nikitavoloboevmy-mac-os21k&#34;&gt;34. &lt;a class=&#34;link&#34; href=&#34;https://github.com/nikitavoloboev/my-mac-os&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nikitavoloboev/my-mac-os&lt;/a&gt;（21k）
+&lt;/h4&gt;&lt;p&gt;该项目这是一个macOS和iOS的配置仓库，包含开发者Nikita Voloboev日常使用的应用、命令行工具和配置文件。主要特点：使用Karabiner实现高度自定义的键盘映射；采用Alfred/Raycast作为搜索工具；包含Fish Shell、Safari、Cursor编辑器等开发工具配置；提供iOS的应用推荐和快捷指令配置；包含自动化脚本和生产力工具设置。该项目展示了开发者优化的跨设备工作流，强调键盘驱动操作和快速访问，适合希望提升工作效率的技术用户参考。&lt;/p&gt;
+&lt;h4 id=&#34;35-rust-unofficialawesome-rust509k&#34;&gt;35. &lt;a class=&#34;link&#34; href=&#34;https://github.com/rust-unofficial/awesome-rust&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;rust-unofficial/awesome-rust&lt;/a&gt;（50.9k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的 Rust 代码和资源集合，涵盖了应用开发、数据库、嵌入式、区块链、机器学习等众多领域的库、工具和框架。项目由社区维护，旨在为开发者提供 Rust 生态的全面参考，包括音频处理、安全工具、Web 开发、游戏引擎等分类。所有资源按用途分类，支持快速查找。适合初学者和高级用户探索 Rust 的实用工具和最佳实践，是 Rust 开发者的重要导航目录。&lt;/p&gt;
+&lt;h4 id=&#34;36-christoschristofidisawesome-deep-learning255k&#34;&gt;36. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ChristosChristofidis/awesome-deep-learning&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ChristosChristofidis/awesome-deep-learning&lt;/a&gt;（25.5k）
+&lt;/h4&gt;&lt;p&gt;该项目系统整理了深度学习领域的所有优质资源。该项目包含经典教材、名校课程、学术论文、主流框架、常用数据集、开发工具以及重要学术会议等各类资料，所有内容都按照类别清晰分类并附有简介和链接。无论是想入门深度学习的新手，还是需要查阅资料的研究者，都能从这个项目中找到有价值的参考资源。&lt;/p&gt;
+&lt;h4 id=&#34;37-allthingssmittycss-protips292k&#34;&gt;37. &lt;a class=&#34;link&#34; href=&#34;https://github.com/AllThingsSmitty/css-protips&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AllThingsSmitty/css-protips&lt;/a&gt;（29.2k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个收集CSS专业技巧的开源项目，旨在帮助开发者提升CSS技能。项目包含30多条实用技巧，涵盖布局优化、响应式设计、性能提升等方面，如使用CSS Reset、Flexbox垂直居中、SVG图标替代等。&lt;/p&gt;
+&lt;h4 id=&#34;38-wsdjegspacevim204k&#34;&gt;38. &lt;a class=&#34;link&#34; href=&#34;https://github.com/wsdjeg/SpaceVim&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wsdjeg/SpaceVim&lt;/a&gt;（20.4k）
+&lt;/h4&gt;&lt;p&gt;SpaceVim是一个模块化的Vim和Neovim配置框架，其设计灵感来源于Spacemacs。它采用分层结构组织插件和功能，通过预定义的模块化层让用户无需手动管理各种插件配置。该项目提供了详细的文档指南，支持自动显示快捷键提示，并采用延迟加载技术提升启动速度。SpaceVim拥有美观的界面设计，重新实现了核心功能并提供了Vim/Neovim兼容API。&lt;/p&gt;
+&lt;h4 id=&#34;39-awesome-harmonyosharmonyos196k&#34;&gt;39. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Awesome-HarmonyOS/HarmonyOS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Awesome-HarmonyOS/HarmonyOS&lt;/a&gt;（19.6k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个收集与华为鸿蒙操作系统（HarmonyOS）相关的各种资源和信息的精选列表。项目包含了鸿蒙的官方文档、开发工具、硬件驱动、社区资源等内容，旨在帮助开发者和爱好者更好地了解和开发鸿蒙系统。它并非官方项目，而是一个由社区驱动的资源汇总，涵盖鸿蒙系统的特性、发展历程、架构解析等内容。&lt;/p&gt;
+&lt;h4 id=&#34;40-ty4z2008qix149k&#34;&gt;40. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ty4z2008/Qix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ty4z2008/Qix&lt;/a&gt;（14.9k）
+&lt;/h4&gt;&lt;p&gt;该项目主要涵盖机器学习、深度学习、PostgreSQL 数据库、分布式系统、Node.js 和 Golang 等领域的优质资料。包含大量开发指南、学习笔记和推荐资源，如算法教程、数据库优化技巧、分布式系统理论基础等。项目采用 MIT 开源协议，鼓励开发者通过提交 Pull Request 共同完善内容。&lt;/p&gt;
+&lt;h4 id=&#34;41-tmrtsgo-patterns266k&#34;&gt;41. &lt;a class=&#34;link&#34; href=&#34;https://github.com/tmrts/go-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;tmrts/go-patterns&lt;/a&gt;(26.6k)
+&lt;/h4&gt;&lt;p&gt;该项目是一个Go语言的设计模式、常用范例和惯用法的精选合集，由社区维护。项目分类整理了创建型、结构型、行为型等常见设计模式，还包括并发、同步、消息传递、稳定性等特定领域的实现方案，并提供了功能性选项等Go特有的编程范式。每个模式都有状态标记（实现/未实现），适合Go开发者学习如何编写优雅、高效和可维护的代码。&lt;/p&gt;
+&lt;h4 id=&#34;42-thangchungawesome-dotnet-core205k&#34;&gt;42. &lt;a class=&#34;link&#34; href=&#34;https://github.com/thangchung/awesome-dotnet-core&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;thangchung/awesome-dotnet-core&lt;/a&gt;(20.5k)
+&lt;/h4&gt;&lt;p&gt;该项目是一个收集了大量优秀 .NET Core 库、工具、框架和软件的精选项目。该项目按类别组织，包括 API 开发、应用框架、数据库、安全、测试等多个技术领域，为开发者提供了丰富的开发资源。该资源库由社区驱动，持续更新，并且包含了开源与商业软件，旨在帮助开发者更高效地构建基于 .NET Core 的高质量应用。无论你是初学者还是资深开发者，都能从中找到有用的工具或库来加速开发流程。&lt;/p&gt;
+&lt;h4 id=&#34;43-gztchanawesome-design161k&#34;&gt;43. &lt;a class=&#34;link&#34; href=&#34;https://github.com/gztchan/awesome-design&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gztchan/awesome-design&lt;/a&gt;（16.1k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的设计资源合集，涵盖了UI/UX设计师日常工作所需的高质量资源和工具。项目收集了来自全球的优秀设计素材，包括图片素材、图标、配色方案、字体、原型工具、用户测试方法等各类实用资源。作为一个持续更新的开源项目，它鼓励设计师社区贡献优质资源，通过issue或pull request来分享设计智慧。无论你是设计新手还是专业人士，都能从这个项目中找到有用的参考和灵感。&lt;/p&gt;
+&lt;h4 id=&#34;44-enaqxawesome-pentest233k&#34;&gt;44. &lt;a class=&#34;link&#34; href=&#34;https://github.com/enaqx/awesome-pentest&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;enaqx/awesome-pentest&lt;/a&gt;（23.3k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个在GitHub上开源的渗透测试资源集合。它整理了大量与网络安全评估相关的工具、框架、书籍和参考资料，涵盖从漏洞扫描、社会工程到逆向工程等多个领域。项目由社区贡献者维护，采用Creative Commons许可证，适合安全研究人员、渗透测试工程师和技术爱好者参考使用，帮助识别系统漏洞并提升防御能力。内容丰富且持续更新，是网络安全领域的优质资源库。&lt;/p&gt;
+&lt;h4 id=&#34;45-xgrommxawesome-redux122k&#34;&gt;45. &lt;a class=&#34;link&#34; href=&#34;https://github.com/xgrommx/awesome-redux&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;xgrommx/awesome-redux&lt;/a&gt;（12.2k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个收集 Redux 相关示例和中间件的精选仓库，旨在为开发者提供 Redux 生态系统的实用资源。该项目涵盖了 Redux 的核心文档、最佳实践、教程、工具以及与多种流行前端框架（如 React、Angular、Vue 等）的集成方案。无论是新手学习 Redux 基础，还是需要高级功能（如状态管理、异步处理、路由集成），此仓库都提供了丰富的代码示例、库推荐和开发指南，帮助开发者更快构建高效可维护的应用程序。&lt;/p&gt;
+&lt;h4 id=&#34;46-kdeldyckeawesome-falsehood258k&#34;&gt;46. &lt;a class=&#34;link&#34; href=&#34;https://github.com/kdeldycke/awesome-falsehood&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;kdeldycke/awesome-falsehood&lt;/a&gt;（25.8k）
+&lt;/h4&gt;&lt;p&gt;该项目收集整理了大量程序员常见的错误认知和误区。它涵盖了电子邮件、地址、时间、货币、姓名、网络等各个领域的“伪真理”，例如“电子邮件地址中只能有一个@符号”或“电话号码总是由数字组成”。项目由多位开发者维护，包含文章、示例和实用工具链接，帮助开发者避免在实际编程中犯这些错误。它以开放协作的方式不断更新，是程序员解决边缘案例和编写健壮代码的有用参考。&lt;/p&gt;
+&lt;h4 id=&#34;47-chentsulinawesome-graphql148k&#34;&gt;47. &lt;a class=&#34;link&#34; href=&#34;https://github.com/chentsulin/awesome-graphql&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chentsulin/awesome-graphql&lt;/a&gt;（14.8k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个关于 GraphQL 技术的精选资源列表，托管在 GitHub 上。它收集整理了 GraphQL 相关的各种工具、库、教程和服务，涵盖了各种编程语言的实现、客户端与服务器端框架、数据库集成、安全工具等内容。项目按照技术类型和语言分类组织，包括 JavaScript、Python、Ruby、PHP 等主流语言的 GraphQL 方案，并提供了大量实用资源如测试工具、编辑器插件和实际项目示例。这个列表由社区共同维护，持续更新，是开发人员学习 GraphQL 和查找相关技术资源的重要参考库。&lt;/p&gt;
+&lt;h4 id=&#34;48-dexteryyspellbook-of-modern-webdev174k&#34;&gt;48. &lt;a class=&#34;link&#34; href=&#34;https://github.com/dexteryy/spellbook-of-modern-webdev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dexteryy/spellbook-of-modern-webdev&lt;/a&gt;（17.4k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个全面的JavaScript现代Web开发资源指南，由开发者dexteryy整理和维护。项目收集了2000多个相关链接，涵盖了从基础Web平台、HTML5/CSS3到现代JavaScript、Node.js生态等内容，还包括跨浏览器兼容、UI框架、测试工具、部署监控以及各种云服务和命令行工具。不同于普通的&amp;quot;Awesome列表&amp;rdquo;，它更注重技术分类体系，强调实用性和流行度，通过精细分类帮助开发者构建完整知识图谱。这个项目特别为全栈开发团队设计，目标是像魔法书一样让开发者掌握更多Web开发能力。&lt;/p&gt;
+&lt;h4 id=&#34;49-quozdawesome-dotnet202k&#34;&gt;49. &lt;a class=&#34;link&#34; href=&#34;https://github.com/quozd/awesome-dotnet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;quozd/awesome-dotnet&lt;/a&gt;（20.2k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精选的 .NET 生态资源合集，整理了优秀的库、工具、框架和软件。它涵盖了开发中涉及的各个方面，如算法、API开发、数据库、机器学习、桌面UI、测试工具等。项目采用社区驱动的方式维护，欢迎开发者贡献优秀资源。&lt;/p&gt;
+&lt;h4 id=&#34;50-phananhtaccess129k&#34;&gt;50. &lt;a class=&#34;link&#34; href=&#34;https://github.com/phanan/htaccess&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;phanan/htaccess&lt;/a&gt;（12.9k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个收集了大量实用 .htaccess 代码片段的 GitHub 仓库，由开发者 Phan An 创建和维护。.htaccess 文件用于配置 Apache 服务器行为，该项目整理了重定向、安全防护、性能优化等各种场景下的配置代码，如强制 HTTPS、阻止图片盗链、禁用目录浏览等。仓库的代码片段分类清晰并附带说明，适合网站管理员和开发者快速查找和使用。&lt;/p&gt;
+&lt;h4 id=&#34;51-alexpateawesome-design-systems179k&#34;&gt;51. &lt;a class=&#34;link&#34; href=&#34;https://github.com/alexpate/awesome-design-systems&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;alexpate/awesome-design-systems&lt;/a&gt;（17.9k）
+&lt;/h4&gt;&lt;p&gt;该项目收集整理了众多知名公司和组织的设计系统、UI 组件库和模式库，包括 Google Material Design、Salesforce Lightning、IBM Carbon 等 100 多个设计系统案例。每个条目都标注了其提供的功能特点，如是否包含编码组件、语音语调指南、设计工具套件或开源代码等项目特质。这个 GitHub 资源库不仅帮助设计师和开发者快速查找专业的设计规范，也是学习各大企业如何构建统一品牌体验的宝贵参考，持续收录业内优秀案例并保持更新。&lt;/p&gt;
+&lt;h4 id=&#34;52-marketsawesome-ruby138k&#34;&gt;52. &lt;a class=&#34;link&#34; href=&#34;https://github.com/markets/awesome-ruby&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;markets/awesome-ruby&lt;/a&gt;（13.8k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的 Ruby 资源集合，涵盖了各种优秀的库、工具、框架和软件。它按功能分类，几乎囊括了 Ruby 生态系统中所有重要项目，从 Web 开发框架 Rails、Sinatra 到数据库工具、测试工具、并发库等。该项目由社区驱动，持续更新维护，是 Ruby 开发者寻找高质量资源的首选指南。每个条目都经过筛选，确保内容的实用性和质量，适合从新手到资深开发者的所有 Ruby 爱好者参考使用。&lt;/p&gt;
+&lt;h4 id=&#34;53-ichaitawesome-macos168k&#34;&gt;53. &lt;a class=&#34;link&#34; href=&#34;https://github.com/iCHAIT/awesome-macOS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;iCHAIT/awesome-macOS&lt;/a&gt;（16.8k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精选的 macOS 优秀应用、软件和工具列表，涵盖了多个类别，包括音频、备份、开发工具、电子邮件、游戏、图形设计、生产力工具等，还包括很多实用的终端命令行工具和系统配置指南。该项目收录的开源或免费软件均有明确标识，方便用户查找和使用。无论是开发人员、设计师，还是普通用户都能从中找到有用的工具，提升 macOS 系统的使用体验。项目定期更新，接受社区贡献，遵循开放协作的原则。&lt;/p&gt;
+&lt;h4 id=&#34;54-dovamirawesome-design-patterns429k&#34;&gt;54. &lt;a class=&#34;link&#34; href=&#34;https://github.com/DovAmir/awesome-design-patterns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DovAmir/awesome-design-patterns&lt;/a&gt;（42.9k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的软件与架构设计模式清单，涵盖了各种编程语言和系统架构中的常见解决方案。它收集了不同技术领域的设计模式，包括微服务、云计算、大数据、移动开发、前端、安全等方面。项目提供了大量资源链接，如书籍、文章、参考实现等，帮助开发者学习和应用这些模式。内容既包含编程语言特定的模式（如Java、Python、JavaScript等），也包含了通用的架构模式（如微服务、分布式系统等）。对开发者而言，这是个非常实用的参考资料库。&lt;/p&gt;
+&lt;h4 id=&#34;55-mhinzvim-galore173k&#34;&gt;55. &lt;a class=&#34;link&#34; href=&#34;https://github.com/mhinz/vim-galore&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mhinz/vim-galore&lt;/a&gt;（17.3k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个全面的 Vim 学习资源库，涵盖了 Vim 编辑器从基础到高级的所有知识点。该项目包含 Vim 的基本操作、配置技巧、插件管理、调试方法等内容，通过清晰的说明和实用示例帮助用户掌握 Vim 的强大功能。无论是初学者还是经验丰富的用户，都能从中获得有价值的技巧和最佳实践。这个开源项目持续更新，汇集了 Vim 社区的智慧结晶，是学习 Vim 和提升编辑效率的优质参考资料。&lt;/p&gt;
+&lt;h4 id=&#34;56-posquit0awesome-cv246k&#34;&gt;56. &lt;a class=&#34;link&#34; href=&#34;https://github.com/posquit0/Awesome-CV&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;posquit0/Awesome-CV&lt;/a&gt;（24.6k）
+&lt;/h4&gt;&lt;p&gt;该项目是一款基于 LaTeX 的简历和求职信模板，提供简洁美观的排版设计，支持生成专业的 PDF 格式简历和求职信，包含多种布局样式。用户可以通过简单的配置快速定制个性化简历，适合开发者和设计师使用。项目采用 LPPL-1.3c 许可证，拥有 24.6k 星标和活跃的社区支持，提供 Docker 部署方案和在线编辑器支持，是 LaTeX 简历模板中的热门选择。&lt;/p&gt;
+&lt;h4 id=&#34;57-keonawesome-nlp172k&#34;&gt;57. &lt;a class=&#34;link&#34; href=&#34;https://github.com/keon/awesome-nlp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;keon/awesome-nlp&lt;/a&gt;（17.2k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的资源列表，专门用于自然语言处理（NLP）。它收集了大量NLP相关的工具、库、数据集、教程和研究资料，涵盖了多种语言和技术领域，适合从初学者到专家的不同需求。项目内容更新及时，由社区共同维护，帮助开发者和研究者快速找到所需的NLP资源。无论是文本分析、深度学习还是语言模型，都能在这里找到有用的参考信息。&lt;/p&gt;
+&lt;h4 id=&#34;58-awesome-fossawesome-sysadmin294k&#34;&gt;58. &lt;a class=&#34;link&#34; href=&#34;https://github.com/awesome-foss/awesome-sysadmin&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;awesome-foss/awesome-sysadmin&lt;/a&gt;（29.4k）
+&lt;/h4&gt;&lt;p&gt;该项目是一个精心整理的免费开源系统管理员资源清单，涵盖了自动化工具、备份方案、配置管理、监控系统、虚拟化技术等各类运维常用软件。该项目收录了数百个实用的工具，如 Ansible、Prometheus、Docker 等，并对每个项目附带了许可证和简介。这份清单按照功能分类，包括数据库管理、日志分析、身份认证等23个类别，特别适合需要自建服务的运维人员和开发者参考，所有资源均遵循开源协议。&lt;/p&gt;
+&lt;h4 id=&#34;59-bayandinawesome-awesomeness326k&#34;&gt;59. &lt;a class=&#34;link&#34; href=&#34;https://github.com/bayandin/awesome-awesomeness&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bayandin/awesome-awesomeness&lt;/a&gt;（32.6k）
+&lt;/h4&gt;&lt;p&gt;该项目收录了各种编程语言、开发工具和技术领域的优质资源列表。这个开源项目就像一个资源导航库，从入门学习资料到进阶技术栈，涵盖前端、后端、数据科学、人工智能等多个方向。&lt;/p&gt;
+&lt;p&gt;项目按照技术主题分类，包括 Python、JavaScript、Java 等主流语言，以及 Docker、机器学习、区块链等热门技术。所有资源都经过社区筛选和验证，可以帮助开发者快速找到高质量的学习资料、工具库和最佳实践。&lt;/p&gt;
+&lt;h4 id=&#34;60-xingshaochengarchitect-awesome603k&#34;&gt;60. &lt;a class=&#34;link&#34; href=&#34;https://github.com/xingshaocheng/architect-awesome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;xingshaocheng/architect-awesome&lt;/a&gt;（60.3k）
+&lt;/h4&gt;&lt;p&gt;该项目主要整理了后端架构师所需掌握的技术知识图谱。内容涵盖了数据结构、算法、并发编程、操作系统、设计模式、微服务、分布式系统、数据库、中间件、性能优化、安全等多个技术领域，并推荐了相关的学习资源、工具和书籍。该项目适合后端开发人员进阶学习，帮助开发者构建完整的架构师技术体系，提升工程能力和技术水平。&lt;/p&gt;
+&lt;h4 id=&#34;61-fortawesomefont-awesome754k&#34;&gt;61. &lt;a class=&#34;link&#34; href=&#34;https://github.com/FortAwesome/Font-Awesome&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FortAwesome/Font-Awesome&lt;/a&gt;（75.4k）
+&lt;/h4&gt;&lt;p&gt;该项目是互联网上最受欢迎的图标库和工具包，被数百万设计师、开发者和内容创作者广泛使用。它提供了一套丰富的可缩放矢量图标（SVG），支持通过字体、CSS 和现代 JavaScript 框架等方式轻松集成到网站或应用中。该项目完全开源，遵循 MIT、SIL OFL 和 CC BY 等多重许可协议，包含2000多个免费图标，具有跨平台兼容性。Font Awesome 6是其最新主要版本，持续维护并提供详细文档，使开发者能够快速实现响应式图标解决方案，从网页到桌面应用都能完美适配。&lt;/p&gt;
+&lt;h4 id=&#34;62-fawesome-chatgpt-prompts129k&#34;&gt;62. &lt;a class=&#34;link&#34; href=&#34;https://github.com/f/awesome-chatgpt-prompts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;f/awesome-chatgpt-prompts&lt;/a&gt;（129k）
+&lt;/h4&gt;&lt;p&gt;该项目专门收集整理了各种适用于ChatGPT和其他大型语言模型的优质提示词(Prompt)。该项目由社区共同维护，提供了数百个不同场景下的对话模板，涵盖编程、写作、翻译、心理咨询、学习辅导等多个领域。这些精心设计的提示词能帮助用户更好地引导AI生成符合预期的回答，提升对话质量和实用性。项目支持多语言，持续更新，是AI对话爱好者和开发者提高工作效率的实用资源库。&lt;/p&gt;
+&lt;h4 id=&#34;63-vuejsawesome-vue73k&#34;&gt;63. &lt;a class=&#34;link&#34; href=&#34;https://github.com/vuejs/awesome-vue&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vuejs/awesome-vue&lt;/a&gt;（73k）
+&lt;/h4&gt;&lt;p&gt;该项目是一份精心整理的 Vue.js 相关资源集合，为开发者提供了丰富的学习资料和工具，涵盖了官方文档、教程、示例、开源项目、UI组件库、社区资源等各类内容，包括Vue 2和Vue 3版本的资源。无论是初学者还是资深开发者，都能从中找到有用的参考资料，如状态管理Pinia、UI框架Element UI/Vuetify、SSR方案Nuxt.js等。这个项目由Vue社区维护，持续更新最新的优秀Vue生态资源，是Vue开发者不可错过的宝藏库。&lt;/p&gt;
+&lt;h4 id=&#34;64-dockerawesome-compose397k&#34;&gt;64. &lt;a class=&#34;link&#34; href=&#34;https://github.com/docker/awesome-compose&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;docker/awesome-compose&lt;/a&gt;（39.7k）
+&lt;/h4&gt;&lt;p&gt;该项目收集了大量实用的 Docker Compose 示例文件。这些示例涵盖了多种常见的技术栈和开发场景，如 ASP.NET、Flask、React、MySQL 等，帮助开发者快速搭建本地开发环境。每个示例都提供完整的 compose.yaml 配置文件和简单说明，支持一键启动多容器服务。项目由 Docker 社区维护，适合学习 Docker Compose 的使用以及参考如何整合不同服务。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>NO.006 破败花园</title>
+        <link>http://localhost:1313/p/hw-no.006/</link>
+        <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/hw-no.006/</guid>
+        <description>&lt;hr&gt;
+&lt;h2 id=&#34;有趣的网站&#34;&gt;&amp;raquo;&amp;gt;有趣的网站
+&lt;/h2&gt;&lt;h4 id=&#34;1-默沙东诊疗手册---权威医学信息&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.msdmanuals.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;默沙东诊疗手册 - 权威医学信息&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;默沙东诊疗手册是世界领先的权威医学信息资源，由全球医药企业默沙东支持的非营利项目，自1899年起持续为医护专业人士和公众提供科学准确的医疗知识。该手册通过免费的多语言电子版平台，涵盖疾病防治、诊疗指南等海量医学主题，以专业版服务医护工作者、大众版惠及普通患者，并设有专门兽医板块，致力于促进全球医疗信息普惠和健康事业发展。&lt;/p&gt;
+&lt;p&gt;希望大家永远都用不上。&lt;/p&gt;
+&lt;h4 id=&#34;2-fmhy---免费资源集合站点&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://fmhy.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;fmhy - 免费资源集合站点&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Freemediaheckyeah 是一个互联网上最全面的免费资源集合站点，致力于为用户提供合法渠道外的各类媒体与工具资源，涵盖影视、音乐、游戏、电子书、软件、人工智能等多个领域。通过精心整理的分类导航，该平台帮助用户轻松获取流媒体、种子文件、学习资料等数字内容，同时提供隐私保护指南和跨平台资源（包括Windows、Mac、Linux及移动设备），适合追求开源替代方案和免费优质内容的网络用户探索使用。内容主要由社区志愿者维护更新，强调资源的实用性与可访问性。&lt;/p&gt;
+&lt;h4 id=&#34;3-凹凸工坊---手写模拟生成&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://www.autohanding.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;凹凸工坊 - 手写模拟生成&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;凹凸工坊是一款高效专业的手写模拟生成工具，支持一键将电子文档转换为自然手写效果，提供11款真实手写字体及多种纸张模板可选，具备文字位置调整、错别字模拟、行距字距微调等特色功能，还能添加随机涂改痕迹增强真实感，支持A4/B5/A3等多种纸张尺寸和自定义背景，适用于需要手写效果的学生、教师及办公人群，操作简便即传即用，满足各类手写文稿的制作需求。&lt;/p&gt;
+&lt;h4 id=&#34;4-alkaid-pro---免费高质量的-teamspeak-服务器&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://ts.gkd.plus/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Alkaid Pro - 免费高质量的 TeamSpeak 服务器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Alkaid Pro 是一个运营五年的免费 TeamSpeak 语音服务器项目，已为 300 多位用户提供高质量语音服务，采用 BGP 网络和 CN2 GIA 专线优化全球延迟，最低可达 4ms，提供 99.99% 服务可用性保障，并通过 AI 赋能实现智能音乐机器人、自动房间管理等创新功能，致力于打造中国大陆顶级的 TeamSpeak 语音解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;5-每日梗图长期更新&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://linux.do/t/topic/675579&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;每日梗图，长期更新&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;越往后越精彩。&lt;/p&gt;
+&lt;h4 id=&#34;6-tracemoe---动漫场景识别&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://trace.moe/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;trace.moe - 动漫场景识别&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;trace.moe 是一个专注于动漫场景识别的搜索引擎，用户只需上传或粘贴截图，系统即可快速匹配出对应的动画作品及具体集数与时间点。通过先进的图像识别技术，它能从庞大的动画数据库中精准溯源，帮助动漫爱好者轻松找到截图来源。该项目特别适合遇到陌生动画片段时进行快速查询，为追番识图提供了高效便捷的解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;7-qwerty-learner---根据单词练习打字&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://qwerty.kaiyi.cool/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Qwerty Learner - 根据单词练习打字&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Qwerty Learner 是一款专为键盘工作者设计的在线打字练习工具，通过将英语单词记忆与键盘肌肉训练相结合，帮助用户高效提升打字速度和词汇量。这款交互式工具模拟真实打字场景，提供实时数据反馈，包括打字速度、准确率和训练时长等指标，让学习过程可视化。其独特之处在于将常用编程词汇、学术术语融入练习库，覆盖了专业场景下的高频词汇需求，尤其适合程序员、撰稿人和文字工作者提升输入效率。&lt;/p&gt;
+&lt;h4 id=&#34;8-paywallbuster---绕过新闻网站付费墙&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://paywallbuster.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PaywallBuster - 绕过新闻网站付费墙&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;PaywallBuster是一个专注于绕过新闻网站付费墙的免费工具聚合平台，它整合了多种第三方付费墙破解服务，用户输入文章链接即可自动尝试不同破解方案。该项目强调合法性，仅作为跳转中介而非内容提供方，支持各类设备访问，旨在平衡知识付费与信息自由，尤其帮助经济困难群体获取资讯。平台不存储用户数据，通过多标签页并行尝试不同破解工具提高成功率，但无法保证对所有类型付费墙（尤其是硬付费墙）有效，需用户自行测试效果。&lt;/p&gt;
+&lt;h4 id=&#34;9-databreach---信息检索&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://databreach.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;databreach - 信息检索&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DataBreach.com 网站提供更全面的搜索功能，用户可以通过输入全名、住址、电话号码、社会安全号码等多种信息，查询其信息是否泄露。&lt;/p&gt;
+&lt;h4 id=&#34;10-haveibeenpwned---信息检索&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://haveibeenpwned.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;haveibeenpwned - 信息检索&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是国外的在线用户名（或邮箱地址）安全检测工具，针对被骇客窃取并公布到互联网上的用户邮箱（或用户名）的数据库，可以帮助用户检测自己的邮箱（或用户名）是否已经被窃取，保证用户的交流安全。&lt;/p&gt;
+&lt;h4 id=&#34;11-coding-interview-university---全面的计算机科学自学计划&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://github.com/jwasham/coding-interview-university&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;coding-interview-university - 全面的计算机科学自学计划&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;《Coding Interview University》是一个全面的计算机科学自学计划，旨在帮助学习者掌握软件开发工程师所需的核心技能，包括数据结构、算法、系统设计等面试常见考点。项目通过分阶段的学习路径、视频课程推荐、书籍建议和编码练习题，系统性地提升求职者的技术能力，尤其适合自学转行或准备大厂技术面试的人群。其内容涵盖从基础理论到高阶系统设计，并包含实战练习和面试技巧，曾帮助作者成功入职亚马逊。所有资源均为开源免费，支持多语言翻译。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;有用的工具&#34;&gt;&amp;raquo;&amp;gt;有用的工具
+&lt;/h2&gt;&lt;h4 id=&#34;1-thanossh---随机删除一半文件&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://github.com/hotvulcan/Thanos.sh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Thanos.sh - 随机删除一半文件&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Thanos.sh 是一个有趣的命令行工具（别在家用！），会像灭霸打响指那样随机删除一半文件。支持Linux/macOS系统，需要root权限执行，本质是危险的rm -rf操作，作者提醒这相当于&amp;quot;真枪实弹&amp;quot;。有趣的是配套提供了PowerShell版本和用户翻车故事集，核心代码仅20行却引来3k星标，用黑色幽默警示着系统管理员：数据备份和sudo权限同样重要。&lt;/p&gt;
+&lt;h4 id=&#34;2-tldrtoo-long-don&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://github.com/tldr-pages/tldr&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TLDR（Too Long Don&amp;rsquo;t Read） - 命令的快速参考&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;tldr-pages 是一个社区维护的命令行工具帮助文档集合，提供简洁实用的使用示例，是传统man手册的轻量级替代。该项目收录了常见UNIX、Linux、Windows等系统命令的快速参考指南，采用Markdown格式编写，支持多种语言，并通过客户端或网页便捷访问。任何人都可以通过GitHub参与编辑完善这些备忘录风格的速查表。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;vim&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;zshrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;TERM&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xterm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;256&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;color&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;LANG&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;zh_CN&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UTF&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;source&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;zshrc&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;3-shell---一键脚本&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://github.com/sky22333/shell&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;shell - 一键脚本&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个GitHub上的各种实用Shell脚本集合仓库，主要包含Linux系统维护、Docker配置、网站部署、证书申请等自动化脚本，由开发者sky22333维护，提供了如系统源切换、Docker安装、WordPress自动部署、acme.sh证书管理等脚本，适合Linux系统管理员和开发人员快速部署和配置服务器环境，所有脚本开源并通过curl命令一键执行，方便快捷。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一键切换系统源脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/mirrors.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;切换官方系统源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/mirrors.sh) --use-official-source true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;一键安装Docker和配置镜像地址&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/docker.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;acme.sh 证书一键申请脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/acme.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Linux切换到标准内核：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/image.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;一键安装go环境：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/go.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;一键启用BBR：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/bbr.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;一键内网穿透(无需域名和服务器)：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://github.com/sky22333/shell/raw/main/dev/cf-tunnel.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;sing-box一键脚本（多协议）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://cdn.jsdelivr.net/gh/admin8800/sing-box@main/install.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;4-beszel---轻量级服务器监控平台&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://github.com/henrygd/beszel&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;beszel - 轻量级服务器监控平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Beszel 是一个轻量级服务器监控平台，集成了Docker容器统计、历史数据和告警功能，提供友好的Web界面和简单配置，支持多用户管理、OAuth认证和自动备份。它通过Hub-Agent架构运行，Hub作为中央仪表板，Agent收集主机及容器的CPU、内存、磁盘、网络等指标，并支持NVIDIA/AMD显卡监控，适合需要低资源占用监控方案的场景。&lt;/p&gt;
+&lt;h4 id=&#34;5-folo---跨平台信息聚合工具&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://github.com/RSSNext/Folo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Folo - 跨平台信息聚合工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Folo是一个开源的跨平台信息聚合工具，致力于打造无干扰的高效阅读体验，通过单一时间线智能整合各类内容源，支持RSS、AI辅助阅读以及区块链激励机制，采用React和TypeScript构建，结合社区驱动模式，提供从文章到多媒体的一站式内容管理方案，帮助用户专注于真正重要的信息。&lt;/p&gt;
+&lt;h4 id=&#34;6-umami---网站流量分析&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://github.com/umami-software/umami&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;umami - 网站流量分析&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Umami是一款专注于隐私保护的现代网站流量分析工具，作为Google Analytics的替代方案，它提供简洁直观的数据看板，支持MySQL/PostgreSQL等数据库，可通过Docker快速部署，所有数据存储于用户自有服务器，无需收集访客个人信息，采用MIT开源协议。&lt;/p&gt;
+&lt;h4 id=&#34;7-trzsz-ssh---ssh客户端&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://github.com/trzsz/trzsz-ssh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;trzsz-ssh - ssh客户端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;trzsz-ssh (tssh)是一个完全兼容OpenSSH的客户端替代方案，在保留所有原生功能的基础上，增加了登录提示界面、批量登录、密码记忆、自动化交互、文件传输(tzsz/rz/sz)以及类mosh的UDP模式等增强特性。该项目采用MIT开源协议，支持跨平台部署，同时可作为Go语言库集成到其他应用中。&lt;/p&gt;
+&lt;h4 id=&#34;8-pakeplus---跨平台应用打包工具&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Sjj1024/PakePlus&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PakePlus - 跨平台应用打包工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;PakePlus是一款基于Rust Tauri框架开发的轻量级跨平台应用打包工具，可以将任何网页、Vue/React等项目快速转化为体积小于5MB的桌面端和移动端应用程序，支持Mac、Windows、Linux、Android和iOS平台，无需复杂环境配置，仅需GitHub Token即可通过云端自动打包，提供沉浸式窗口、快捷键、多语言和JS注入等丰富功能，同时保障用户数据安全，项目代码仅存储在用户自己的Git仓库中。&lt;/p&gt;
+&lt;h4 id=&#34;9-termius-pro-zh_&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ArcSurge/Termius-Pro-zh_CN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Termius-Pro-zh_CN - Termius汉化&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Termius-Pro-zh_CN是一款专注于SSH终端工具Termius界面本地化的开源项目，通过Python脚本实现一键汉化功能，包含界面翻译、试用权限激活和样式优化等特性，支持主流操作系统平台，提供完整的汉化规则管理和还原机制，该项目仅供技术研究交流使用，旨在改善中文用户体验，不涉及软件核心功能的修改。&lt;/p&gt;
+&lt;h4 id=&#34;10-小智-ai-助手&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://github.com/78/xiaozhi-esp32&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小智 AI 助手&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个基于MCP协议的ESP32智能聊天机器人项目，由78开源社区开发，使用MIT许可允许自由商用。项目将大语言模型与硬件结合，支持离线语音唤醒、多语言交互、3D表情显示和设备控制功能，通过WebSocket或MQTT协议连接云端，可适配多种ESP32芯片开发板，适合AI硬件开发学习。已整合了声纹识别、电源管理等实用功能，配套详细开发文档和70多款硬件支持方案。&lt;/p&gt;
+&lt;h4 id=&#34;11-小智-ai-助手-android-ios-客户端&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://github.com/TOM88812/xiaozhi-android-client&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小智 AI 助手 Android IOS 客户端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;该项目是基于小智AI和xiaozhi-server开发的多平台智能对话应用，采用Flutter框架实现跨平台兼容（iOS/Android/Web等），提供实时语音交互和文字聊天功能，支持多AI模型接入、图文混排对话、心情交互模式和Live2D虚拟形象，具备回音消除技术，可扩展智能家居控制，是一个功能丰富的AI助手解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;12-nginxwebui---图形化nginx配置管理工具&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://github.com/cym1102/nginxWebUI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nginxWebUI - 图形化Nginx配置管理工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NginxWebUI是一款图形化Nginx配置管理工具，通过网页界面实现HTTP/TCP转发、反向代理、负载均衡、SSL证书自动申请等核心功能，支持集群管理和远程同步配置，大幅简化Nginx的日常维护工作，系统基于Java开发，采用SQLite数据库，提供Docker集成部署方案，用户可通过可视化操作生成Nginx配置文件并直接控制服务启停。&lt;/p&gt;
+&lt;h4 id=&#34;13-gping---可视化图表ping&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://github.com/orf/gping&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gping - 可视化图表ping&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Gping是一个创新的网络工具（Rust编写），它在传统的ping命令基础上增加了实时可视化图表功能，支持同时监测多个主机或命令的执行延迟。通过彩色折线图直观展现网络延迟波动，可自定义监测间隔和图表时间范围，兼容Windows、Linux和macOS系统，并能通过&amp;ndash;cmd参数绘制任意命令行工具的执行时间曲线，云服务区域支持aws快捷检测，帮助用户更高效地分析网络性能和命令耗时情况。&lt;/p&gt;
+&lt;h4 id=&#34;14-ohmyzsh---美化-zsh-终端&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ohmyzsh/ohmyzsh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ohmyzsh - 美化 zsh 终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Oh My Zsh 是一个帮助你管理和美化 zsh 终端的开源工具。它让你的终端更炫酷、更高效。安装后，你可以快速使用各种插件和主题，比如常见的 git 命令简化、支持多种编程语言工具等，每次打开终端都会有惊喜。无论你是开发者还是普通用户，都能让你的终端配置变得简单有趣。&lt;/p&gt;
+&lt;h4 id=&#34;15-flutter_&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://github.com/LollipopKit/flutter_server_box&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;flutter_server_box - 跨平台服务器管理工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Flutter Server Box 是一个基于 Flutter 开发的跨平台服务器管理工具，提供可视化图表展示 Linux 服务器状态（CPU、传感器、GPU等），支持 SSH 终端、SFTP 文件传输、Docker/进程/systemd 管理、S.M.A.R.T 监测等功能。该项目采用 GPL v3 开源协议，具备多语言支持、生物认证和平台特有功能（如推送通知、桌面小组件等），用户可通过配套服务 ServerBoxMonitor 实现设备状态推送，开发者可使用 Flutter 环境进行二次开发。&lt;/p&gt;
+&lt;h4 id=&#34;16-chatbot-app---移动端大模型工具&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ChatBot-All/chatbot-app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chatbot-app - 移动端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ChatBot是一款多模型AI应用，支持GPT、Gemini Pro、Cohere及Ollama等多种大语言模型，具备私密本地存储、自适应暗黑模式、语音对话和多语言支持等特性，适用于移动端和桌面平台，专注隐私保护与多场景智能交互。&lt;/p&gt;
+&lt;h4 id=&#34;17-aetherlink---移动端大模型工具&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://github.com/1600822305/AetherLink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AetherLink - 移动端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AetherLink是一款基于Web技术的跨平台AI助手应用，支持与OpenAI、Google Gemini、Claude等多种AI模型交互，采用React和TypeScript开发，提供智能对话、语音识别、知识库管理和多平台适配功能，通过Capacitor框架实现原生应用体验，具备可定制模型配置和AI思考过程可视化等特色。&lt;/p&gt;
+&lt;h4 id=&#34;18-rikkahub---移动端大模型工具&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://github.com/rikkahub/rikkahub&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RikkaHub - 移动端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;RikkaHub是一款创新的Android AI聊天应用，支持多种大语言模型服务提供商切换（包括OpenAI、谷歌和Anthropic等），具备Material You设计、夜间模式、多模态输入、Markdown渲染、智能搜索等专业功能，采用Kotlin和Jetpack Compose开发，为Android用户提供高效流畅的AI对话体验。&lt;/p&gt;
+&lt;h4 id=&#34;19-gocomicmosaic---动漫资源共建平台&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://github.com/fish2018/GoComicMosaic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GoComicMosaic - 动漫资源共建平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;GoComicMosaic是一个开源的动漫资源共建平台，允许用户自由提交动漫信息如标题、类型、简介、图片和资源链接，通过众包方式拼凑完整资源。它支持在线点播、后台采集源配置和自定义爬虫，采用Docker一键部署，提供移动端适配和会员系统，打造了一个灵活的美漫资源共享社区。完整项目可访问其GitHub仓库查看更多技术细节。&lt;/p&gt;
+&lt;h4 id=&#34;20-clear---待办事项管理&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://github.com/WindyDante/Clear&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Clear - 待办事项管理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Clear是一款现代化全栈待办事项管理应用，采用Vue3+Go技术栈构建，提供响应式界面、智能任务分类、JWT认证和本地SQLite存储等特性，支持Docker容器化部署，具有低资源占用（仅4MB内存）和跨平台适配优势，致力于通过简洁设计提升个人与团队的任务管理效率。&lt;/p&gt;
+&lt;h4 id=&#34;21-everydaynews---每日60秒新闻的存档&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://github.com/RavelloH/EverydayNews&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EverydayNews - 每日60秒新闻的存档&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;该项目提供了一个每日60秒新闻的存档，以JSON格式存储并定期更新，支持搜索功能和API调用。用户可以通过网页浏览新闻或嵌入到其他网站中，还支持自定义样式和隐藏页脚。所有数据源自公开的60秒新闻源，通过GitHub Actions自动更新，适合用来获取简短的每日新闻概述。&lt;/p&gt;
+&lt;h4 id=&#34;22-一键激活jetbrains全家桶方式不需要手动下载任何文件&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://ckey.run/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一键激活JetBrains全家桶方式，不需要手动下载任何文件&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;CodeKey Run是一个专业提供JetBrains全家桶IDE插件资源的网站，涵盖了IntelliJ IDEA、PyCharm、WebStorm等全系列开发工具的插件生态，包含AI编程助手、数据库工具、主题美化、效率增强等数百款实用扩展。该平台专注于为开发者提供丰富的插件选择，涵盖代码生成、API调试、版本控制、云服务集成等开发全流程需求，同时支持多语言界面本地化包，帮助开发者在主流编程语言和技术栈中提升工作效率与编码体验。&lt;/p&gt;
+&lt;p&gt;来自 Linux.do 论坛大佬&lt;a class=&#34;link&#34; href=&#34;https://linux.do/t/topic/694120&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://linux.do/t/topic/694120&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Windows：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;按键盘 Win + X，选择 WindowsPowerShell (管理员)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;复制命令到刚才打开的 PS 中运行 (一定要复制，不要手输，容易错)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;irm ckey.run|iex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;会自动扫描安装的 JetBrains 系列软件，idea 等等、稍等片刻即可激活完毕，激活码都不需要输入，全自动 :hear_no_evil_monkey:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;如果想查看处理了哪些文件，可以使用 debug 命令，会输出相应的信息
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;irm ckey.run/debug|iex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;查看脚本源代码，把后面的 | iex 去掉即可
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;irm ckey.run
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Linux
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;复制命令到终端中执行即可
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget --no-check-certificate ckey.run -O ckey.run &amp;amp;&amp;amp; bash ckey.run
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;debug
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget --no-check-certificate ckey.run/debug -O ckey.run &amp;amp;&amp;amp; bash ckey.run
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Mac
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Mac 好像是默认没有安装 wget，所以用 curl, 如果你有 wget，也可以直接用 linux 命令
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -L -o ckey.run ckey.run &amp;amp;&amp;amp; bash ckey.run
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;debug
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl -L -o ckey.run ckey.run/debug &amp;amp;&amp;amp; bash ckey.run
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;23-microsoft-激活脚本-mas&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://massgrave.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft 激活脚本 （MAS）&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Microsoft Activation Scripts (MAS) 是一款开源的Windows和Office激活工具，提供HWID永久激活Windows、Ohook永久激活Office、KMS在线激活等多种方式，支持Windows 10/11及Office产品，采用批处理脚本开发，具备激活状态检测、版本切换等高级功能，通过数字许可证或KMS服务器实现稳定授权，所有操作均有明确指引且全程透明。&lt;/p&gt;
+&lt;h4 id=&#34;24-163musiclyrics---歌词获取&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://github.com/jitwxs/163MusicLyrics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;163MusicLyrics - 歌词获取&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;163MusicLyrics是一款支持网易云音乐和QQ音乐的平台歌词获取工具，提供单曲/专辑/歌单三种查询方式，支持ID精确查询和关键词模糊搜索，具备批量处理、拼音注音、多语言翻译（支持百度/彩云API）、逐字歌词显示功能，可输出LRC/SRT格式文件，并能自动识别歌曲语言类型，支持自定义文件名和编码格式，适合音乐爱好者收藏整理歌词使用。&lt;/p&gt;
+&lt;h4 id=&#34;25-lddc---歌词获取&#34;&gt;25. &lt;a class=&#34;link&#34; href=&#34;https://github.com/chenmozhijin/LDDC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LDDC - 歌词获取&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LDDC是一款跨平台精准歌词工具，支持多线程快速匹配QQ音乐、网易云等平台的逐字歌词（卡拉OK歌词），能智能匹配本地歌曲并提供歌词预览、翻译和格式转换功能，支持保存为LRC、SRT、ASS等多种格式，附带桌面歌词显示功能，适用于Windows、macOS和Linux系统，满足用户对高精度歌词的各种需求。&lt;/p&gt;
+&lt;h4 id=&#34;26-suna---开源通用人工智能助手&#34;&gt;26. &lt;a class=&#34;link&#34; href=&#34;https://github.com/kortix-ai/suna&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Suna - 开源通用人工智能助手&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Suna是一个开源通用人工智能助手，通过自然对话帮助用户完成现实任务，整合了网页自动化、文件管理、网络爬取、命令行执行等多样化功能，能够执行市场分析、招聘筛选、旅行规划等复杂工作流。项目采用模块化架构，包含后端API、前端界面、独立运行的Agent执行环境和Supabase数据库，支持自主部署，适用于企业分析、学术研究、个人事务处理等多种场景，遵循Apache-2.0开源协议。&lt;/p&gt;
+&lt;h4 id=&#34;27-bilinote---ai视频笔记生成工具&#34;&gt;27. &lt;a class=&#34;link&#34; href=&#34;https://github.com/JefferyHcool/BiliNote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BiliNote - AI视频笔记生成工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;BiliNote是一款AI视频笔记生成工具，能够自动解析来自B站、YouTube、抖音等平台的视频内容，利用AI技术提取关键信息并生成结构化Markdown笔记，支持添加视频截图和时间跳转链接，用户可自定义GPT模型和笔记风格，同时提供本地音频转写功能，适用于学习记录和内容整理场景，是一个提高视频学习效率的智能助手工具。&lt;/p&gt;
+&lt;h4 id=&#34;28-nexus-terminal---web远程管理工具&#34;&gt;28. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Heavrnl/nexus-terminal&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nexus-terminal - Web远程管理工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;星枢终端是一款现代化的Web远程管理工具，支持SSH/RDP/VNC协议，提供网页版和独立桌面客户端，具有多标签页管理、文件编辑、Docker容器管理等特色功能，采用hCaptcha验证和2FA双重认证保障安全，支持界面主题定制和操作审计日志，内置心跳保活和会话挂起机制确保连接稳定，适合需要远程运维的开发者和系统管理员使用。&lt;/p&gt;
+&lt;h4 id=&#34;29-warp---现代化终端工具&#34;&gt;29. &lt;a class=&#34;link&#34; href=&#34;https://github.com/warpdotdev/Warp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Warp - 现代化终端工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Warp 是一款基于 Rust 开发的现代化终端工具，内置 AI 功能以提升开发效率，支持团队成员协作开发，兼容 zsh、bash、fish、PowerShell 和 Git Bash 等主流 shell 环境，采用 GPU 加速技术确保流畅体验，同时适用于 macOS、Linux 和 Windows 三大操作系统，旨在帮助开发者更高效地构建优质软件。&lt;/p&gt;
+&lt;h4 id=&#34;30-q---命令行dns客户端&#34;&gt;30. &lt;a class=&#34;link&#34; href=&#34;https://github.com/natesales/q&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;q - 命令行DNS客户端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;q是一款功能丰富的命令行DNS客户端，支持UDP、TCP、DoT、DoH、DoQ和ODoH多种协议查询，可通过直观命令进行域名解析并提供JSON/原始数据等多种输出格式，具有DNSSEC验证、EDNS0扩展和递归区域传输等高级功能，其轻量设计和多协议支持使其成为网络诊断的利器。&lt;/p&gt;
+&lt;h4 id=&#34;31-picsharp---图像压缩&#34;&gt;31. &lt;a class=&#34;link&#34; href=&#34;https://github.com/AkiraBit/PicSharp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PicSharp - 图像压缩&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;PicSharp是一款功能丰富、高效灵活的跨平台桌面图像压缩应用，支持Mac、Windows和Linux系统。它提供强大的批量处理能力，深度优化图片体积并支持多种图片格式，包括PNG、JPEG、WebP和AVIF等，既可以利用TinyPNG的云服务压缩，也能选用本地算法离线处理，保护用户隐私的同时实现最佳压缩效果。&lt;/p&gt;
+&lt;h4 id=&#34;32-zettlr---markdown编辑器&#34;&gt;32. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Zettlr/Zettlr&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Zettlr - Markdown编辑器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Zettlr是一个开源的Markdown编辑器，专为学术写作和知识管理设计，支持跨平台运行于Windows、macOS和Linux系统。它集成了Zotero等文献管理工具，提供LaTeX和Word模板支持，具备代码高亮、暗黑主题、全文搜索等功能，采用Electron框架开发，允许用户通过CSS自定义界面，并以Pandoc为后端实现多种格式导出，适合研究人员和写作爱好者高效组织思路和发布作品。&lt;/p&gt;
+&lt;h4 id=&#34;33-imagetoolbox---图像处理&#34;&gt;33. &lt;a class=&#34;link&#34; href=&#34;https://github.com/T8RIN/ImageToolbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ImageToolbox - 图像处理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Image Toolbox 是一款功能强大的图像处理应用，提供超过200种滤镜以及裁剪、文字识别、背景移除、格式转换等高级编辑功能，支持批处理操作和自定义滤镜链，采用 Jetpack Compose 开发的现代化界面，支持 Material You 动态主题，内置OCR识别多种语言，并包含文件加密、拼图制作、PDF转换等实用工具，满足专业用户和开发者的多样需求。&lt;/p&gt;
+&lt;h4 id=&#34;34-sniffnet---网络流量监控&#34;&gt;34. &lt;a class=&#34;link&#34; href=&#34;https://github.com/GyulyVGC/sniffnet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sniffnet - 网络流量监控&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Sniffnet 是一款跨平台网络流量监控工具，采用 Rust 语言开发，提供直观的图形界面，能实时分析网络活动，支持流量统计、地理定位、协议识别等功能，适合网络管理员和安全研究人员使用。该项目开源免费，支持 Windows、macOS 和 Linux 系统，通过 iced 框架构建界面，具有较低的资源占用率。&lt;/p&gt;
+&lt;h4 id=&#34;35-mermaid---图表工具&#34;&gt;35. &lt;a class=&#34;link&#34; href=&#34;https://mermaid.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mermaid - 图表工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Mermaid 是一款基于 JavaScript 的图表工具，能够将简洁的类 Markdown 代码实时转换为各种专业图表（如流程图、时序图、甘特图等），通过其在线编辑器可轻松创建和修改图表，支持与常用应用集成，曾获 2019 年 JavaScript 开源奖&amp;quot;最具创新技术应用&amp;quot;荣誉，项目由开发者社区共同维护，采用开源模式持续迭代优化。&lt;/p&gt;
+&lt;h4 id=&#34;36-lively-wallpaper---动态桌面壁纸&#34;&gt;36. &lt;a class=&#34;link&#34; href=&#34;https://www.rocksdanister.com/lively/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lively Wallpaper - 动态桌面壁纸&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Lively Wallpaper是一款开源免费的动态桌面壁纸软件，能让你的桌面充满活力。它支持超宽屏和多显示器配置，能根据场景智能暂停以节省资源，提供雨雪、极光等丰富的视觉效果，还内置了创意工具让用户自定义炫酷壁纸，采用现代化界面设计，让普通电脑也能体验流畅的动态桌面效果。&lt;/p&gt;
+&lt;h4 id=&#34;37-sucrose---桌面壁纸引擎&#34;&gt;37. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Taiizor/Sucrose&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sucrose - 桌面壁纸引擎&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Sucrose是一款功能丰富的桌面壁纸引擎，通过多样化的交互式壁纸为电脑桌面注入活力，支持创建个性化动态壁纸，提供浅色/深色主题切换，包含音频响应和系统状态监测功能，支持多显示器和各类屏幕分辨率，采用开源免费模式，具有智能资源管理系统（全屏应用时自动暂停壁纸）和省电模式，用户可通过社区分享自制壁纸，使用网页引擎技术（CefSharp/WebView）还能将任意网站设为壁纸。&lt;/p&gt;
+&lt;h4 id=&#34;38-billbook记账---记账应用&#34;&gt;38. &lt;a class=&#34;link&#34; href=&#34;https://billbook.net.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Billbook记账 - 记账应用&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Billbook记账是一款基于Material Design风格设计的安卓记账应用，主打简洁实用的财务管理体验。它不仅支持云端数据同步，保障账单跨设备安全存储，还提供丰富的可视化图表分析，包括收支趋势图、分类饼图和收入排行等核心功能，让用户轻松掌握消费动向。应用内置春、夏、秋、冬四季主题色彩，并首创多账号管理功能，满足家庭或团队多人记账需求，通过直观的操作界面和贴心的细节设计，帮助用户培养科学的理财习惯。&lt;/p&gt;
+&lt;h4 id=&#34;39-code-box---优化网页浏览体验&#34;&gt;39. &lt;a class=&#34;link&#34; href=&#34;https://www.code-box.fun/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;code-box - 优化网页浏览体验&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;CodeBox是一款智能浏览器扩展工具，旨在优化网页浏览体验，通过一键复制代码、自动去除登录弹窗、解除阅读限制、下载文章为HTML/Markdown/PDF等功能，帮助用户高效获取CSDN、知乎、掘金等主流技术平台的内容，同时还提供Markdown编辑、代码截图等实用工具，适合开发者、博主和学习者提升工作效率。&lt;/p&gt;
+&lt;h4 id=&#34;40-github文件加速&#34;&gt;40. &lt;a class=&#34;link&#34; href=&#34;https://yishijie.gitlab.io/ziyuan/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github文件加速&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;该项目提供GitHub文件加速服务，通过多种代理节点帮助用户高速下载GitHub上的文件、Releases及源码等内容，解决了国内访问GitHub速度较慢的问题，所有加速源均来自公开网络资源，服务完全公益且无需注册，仅需输入完整GitHub文件链接即可快速获取高速下载体验。&lt;/p&gt;
+&lt;h4 id=&#34;41-whitesur-gtk-theme---macos-风格的-gtk-主题&#34;&gt;41. &lt;a class=&#34;link&#34; href=&#34;https://github.com/vinceliuice/WhiteSur-gtk-theme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WhiteSur-gtk-theme - macOS 风格的 GTK 主题&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;WhiteSur-gtk-theme 是一款 macOS 风格的 GTK 主题，适用于所有基于 GTK 的 Linux 桌面环境。该项目提供丰富的自定义选项，包括多种透明度、配色方案、窗口控件样式等，支持 GNOME Shell、Firefox 主题适配，还能一键安装到 Flatpak 应用。通过简单的命令行脚本即可安装和个性化配置，让 Linux 桌面获得类似 macOS 的视觉体验，同时保持轻量化和高度可定制性。&lt;/p&gt;
+&lt;h4 id=&#34;42-发现-tv&#34;&gt;42. &lt;a class=&#34;link&#34; href=&#34;https://faxiantv.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;发现 TV&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;发现TV是一个免费的在线影视聚合搜索与观看平台，提供海量热门电影、电视剧资源的一站式检索服务，其特色在于智能整合来自电影天堂、无尽资源等20余个主流影视站点的内容，并支持用户自定义数据源，平台具备豆瓣影视评分展示、观看历史记录、内容过滤等人性化功能，通过简洁的界面帮助用户快速找到高清影视资源，所有内容均为在线播放无需下载。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>NO.005 海街寺庙</title>
+        <link>http://localhost:1313/p/hw-no.005/</link>
+        <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/hw-no.005/</guid>
+        <description>&lt;hr&gt;
+&lt;h2 id=&#34;有趣的网站&#34;&gt;&amp;raquo;&amp;gt;有趣的网站
+&lt;/h2&gt;&lt;h4 id=&#34;1-医保政策导航---一站式查询&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://yibao.233h.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;医保政策导航 - 一站式查询&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;医保政策导航是一个整合全国医保政策信息的一站式查询平台,主要面向居民和职工用户,提供医保报销比例、基础政策浏览、地区分类查询等功能,通过医保百科、常见问题解析等模块帮助用户快速了解医保知识,内容来源于官方渠道,支持多设备访问,让复杂的医保政策查询变得更简单便捷。&lt;/p&gt;
+&lt;h4 id=&#34;2-有用经验---分享实用生活经验&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://yyjingyan.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;有用经验 - 分享实用生活经验&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;有用经验是一个专注于分享实用生活经验的网站，内容涵盖电子产品、日常用品、生活经验等六大分类，每条经验都由人工精选确保真实可靠。该平台汇集了436条优质生活技巧，包括家居妙招、购物避坑、省钱诀窍等实用内容，用户可直接获取各类问题的解决方案，如辨别新鲜蔬菜、保存生姜半年不坏等生活窍门。网站以打破信息壁垒为宗旨，通过大众投稿实现经验传承，所有内容承诺无广告植入，是一个纯粹实用的生活经验共享平台。&lt;/p&gt;
+&lt;h4 id=&#34;3-hellogithub---每月更新&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://github.com/521xueweihan/HelloGitHub&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HelloGitHub - 每月更新&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;HelloGitHub 是一个专注于分享 GitHub 上有趣且适合开源新手参与的入门级项目的平台，旨在帮助开发者发现开源的乐趣，其内容涵盖各类编程语言的开源项目、书籍和实战案例，并通过月刊形式推荐优质项目，让用户快速感受开源魅力，适合对编程和开源感兴趣的人群关注。&lt;/p&gt;
+&lt;h4 id=&#34;4-猫看---白噪音播放&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://www.maokan.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;猫看 - 白噪音播放&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;猫看是一个提供丰富白噪音资源的在线网站，专注帮助用户提升注意力、放松身心或改善睡眠质量。该平台收录了750多种自然音效和环境声，涵盖雨声、水流、风声、动物鸣叫、城市交通等多种场景，同时包含色彩噪音和脑波音频，用户可根据需求自由组合声音，打造个性化沉浸式听觉体验。无需安装任何软件，打开网页即可享受纯净音效，适合学习、工作或休息时使用。&lt;/p&gt;
+&lt;h4 id=&#34;5-网易云音乐无损解析&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://api.toubiec.cn/wyapi.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;网易云音乐无损解析&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;网易云音乐无损解析是一个提供便捷音乐解析下载服务的工具，支持多种音质选择，包括标准音质、无损音质和高解析度无损等VIP专属音质类型，用户只需输入网易云音乐链接即可解析下载歌曲、歌词和封面图，该服务不存储任何音视频内容，仅提供解析功能，目前支持单曲解析，未来可能扩展歌单和专辑支持，解析速度取决于文件大小和网络状况，所有资源自动打包为ZIP格式下载。&lt;/p&gt;
+&lt;h4 id=&#34;6-码都来---让天下没有难求的邀请码&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://malai.agent-wiki.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;码都来 - 让天下没有难求的邀请码&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;码都来是一个专注于解决用户邀请码获取难题的开放共享平台，通过智能分发机制为AI爱好者提供热门科技产品的体验机会。该平台汇聚了多种前沿AI工具的邀请码资源，包括智能浏览器、播客生成、无代码开发等创新产品，秉承资源共享理念连接提供者与需求者，并以高效安全的服务降低用户探索新技术的门槛，打造互助共赢的科技社区生态。&lt;/p&gt;
+&lt;h4 id=&#34;7-红心歌单助手---歌单迁移&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://heart.uselesses.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;红心歌单助手 - 歌单迁移&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;红心歌单助手是一款方便快捷的多平台歌单迁移工具，支持在网易云音乐、QQ音乐、酷狗音乐、酷我音乐、咪咕音乐、波点音乐、Spotify和Apple Music之间自由转移歌单，同时提供免费和付费两种服务模式，免费用户可迁移前300首歌曲，付费会员则享受全量迁移和更高效率，微信公众号支持让操作更加便捷，满足用户在不同音乐平台间切换的需求。&lt;/p&gt;
+&lt;h4 id=&#34;8-awesome-bilibili-extra---b站相关扩展&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://github.com/HCLonely/awesome-bilibili-extra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;awesome-bilibili-extra - B站相关扩展&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;该项目汇总了围绕哔哩哔哩平台开发的各类实用工具，包括浏览器扩展、油猴脚本、下载工具、直播辅助、UP主工具及数据分析等，涵盖全站、主站、直播多场景的增强功能，通过自动化脚本、第三方客户端和开发接口等方案提升用户体验，内容定期更新维护，适合B站深度用户和开发者按需选用。&lt;/p&gt;
+&lt;h4 id=&#34;9-audioatlas---自然语言音乐搜索引擎&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://www.audioatlas.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audioatlas - 自然语言音乐搜索引擎&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AudioAtlas是全球首个基于自然语言的智能音乐搜索引擎，它通过人工智能技术让用户用日常语言描述需求，即可从超过2亿首歌曲的全球数据库中精准匹配最适合的音乐，用户只需输入如&amp;quot;适合雨天咖啡馆的爵士乐&amp;quot;等自然语句，系统会运用先进的语义分析和音频识别算法推荐符合场景、情绪或风格的音乐作品，彻底改变了传统关键词搜索模式，为音乐发现提供了更人性化的智能解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;10-nocode---零代码应用生成平台&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://nocode.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NoCode - 零代码应用生成平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NoCode是一个零代码应用生成平台，通过自然语言交互帮助用户快速创建各类网页应用，无需编程经验即可开发网站、小游戏、工具和管理系统；平台支持可视化调整并自动生成代码，降低了技术门槛，让创意随时变为现实。&lt;/p&gt;
+&lt;h4 id=&#34;11-风鸟---企业查询平台&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://riskbird.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;风鸟 - 企业查询平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;风鸟是新一代智能商业查询平台，专注于为企业及专业人士提供全面的工商、司法、知识产权等合规大数据服务。平台通过AI技术整合全国企业信用信息，实现毫秒级检索2.8亿+企业数据，提供深度股权穿透、风险监控、关联分析等功能，并配备可视化图谱展示，满足金融机构、法律从业者在尽职调查、反欺诈审核、商业合作等方面的专业需求，是提升企业征信效率的智能工具。&lt;/p&gt;
+&lt;h4 id=&#34;12-哪煮米---全网域名一站比价&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://www.nazhumi.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;哪煮米 - 全网域名,一站比价&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;哪煮米是一个提供全球域名比价服务的平台，用户可以在此一站式查询各大域名后缀的最优价格，涵盖注册、续费和转入费用，帮助用户快速找到便宜可靠的域名服务商，目前已展示.com、.xyz、.cn、.ai等热门后缀在国内外主流平台的价格对比，并实时更新优惠信息，尤其适合需要批量注册或管理域名的企业和个人用户，提供数据清晰的横向比价功能，节省域名采购成本和时间成本。&lt;/p&gt;
+&lt;h4 id=&#34;13-napkin-ai---可视化ai图形&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://www.napkin.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Napkin Ai - 可视化AI图形&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Napkin AI是一款创新的可视化AI工具，专为商务内容创作设计，它能够自动将用户输入的文本内容转换为极具表现力的可视化图形。这款工具彻底改变了传统的PPT制作模式，用户只需粘贴文字即可自动生成精美的信息图表、思维导图、流程图等各种商业图表，并提供丰富的编辑功能让用户调整图标、装饰元素、连接线和配色方案。支持60多种语言输入，生成的视觉内容可导出为PPT、PNG、PDF或SVG格式，能完美融入演示文稿、博客文章、社交媒体或文档资料中，帮助用户快速创建专业级的商业视觉内容，大幅提升内容呈现效果和工作效率。&lt;/p&gt;
+&lt;h4 id=&#34;14-free-for-dev---免费的在线开发工具和服务&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://github.com/ripienaar/free-for-dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;free-for-dev - 免费的在线开发工具和服务&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这个项目是一个精心整理的列表，汇总了大量对开发者和运维人员有价值的SaaS、PaaS和IaaS服务，这些服务都提供免费层级，涵盖云计算、代码托管、API工具、监控、测试、数据分析等各类开发场景，帮助开发者无需付费即可使用专业服务进行项目开发和部署，特别适合初创团队和个人开发者降低技术成本。&lt;/p&gt;
+&lt;h4 id=&#34;15-free-for-dev-zh---免费的在线开发工具和服务&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://github.com/tvvocold/free-for-dev-zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;free-for-dev-zh - 免费的在线开发工具和服务&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“free-for-dev-zh”是一个GitHub开源项目，专门收集整理国内开发者可免费使用的SaaS、PaaS、BaaS和IaaS服务资源，涵盖代码托管、项目管理、CDN加速、企业邮箱、支付集成等开发工具，旨在为中国程序员提供便捷的免费服务清单，支持开发者提交补充，包含CODING、Teambition、七牛云、LeanCloud等知名平台服务。&lt;/p&gt;
+&lt;h4 id=&#34;16-hivisionidphotos---ai证件照制作&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Zeyi-Lin/HivisionIDPhotos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HivisionIDPhotos - AI证件照制作&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;HivisionIDPhotos是一个开源的AI证件照制作工具，采用轻量级设计，能够快速实现人像抠图、背景替换和标准证件照生成，支持多种常见证件照规格和自定义尺寸，纯离线运行仅需CPU即可完成高效推理，适用于个人应急证件照制作或开发者集成使用，项目提供Python API和Docker部署方案，兼容主流操作系统，具有简洁易用的Gadio交互界面和丰富的社区二次开发扩展。&lt;/p&gt;
+&lt;h4 id=&#34;17-boss-设计---优质设计资源&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://www.bossdesign.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Boss 设计 - 优质设计资源&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Boss设计是一个专注于收集国外优质设计资源的整合平台，涵盖AI生成工具、插画素材、渐变背景、城市地图线稿等丰富内容，为设计师提供灵感来源和效率工具。网站分类整理了设计导航站、免费表情包、国潮字体等创意资源，既能帮助设计新手快速入门，又能满足专业设计师的日常需求，是提升设计水平和获取海外设计趋势的实用资源库。&lt;/p&gt;
+&lt;h4 id=&#34;18-lks-网站推荐合集&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://lkssite.vip/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LKs 网站推荐合集&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LKs网站推荐合集是一个由B站UP主-LKs-创建的精品网络资源导航站，汇集了涵盖12个分类的600多个实用有趣的网站资源，包括学习工具、艺术创作、生活娱乐等多元领域，每个网站都配有简洁的功能说明和人气指数。该网站界面清爽无广告，采用卡片式分类展示，用户可便捷查找各类小众优质在线工具和创意平台，从AI生成内容到专业技能学习，从娱乐游戏到效率工具一应俱全，特别适合希望发现网络新鲜事物的探索者使用。&lt;/p&gt;
+&lt;h4 id=&#34;19-汤很热---ai-海龟汤小游戏&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://tanghenre.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;汤很热 - AI 海龟汤小游戏&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“汤很热”是一款基于人工智能的在线海龟汤解谜游戏，玩家需要通过有限的是/否提问机会解构各种离奇故事，推理出最终答案。游戏收录了大量风格各异的谜题，从日常悬疑到细思极恐皆有涵盖，挑战玩家的逻辑思维和想象力，每个谜题都有独特的背景故事和解谜路径，充满互动乐趣和反转惊喜。&lt;/p&gt;
+&lt;h4 id=&#34;20-favoree---探索优质视频&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://www.favoree.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Favoree - 探索优质视频&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Favoree是一个专注于YouTube频道发现与评分的创新平台，旨在帮助用户更高效地探索优质视频内容。它通过社区评分和评论系统，让用户能直观了解频道的可靠性、娱乐性等特点，并提供详细的分类标签（如科学、历史、游戏等）、平均时长等实用筛选维度。平台采用机器学习分析频道特征，优先推荐深度内容，打破算法信息茧房，尤其适合追求高信息密度的观众，同时设有每周精选频道、热门历史频道等专题导览，打造更理性的视频探索体验。&lt;/p&gt;
+&lt;h4 id=&#34;21-unlisted-videos---未公开油管视频&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://unlistedvideos.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unlisted Videos - 未公开油管视频&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Unlisted Videos是一个专门收集、展示和分享未公开的YouTube视频的网站，这些视频虽然未被YouTube搜索引擎收录，但仍可通过直接链接访问。网站无需注册，允许用户提交和浏览各类未公开视频，包括明星、乐队、品牌或机构发布的独家内容、软件教程、游戏录像等有价值的资源，但同时禁止涉及隐私的个人视频、付费专属内容或违法侵权视频。网站尊重视频上传者的意愿，若在YouTube描述中加入特定声明即可阻止视频被收录，旨在为大众提供有趣且有用的未公开内容，同时保护个人隐私和版权。&lt;/p&gt;
+&lt;h4 id=&#34;22-免费批量下载无损高音质音乐教程&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://shiquda.link/batch-download-high-quality-music/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;免费批量下载无损高音质音乐教程&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这个项目提供了一个免费批量下载无损高音质音乐的解决方案，通过Python工具结合Spotify/Qobuz等平台的推荐算法与歌单转换功能，能自动抓取用户歌单并批量下载高品质音频文件，适合需要离线保存大量高音质音乐的用户，虽然存在少数歌曲转换或下载失败的情况，但整体成功率较高，避免了反复手动下载的麻烦。&lt;/p&gt;
+&lt;h4 id=&#34;23-羊毛书---智能省钱的ai&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://www.yangmaoshu.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;羊毛书 - 智能省钱的AI&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;羊毛书是一个帮你智能省钱的AI平台，专注于消除消费信息差，无需花费大量时间就能轻松获取优惠信息。它能快速帮你找到购物、外卖、出行等日常消费的最优折扣，虽然省下的可能不多，但操作简单实用，让你花得更值更开心。平台涵盖了手机数码、餐饮娱乐、交通出行等多个消费场景，支持消费者先查询再下单的省钱习惯，通过AI精准推荐为你精打细算每一笔开销。&lt;/p&gt;
+&lt;h4 id=&#34;24-ai-emoji-finder---快速搜索合适的emoji&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://aiemojifinder.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ai Emoji Finder - 快速搜索合适的emoji&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AI Emoji Finder是一个创新的在线工具，它利用先进的人工智能技术帮助用户快速搜索和发现最适合当前情境的表情符号，通过自然语言处理理解用户需求，从😀到🎃等上千个emoji中精准推荐，支持按情感、场景、节日等分类检索，为社交媒体、聊天对话或内容创作提供即时、智能的表情推荐服务，让数字沟通更加生动有趣且省时高效。&lt;/p&gt;
+&lt;h4 id=&#34;25-emoji-spark---快速搜索合适的emoji&#34;&gt;25. &lt;a class=&#34;link&#34; href=&#34;https://emojispark.com/zh-hans&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Emoji Spark - 快速搜索合适的emoji&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Emoji Spark是一款智能表情搜索工具，利用AI技术快速匹配最适合聊天场景的表情符号，用户可通过关键词搜索、复制并粘贴到社交平台或聊天软件中，支持多语言查询和丰富的分类浏览，涵盖节日、活动、动物、食物等多种主题，方便用户精准表达情感，操作简单且完全免费使用。&lt;/p&gt;
+&lt;h4 id=&#34;26-轻简历---在线ai智能简历制作&#34;&gt;26. &lt;a class=&#34;link&#34; href=&#34;https://www.wktline.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;轻简历 - 在线AI智能简历制作&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;轻简历是一个专为求职者设计的在线AI智能简历制作工具，旨在为用户提供简洁高效、操作便捷的简历创作体验。该平台提供多样化的精美模板和内容范例，支持自由调整排版、技能编辑、证件照优化等功能，并整合招聘资源和避坑指南，帮助应届生和职场人士轻松打造专业简历，提升求职竞争力。&lt;/p&gt;
+&lt;h4 id=&#34;27-考途指南---考公考编&#34;&gt;27. &lt;a class=&#34;link&#34; href=&#34;https://pppw1my52v.feishu.cn/wiki/DGtMwJailirOwPk3OBIcTbTCnhg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;考途指南 - 考公考编&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“考途指南”是一个专注于各类公职备考资源的免费学习平台，持续为用户提供国家公务员、省市公务员、军队文职、事业单位等热门考试的最新备考资料。该项目采用结构化知识库模式，已覆盖三支一扶、教师资格、教师招聘等八大核心考试类别，所有内容通过云端文档实时更新，支持多终端访问。平台通过智能目录导航和标签体系帮助考生快速定位所需学习内容，目前正逐步完善专业技术资格考试等新领域的题库建设，致力于打造一站式职业考试备考解决方案，评论区显示该项目已获得大量备考群体的持续关注。&lt;/p&gt;
+&lt;h4 id=&#34;28-塔罗耳语---ai塔罗牌占卜&#34;&gt;28. &lt;a class=&#34;link&#34; href=&#34;https://tarotap.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;塔罗耳语 - AI塔罗牌占卜&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Tarotap是一款创新的在线AI塔罗牌占卜平台，提供智能化的塔罗牌解读服务，涵盖爱情、事业、学业等多种运势分析。平台采用先进的AI技术模拟不同风格的塔罗师解读，支持直觉式抽牌、是否占卜、每日运势等功能，并配备塔罗疗愈等特色服务，为用户提供24/7的个性化神秘学指导，帮助探索人生方向并获得心灵启发。&lt;/p&gt;
+&lt;h4 id=&#34;29-一八零柒食谱---专注分享家庭美食&#34;&gt;29. &lt;a class=&#34;link&#34; href=&#34;https://food.sayidhe.com/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一八零柒食谱 - 专注分享家庭美食&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;「一八零柒的食谱」是一个专注分享家庭美食的生活记录项目，由Sayid、Nuo与两只猫咪Sami、Nuomi共同经营，通过精心整理的食谱展现这个小空间的日常饮食文化，从简单的三明治到丰富多样的家常菜，为访客提供真实可操作的家庭料理灵感。&lt;/p&gt;
+&lt;h4 id=&#34;30-妙记文卡---在线文字卡片生成&#34;&gt;30. &lt;a class=&#34;link&#34; href=&#34;https://www.mijicard.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;妙记文卡 - 在线文字卡片生成&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;妙记文卡是一款简洁优雅的在线文字卡片生成工具，通过直观的界面和Markdown支持，帮助用户快速将文字转化为精美的图片卡片，提供丰富的字体、配色和版式自定义选项，适合制作书摘、日记、语录等内容，支持无水印高清导出，完全免费即开即用，让分享文字更显格调与心意。&lt;/p&gt;
+&lt;h4 id=&#34;31-图文风格介绍容器网络&#34;&gt;31. &lt;a class=&#34;link&#34; href=&#34;https://github.com/zhangguanzhang/simple-container-network-book&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;图文风格介绍容器网络&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一本面向网络入门者的容器网络科普读物，用生动直观的图文讲解Docker和Kubernetes相关网络知识，包括基础网络概念、容器网络原理等内容，适合想理解容器网络但缺乏专业基础的运维和开发者学习参考。&lt;/p&gt;
+&lt;h4 id=&#34;32-盐选&#34;&gt;32. &lt;a class=&#34;link&#34; href=&#34;https://www.yanxuan.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;盐选&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;盐选作者即盐选专栏的签约作者。盐选专栏是服务于盐选会员的付费专栏，分「故事专栏」和「知识专栏」两大内容类型。成为盐选专栏签约作者，是在知乎实现内容变现小目标的主要渠道之一。&lt;/p&gt;
+&lt;p&gt;盐选内容的分发主要依托于知乎的社区场景，优质的作品将通过付费回答的形式分发给上亿用户，盐选签约作者将有机会获得丰厚的分成收入。&lt;/p&gt;
+&lt;h4 id=&#34;33-最佳平替---智能比价&#34;&gt;33. &lt;a class=&#34;link&#34; href=&#34;https://pingti.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;最佳平替 - 智能比价&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“最佳平替”是一款智能比价工具，通过AI分析商品关键词的价格差异，帮助用户找到更便宜的替代搜索词。用户只需输入想购买的商品名称，系统就会推荐可能更实惠的关键词选项，虽然结果仅供参考，但能在购物时提供新思路。在当前经济环境下，这款工具旨在用巧妙的搜索方式为用户节省开支，支持搜索维生素C、保时捷等各类商品，让精打细算变得更简单有趣。&lt;/p&gt;
+&lt;h4 id=&#34;34-退休计算器&#34;&gt;34. &lt;a class=&#34;link&#34; href=&#34;https://daojishi.fun/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;退休计算器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;退休计算器 &amp;amp; 倒计时是一款帮你精准规划退休生活的贴心工具，提供法定延迟退休年龄计算、储蓄预测、人生收支曲线分析、零遗产规划等功能，搭配倒计时显示、社交时间分配、人生900月可视化等创意模块，还有休闲游戏和日读内容帮你打发时间，通过趣味方式帮你做好退休准备，让漫长的工作生涯更有盼头。&lt;/p&gt;
+&lt;h4 id=&#34;35-github-摸鱼指北---有趣的项目&#34;&gt;35. &lt;a class=&#34;link&#34; href=&#34;https://github.com/akira-cn/moyu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github 摸鱼指北 - 有趣的项目&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个GitHub摸鱼指南集合项目，精选了大量有趣的编程仓库，包括奇葩代码库、创意开发工具、休闲小游戏、学习资源以及程序员专属娱乐内容，涵盖从技术恶搞到实用技巧的各类花样玩法，适合开发者在工作间隙探索有趣的技术创意，在欢乐中启发编程灵感。&lt;/p&gt;
+&lt;h4 id=&#34;36-linux-tutorial---一个-linux-教程&#34;&gt;36. &lt;a class=&#34;link&#34; href=&#34;https://github.com/dunwu/linux-tutorial&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LINUX-TUTORIAL - 一个 Linux 教程&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;《Linux教程》是GitHub上一个全面系统的Linux学习资源库，涵盖了从基础命令到系统运维的核心知识，包含Shell脚本编写、服务器配置、常用软件部署等实战内容，通过清晰的分类和详实的案例讲解，帮助开发者快速掌握Linux操作技能，提升服务器管理能力。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;实用的工具&#34;&gt;&amp;raquo;&amp;gt;实用的工具
+&lt;/h2&gt;&lt;h4 id=&#34;1-cherry-studio---桌面端大模型工具&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.cherry-ai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cherry Studio - 桌面端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Cherry Studio 是一款全平台 AI 客户端，支持 Windows、macOS 和 Linux 系统，未来将扩展至移动端。该工具集成了多种主流 AI 服务商，提供对话、绘图、翻译等功能，并支持本地知识库构建，所有数据本地存储保障用户隐私安全。通过统一调度多服务商模型，简化用户操作流程，内置上千专业助手模板，让普通用户也能轻松享受 AI 带来的高效创作体验，活跃社群提供及时技术支持。&lt;/p&gt;
+&lt;h4 id=&#34;2-chatwise---桌面端大模型工具&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://chatwise.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ChatWise - 桌面端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ChatWise是一款高性能AI聊天工具，整合了多种大语言模型（如GPT-4、Claude、Gemini等），注重本地隐私保护和桌面端流畅体验。其特色在于支持多模态交互（音频/PDF/图像）、网页搜索（Tavily API/本地浏览器）及通过MCP连接第三方工具（Notion/Google表格等），同时能渲染HTML/图表等复杂内容，兼顾简洁界面与强大功能，所有数据处理均在设备本地完成（仅向AI服务商发送请求）。&lt;/p&gt;
+&lt;h4 id=&#34;3-deepchat---桌面端大模型工具&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://deepchat.thinkinai.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DeepChat - 桌面端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DeepChat是一款专注高效的桌面AI助手，无缝接入主流AI模型（OpenAI/Gemini/豆包等），提供极速响应与隐私保护。其特色功能包括文档智能分析（Excel/PPT处理）、多语言写作辅助、个性化学习规划，支持本地化部署和端到端加密，满足个人知识管理与企业级安全需求，通过MCP协议实现多模型智能切换，结合联网搜索能力打造全方位生产力工具。&lt;/p&gt;
+&lt;h4 id=&#34;4-gomoon---桌面端大模型工具&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://gomoon.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gomoon - 桌面端大模型工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Gomoon是一款面向桌面端的智能效率工具，基于先进的大语言模型技术，为用户提供强大的本地化AI助手功能，支持Windows和Mac双平台，通过简洁直观的界面实现智能问答、文本处理等多样化任务，能在离线环境下保障数据隐私，同时保持高效的响应速度，帮助用户提升工作与创作效率。&lt;/p&gt;
+&lt;h4 id=&#34;5-losslesscut---无损音视频编辑&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://github.com/mifi/lossless-cut&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LosslessCut - 无损音视频编辑&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LosslessCut是一个跨平台的无损音视频编辑工具，内置FFmpeg支持，可快速切割、合并和转换媒体文件而不损失质量。它支持多种格式的直接剪辑、多轨道编辑、智能分段、元数据修改以及截图导出等功能，适合处理来自相机/无人机的原始素材。通过直观的时间线界面和快捷键操作，用户能高效完成视频粗剪、音频提取、字幕添加等任务，所有处理都基于原生编码数据流以避免重新编码带来的质量损失。&lt;/p&gt;
+&lt;h4 id=&#34;6-dyd短视频下载助手---无水印视频图集下载&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/1142802969/upload/video&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DyD短视频下载助手 - 无水印视频图集下载&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DYD多平台批量下载器是一款多平台批量无水印视频图集下载器，支持抖音、快手、小红书、视频号、TikTok等主流短视频平台的视频和图文下载。该软件完全免费，并且可以提取无水印的短视频，只需复制视频链接，粘贴到软件里，然后点击解析，就 轻松获得无水印版本，并且可以保存到相册中。&lt;/p&gt;
+&lt;h4 id=&#34;7-tabtab---快速整理浏览器标签&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://www.tabtab.xyz/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TabTab - 快速整理浏览器标签&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;TabTab是一款高效便捷的浏览器标签页管理工具，帮助用户快速整理、分类和管理多个标签页，支持一键保存网页、分组管理及多空间创建，通过拖拽操作和可视化布局提升工作效率，提供本地存储和云端同步功能确保数据安全，是数字工作者的理想网页管理助手。&lt;/p&gt;
+&lt;h4 id=&#34;8-cloudplayplus---远程游戏&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://www.cloudplayplus.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CloudPlayPlus - 远程游戏&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;云玩加(CloudPlayPlus)是一款开源免费的跨平台云游戏串流工具，支持Windows、MacOS、iOS和Android设备，提供低延迟、高帧率的远程游戏体验，采用WebRTC加密确保数据安全，支持硬件加速和XBOX手柄协议，能流畅运行3A大作，用户可自建服务器实现定制化云游戏解决方案，其接近原生的操作体验让远程游戏如同本地运行。&lt;/p&gt;
+&lt;h4 id=&#34;9-termora---远程终端&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://github.com/TermoraDev/termora&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Termora - 远程终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Termora 是一个跨平台的终端模拟器和SSH客户端，支持Windows、macOS和Linux系统，采用Kotlin/JVM开发并部分实现了XTerm协议，提供SSH连接、本地终端、串口通信、SFTP文件传输、端口转发、X11图形转发等专业功能，同时具备配置同步、宏录制、关键词高亮等增强特性，致力于打造全平台兼容的现代化终端解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;10-tabby---远程终端&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://tabby.sh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tabby - 远程终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Tabby是一款面向现代开发者的跨平台终端应用程序，支持本地Shell、串行连接和SSH/Telnet协议，具有高度可定制性，提供了丰富的终端功能如多标签分屏、主题配色、Unicode支持、文件传输和连接管理等特色。它集成了SSH客户端和串口终端工具，支持Windows的各类Shell环境，并通过插件扩展和CSS主题系统实现个性化配置，同时具备智能记忆布局、活动通知和全局快捷键等提升效率的功能，让终端操作更加现代化和便捷。&lt;/p&gt;
+&lt;h4 id=&#34;11-electerm---远程终端&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://github.com/electerm/electerm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;electerm - 远程终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Electerm是一个开源跨平台的终端工具，支持SSH/SFTP/FTP/文件管理/Telnet/串口连接/RDP远程桌面/VNC远程控制，提供图形化界面和命令行两种操作方式，支持多标签页、全局快捷键唤醒、主题定制、多语言界面和代理设置，能通过GitHub/Gitee同步书签数据，支持Zmodem/Trzsz文件传输协议，适合开发者、运维人员和技术爱好者使用。&lt;/p&gt;
+&lt;h4 id=&#34;12-xpipe---远程终端&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://github.com/xpipe-io/xpipe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;xpipe - 远程终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;XPipe 是一款创新的服务器连接中心与远程文件管理工具，它基于本地已安装的命令行工具运行，无需在远程系统上额外配置，即可通过直观的界面集中管理SSH、Docker、Kubernetes、虚拟机等多种连接类型，提供高效的文件传输、终端启动、脚本执行等功能，并通过加密保险库确保敏感信息安全，支持跨团队协作的Git同步，同时能与常用开发工具无缝集成。&lt;/p&gt;
+&lt;h4 id=&#34;13-windterm---远程终端&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://github.com/kingToolbox/WindTerm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WindTerm - 远程终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;WindTerm 是一款专业跨平台的终端工具，支持SSH、SFTP、Shell、Telnet、串口和Tmux等多种协议，具备高性能、低延迟和动态内存压缩技术，提供分屏视图、X11转发、端口转发、ZModem文件传输等功能，内置文件管理器和丰富主题，兼容Windows、Linux和macOS系统。&lt;/p&gt;
+&lt;h4 id=&#34;14-hexhub---远程终端&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://www.hexhub.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HexHub - 远程终端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;HexHub是一款专为开发者和运维人员设计的一体化桌面工具，集成了数据库管理、SSH终端、SFTP文件传输和Docker容器管理功能。其智能SQL编辑器支持代码补全与格式化，百万级数据表格操作流畅，支持跨服务器文件传输和SSH命令广播。专业版提供分屏视图、数据同步等高级功能，通过自研技术实现高效数据导入导出，界面提供亮/暗色主题，适合多平台协作场景。&lt;/p&gt;
+&lt;h4 id=&#34;15-mineru---解析pdf&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://github.com/opendatalab/MinerU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MinerU - 解析PDF&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;MinerU是一个高质量开源PDF解析工具，能够将PDF文档转换为结构化的Markdown和JSON格式，支持自动移除页眉页脚、保留原始文档结构（包括标题、段落、列表）、提取图像及其描述、表格和公式识别，并具备自动OCR功能支持84种语言识别，适用于科研文献、技术文档等内容提取需求，兼容Windows/Linux/Mac平台，提供命令行和API两种使用方式。&lt;/p&gt;
+&lt;h4 id=&#34;16-picimpact---摄影作品展示平台&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://github.com/besscroft/PicImpact&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PicImpact - 摄影作品展示平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;PicImpact 是一个基于 Next.js 和 Hono.js 开发的自部署摄影作品展示平台，提供瀑布流相册展示、EXIF 信息查看、标签管理、RSS 订阅等功能，支持 S3 API/Cloudflare R2 存储，具有响应式设计和暗黑模式，采用双因素认证保障安全，可部署在 Vercel/Node.js/Docker 等环境，适合摄影师展示和分享作品。&lt;/p&gt;
+&lt;h4 id=&#34;17-软仓---资源平台&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://www.ruancang.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;软仓 - 资源平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;软仓（RuanCang.Net）是一个提供专业软件下载和安装教程的资源平台，涵盖常用办公、设计建模、图像处理、数据分析和电子电路等多领域软件，为用户提供详细的安装指导和解压步骤，方便用户快速获取并安装所需专业工具，适合设计师、工程师和学生等不同需求群体使用。&lt;/p&gt;
+&lt;h4 id=&#34;18-repkg-gui---wallpaper-engine-壁纸提取&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/opus/731003055992995880&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RePKG-GUI - Wallpaper Engine 壁纸提取&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;RePKG-GUI是一款专为提取Steam壁纸引擎（Wallpaper Engine）中PKG/MPKG文件的图形化工具，基于开源项目RePKG开发。该工具可直观展示本地已订阅壁纸，支持提取壁纸内的图片资源，并能直接将壁纸导入编辑器使用，同时强调用户需遵守版权规定不得非法分发他人作品。采用.NET框架开发，适用于Windows系统，界面简洁易用，解决了需要命令行操作的痛点。&lt;/p&gt;
+&lt;h4 id=&#34;19-windows-实用软件推荐持续更新&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://blog.wfso.cn/archives/115/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Windows 实用软件推荐（持续更新）&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;Windows 实用软件推荐&amp;quot;是博主Qute整理的Windows生态精选工具合集，面向初阶到高阶用户提供全场景生产力解决方案。内容涵盖浏览器、办公工具、多媒体处理、系统优化等20+分类，既推荐Edge/Chrome等主流选择，也包含ShareX/Obsidian等效率神器，兼具官方正版与可靠开心版资源，每款软件均附带官网链接和使用说明，既可作为新手装机指南，也能帮助老用户发现优质替代品，文章持续更新并开放读者反馈通道，致力于打造最实用的Windows软件百科全书。&lt;/p&gt;
+&lt;h4 id=&#34;20-好用常用软件&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://www.wxy97.com/archives/20&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;好用常用软件&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个精选的Windows实用工具合集，涵盖系统增强、截图录屏、文件传输、媒体播放等常用场景，推荐uTools、Snipaste、PotPlayer等优质软件，兼顾高效工作和娱乐需求，所有工具均经过实测筛选，适合不同需求的用户提升电脑使用体验。&lt;/p&gt;
+&lt;h4 id=&#34;21-youtube-music---第三方youtube音乐桌面客户端&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://github.com/th-ch/youtube-music&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;youtube-music - 第三方YouTube音乐桌面客户端&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;th-ch/youtube-music是一个基于Electron框架构建的第三方YouTube音乐桌面客户端，通过集成广告拦截、自定义主题、歌词同步等实用插件来增强原生体验，支持Windows/Mac/Linux多平台，提供更纯净的音乐播放环境和定制化功能，适合希望摆脱网页版限制的用户使用。&lt;/p&gt;
+&lt;h4 id=&#34;22-ncm-downloader---网易云音乐下载工具&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://github.com/xxynet/NCM-Downloader&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NCM-Downloader - 网易云音乐下载工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NCM-Downloader是一款功能强大的网易云音乐下载工具，可解析并下载播放列表中的歌曲，自动嵌入歌曲元数据（含封面、专辑等完整ID3信息），支持VIP歌曲下载和内嵌歌词功能，适用于想保存高质量音乐文件的发烧友和自建音乐库用户。&lt;/p&gt;
+&lt;h4 id=&#34;23-wora---开源无损音乐播放器&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://github.com/hiaaryan/wora&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wora - 开源无损音乐播放器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Wora是一款专为音乐发烧友设计的开源无损音乐播放器，提供美观界面与强大功能。支持播放FLAC/WAV/Dolby等无损格式，具备播放列表管理、歌词同步、快速搜索等功能，基于Electron和Next.js构建，适用于Windows/macOS/Linux平台，允许用户轻松整理和享受高品质音乐收藏。&lt;/p&gt;
+&lt;h4 id=&#34;24-polaris---影视资源自动追踪管理&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://github.com/simon-ding/polaris&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;polaris - 影视资源自动追踪管理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Polaris是一款功能强大的TV/影视资源自动追踪管理工具，支持美剧、日剧及动漫资源，对接TMDB元数据服务，可连接QBittorrent/Transmission进行智能下载，内置WebDAV/Alist/本地存储支持，提供Plex刮削和NFO文件生成，适用于追剧爱好者搭建个性化媒体库系统。&lt;/p&gt;
+&lt;h4 id=&#34;25-doubledouble---音乐下载&#34;&gt;25. &lt;a class=&#34;link&#34; href=&#34;https://doubledouble.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DoubleDouble - 音乐下载&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DoubleDouble 是一个免费在线音乐下载平台，支持从亚马逊音乐、SoundCloud、Qobuz、Deezer 和 Tidal 等流媒体服务获取音频内容，用户可通过输入链接或直接搜索获取歌曲，提供元数据添加和多种音质选项，支持匿名下载且不存储用户信息，但使用时需完成验证码验证，界面会显示最近下载记录但可手动隐藏。&lt;/p&gt;
+&lt;h4 id=&#34;26-netease-cloud-music---网易云任务&#34;&gt;26. &lt;a class=&#34;link&#34; href=&#34;https://github.com/chaunsin/netease-cloud-music&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;netease-cloud-music - 网易云任务&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;该项目提供了网易云音乐的Golang实现，包含完整的API接口库和多功能命令行工具，支持登录、每日任务自动完成、音乐下载、云盘上传和NCM文件解密等操作，尤其适合开发者通过简单的命令即可实现刷歌、签到、云贝积累等自动化功能，但需注意频繁使用存在账号风险，所有功能仅限学习研究。&lt;/p&gt;
+&lt;h4 id=&#34;27-网易云咪咕---音乐脚本&#34;&gt;27. &lt;a class=&#34;link&#34; href=&#34;https://github.com/Cinvin/myuserscripts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;网易云/咪咕 - 音乐脚本&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个网易云音乐油猴脚本，提供多种实用功能：云盘快速上传（含周杰伦歌曲）、VIP歌曲下载、音质转换、歌单排序、评论IP显示等，支持云盘歌曲匹配纠正和音质提升，还能将本地文件直接上传至云盘，通过Tampermonkey插件使用，但需注意遵守版权法规和平台协议。&lt;/p&gt;
+&lt;h4 id=&#34;28-草啦-ssl---免费ssltls数字证书申请服务&#34;&gt;28. &lt;a class=&#34;link&#34; href=&#34;https://cao.la/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;草啦 SSL - 免费SSL/TLS数字证书申请服务&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;草啦网提供免费SSL/TLS数字证书申请服务，用户无需注册登录即可直接通过网页申请证书，支持多种品牌证书和DNS/HTTP验证方式，主要面向网站管理员群体，证书默认采用ECC算法并拥有90天有效期，该平台强调简便操作无需复杂流程，但要求使用者具备基础的证书知识，网站界面简洁并提供实时证书申请状态查询功能。&lt;/p&gt;
+&lt;h4 id=&#34;29-link-preview---磁力链预览&#34;&gt;29. &lt;a class=&#34;link&#34; href=&#34;https://tmp.nulla.top/link-preview/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Link Preview - 磁力链预览&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Link Preview 是一个便捷的在线工具，专为解析和展示磁力链接、种子文件和电驴（Ed2k）链接的基本信息而设计，采用第三方API接口帮助用户快速获取资源的关键数据，无需安装任何软件即可在网页上直接查询，界面简洁易用且完全免费，适合需要预先了解下载内容详情的网络用户，其实质上是whatslink.info API服务的一个替代实例。&lt;/p&gt;
+&lt;h4 id=&#34;30-genact---无用活动生成器&#34;&gt;30. &lt;a class=&#34;link&#34; href=&#34;https://github.com/svenstaro/genact&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;genact - 无用活动生成器&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Genact是一个幽默的无用活动生成器，通过在终端模拟虚假的工作场景（如代码编译、下载等）来制造忙碌假象，适合娱乐或伪装工作。它支持多种预设场景，可调节播放速度，提供Web和命令行版本，开源且跨平台运行。&lt;/p&gt;
+&lt;h4 id=&#34;31-dpanel---docker可视化管理系统&#34;&gt;31. &lt;a class=&#34;link&#34; href=&#34;https://dpanel.cc/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DPanel - Docker可视化管理系统&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DPanel是一款专为中文用户设计的轻量化Docker可视化管理系统，采用容器化部署方式实现极简资源占用，提供直观的容器管理界面和完整的操作功能，其50MB左右的轻巧体积和低于20MB的内存占用特别适合资源有限的环境使用，让Docker管理更加简单高效。&lt;/p&gt;
+&lt;h4 id=&#34;32-httpsok---ssl证书自动续期&#34;&gt;32. &lt;a class=&#34;link&#34; href=&#34;https://httpsok.com/doc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;httpsok - SSL证书自动续期&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;httpsok是一款专为SSL证书自动续期设计的简便工具，用户只需执行一行命令即可在1分钟内完成证书续期，支持通配符域名和多服务器部署，无需修改Nginx配置，可无缝兼容CDN、OSS等各类云服务，帮助中小企业高效解决证书管理难题，确保网站HTTPS持续稳定运行。&lt;/p&gt;
+&lt;h4 id=&#34;33-程序员效率提升工具汇总&#34;&gt;33. &lt;a class=&#34;link&#34; href=&#34;https://www.kancloud.cn/maozhenggang/monkey-cheats&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;程序员效率提升工具汇总&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;该项目是一个专为程序员设计的效率提升工具合集，涵盖本地软件和在线资源，通过精心筛选的实用工具帮助开发者优化工作流程，内容持续更新并汇聚来自网络和用户推荐的高效方案，涵盖代码编写、调试、项目管理等多领域需求。&lt;/p&gt;
+&lt;h4 id=&#34;34-clash-for-linux-install---linux代理&#34;&gt;34. &lt;a class=&#34;link&#34; href=&#34;https://github.com/nelvko/clash-for-linux-install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;clash-for-linux-install - Linux代理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这个项目是一个优雅的Linux平台代理工具，基于Clash/mihomo内核实现，通过shell脚本自动配置系统级网络代理，支持订阅转换、TUN模式、Web控制台等功能，兼容主流Linux发行版，简化了复杂代理环境的部署流程。&lt;/p&gt;
+&lt;h4 id=&#34;35-kejilionsh---丰富的一键命令&#34;&gt;35. &lt;a class=&#34;link&#34; href=&#34;https://github.com/kejilion/sh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KEJILION.SH - 丰富的一键命令&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;科技Lion Shell脚本是一款功能强大的Linux管理系统工具，集成了Docker容器管理、LNMP建站环境、网络测速、系统监控和性能优化等核心功能，支持多种Linux发行版，提供直观的交互界面和自动化脚本，帮助用户高效完成部署、维护及安全防护等工作，大幅简化服务器运维流程。&lt;/p&gt;
+&lt;h4 id=&#34;36-shellcrash---linux代理&#34;&gt;36. &lt;a class=&#34;link&#34; href=&#34;https://github.com/juewuy/ShellCrash&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ShellCrash - Linux代理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ShellCrash 是一个在 Shell 环境中运行 sing-box/mihomo 客户端的开源管理工具，支持订阅管理、分流规则配置和定时任务等功能，兼容 OpenWrt、Padavan 等多种路由系统及标准 Linux 设备，提供 Web 面板进行可视化操作，适合需要命令行代理管理的用户。&lt;/p&gt;
+&lt;h4 id=&#34;37-github-文件加速&#34;&gt;37. &lt;a class=&#34;link&#34; href=&#34;https://gh-proxy.ygxz.in/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub 文件加速&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Github Proxy 是一个免费的公益代理服务，旨在为国内用户加速访问 GitHub 上的各类资源，包括仓库克隆、文件下载、Release 以及 Gist 等。它通过分布式的代理节点，有效解决了 GitHub 在国内访问缓慢或无法下载的问题，同时提供简洁的网页界面和直观的使用指引，提升开发者获取开源项目的效率。&lt;/p&gt;
+&lt;h4 id=&#34;38-docker-镜像加速&#34;&gt;38. &lt;a class=&#34;link&#34; href=&#34;https://docker-pull.ygxz.in/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Docker 镜像加速&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;Docker镜像加速&amp;quot;是一个提供免费公益容器镜像加速服务的项目，通过国内节点一键加速Docker Hub、GitHub CR、Kubernetes等主流镜像仓库，大幅提升容器镜像下载速度，支持修改docker配置实现全局加速，适用于开发者快速拉取海外容器镜像，包含8个主流镜像源的专属加速地址，所有操作均可通过简单命令完成，专注为国内开发者提供稳定高效的容器镜像下载体验。&lt;/p&gt;
+&lt;h4 id=&#34;39-docker-layer-icu&#34;&gt;39. &lt;a class=&#34;link&#34; href=&#34;https://cloudlayer.icu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Docker Layer ICU&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Docker Layer ICU 是一个专为国内开发者设计的Docker镜像加速服务，通过智能代理技术优化了国内访问Docker官方资源的速度，提供一键安装脚本自动配置加速地址，支持主流Linux发行版及国产操作系统，同时附带实时镜像状态监控功能，有效解决国内用户拉取Docker镜像缓慢的问题，显著提升容器化开发的效率。&lt;/p&gt;
+&lt;h4 id=&#34;40-快点软件镜像站&#34;&gt;40. &lt;a class=&#34;link&#34; href=&#34;https://mirrors.quickso.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;快点软件镜像站&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;快点软件镜像站是国内知名的开源软件镜像平台，提供包括AlmaLinux、CentOS、Ubuntu等主流操作系统镜像，以及Docker、Pip等常用工具的加速服务，同时整合了中国科技大学、清华大学等高校优质镜像资源，旨在为用户提供快速稳定的开源软件下载体验。&lt;/p&gt;
+&lt;h4 id=&#34;41-一键脚本&#34;&gt;41. &lt;a class=&#34;link&#34; href=&#34;https://likeable-fuschia-f06.notion.site/VPS-76f1905f566942dabfa7f95317a0d2ca&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一键脚本&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一个服务器一键脚本合集，包含了各种实用的服务部署工具，比如SSL证书申请、网络优化、面板安装等，还提供了一些监控和测试脚本，方便用户高效管理服务器，所有工具都能通过简单命令快速安装部署，适合Linux系统用户使用，且持续更新维护，脚本均来自开源项目。&lt;/p&gt;
+&lt;h4 id=&#34;42-宝塔开心版---管理面板&#34;&gt;42. &lt;a class=&#34;link&#34; href=&#34;https://baota.sbs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;宝塔开心版 - 管理面板&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;宝塔开心版&amp;quot;是一个优化过的服务器管理面板项目，基于开源面板深度定制，提供付费功能的免费体验选项，支持Linux系统的Web环境快速部署、网站管理和安全监控等功能，适合中小企业及开发者低成本搭建服务器运维环境，包含Nginx/Tomcat等常用服务一键配置，但使用需注意潜在安全风险和法律合规性，使用者应自行承担相关责任。&lt;/p&gt;
+&lt;h4 id=&#34;43-一键激活-windowsoffice&#34;&gt;43. &lt;a class=&#34;link&#34; href=&#34;https://kms.cx/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一键激活 windows/office&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;KMS.CX是一个提供便捷KMS激活服务的网站，支持一键激活操作系统和办公软件，采用微软官方批量许可技术，激活后与正版功能完全相同但需180天自动续期，该网站提供实时激活统计与安装脚本，强调技术交流用途并建议企业购买正版，同时分享服务器资源信息，承诺永久免费但接受捐赠以维持运行，采用严格隐私政策保护用户数据。&lt;/p&gt;
+&lt;h4 id=&#34;44-dive---docker逐层分析&#34;&gt;44. &lt;a class=&#34;link&#34; href=&#34;https://github.com/wagoodman/dive&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dive - Docker逐层分析&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Dive 是一个分析 Docker/OCI 镜像的强大工具，它能直观展示镜像各层内容、文件变化和空间使用情况，帮助开发者优化镜像大小。该工具通过交互式终端界面(TUI)呈现分层结构，支持快捷键操作查看增删改的文件，并能计算镜像效率评估空间浪费，还提供 CI 集成功能实现镜像分析的自动化测试流程，支持多种容器引擎和镜像源格式解析。&lt;/p&gt;
+&lt;h4 id=&#34;45-多寻地图---全国任意城市车站和地点的高铁公交出行辐射范围&#34;&gt;45. &lt;a class=&#34;link&#34; href=&#34;https://bus.daibor.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;多寻地图 - 全国任意城市、车站和地点的高铁、公交出行辐射范围&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;多寻地图是一款综合性交通查询工具，专注于高铁和公交线路的可视化展示，提供包括地形、卫星在内的多种地图模式切换功能，其特色在于能够直观呈现高铁与公交线路的辐射范围，并为用户提供详细的列车车次类型查询和时间规划服务，支持查看不同车型的最长行程时间和天数，帮助用户高效规划跨区域出行路线。&lt;/p&gt;
+&lt;h4 id=&#34;46-picseal---普通照片加水印&#34;&gt;46. &lt;a class=&#34;link&#34; href=&#34;https://picseal.vercel.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PICSEAL - 普通照片加水印&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;PICSEAL是一款在线照片水印工具，专为摄影师和摄影爱好者设计，支持多种主流相机品牌的拍摄照片添加原创风格水印，包括富士、佳能、尼康、索尼等相机品牌以及苹果、华为、小米等手机厂商的特色水印效果，用户可自定义拍摄参数、日期、设备型号等EXIF信息显示样式，通过简洁直观的交互界面实现专业级水印设计，无需安装任何软件即可快速生成带有摄影参数的个性化图片。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>NO.002 网站篇</title>
+        <link>http://localhost:1313/p/hw-no.002/</link>
+        <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/hw-no.002/</guid>
+        <description>&lt;hr&gt;
+&lt;h2 id=&#34;实时热点&#34;&gt;&amp;raquo;实时热点
+&lt;/h2&gt;&lt;h4 id=&#34;1-newsnow---实时热点新闻阅读&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://newsnow.busiyi.world/c/hottest&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NewsNOW - 实时热点新闻阅读&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NewsNow 是一个优雅的实时热点新闻阅读项目，提供简洁美观的UI界面，支持GitHub OAuth登录和多端数据同步，采用智能缓存策略和自适应抓取频率优化性能，目前主要聚焦中文内容，未来计划支持多语言和个性化订阅功能，基于MIT许可证开源，可通过Docker或云平台灵活部署，项目架构清晰便于贡献者添加新的新闻来源。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;好玩的论坛博客&#34;&gt;&amp;raquo;好玩的论坛博客
+&lt;/h2&gt;&lt;h4 id=&#34;1-linuxdo---论坛&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://linux.do/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Linux.do - 论坛&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LINUX DO 是一个充满活力的中文技术社区，致力于打造真诚友善的交流环境。这里聚集了众多热爱技术的用户，涵盖Linux、人工智能、软件开发等多元话题讨论。社区提供分类清晰的内容板块，包括开发调优、资源分享、读书学习、前沿资讯等，鼓励专业交流与资源共享。特别设立『非我莫属』专区和快问快答标签，既满足深度讨论需求又解决实际问题。社区倡导专业与温情并重的文化，定期举办活动促进互动，是新老技术爱好者共同成长的理想平台。&lt;/p&gt;
+&lt;h4 id=&#34;2-大橘和朋友们的周刊---blog&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://rrorangeandfriends.de/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;大橘和朋友们的周刊 - Blog&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;《大橘和朋友们的周刊》是一个由GitHub用户zhiyu1998创建的互联网资源分享项目，它每周收集整理有趣的网站、实用工具、效率软件和优质资源，采用明暗双模式设计并支持RSS订阅。&lt;/p&gt;
+&lt;h4 id=&#34;3-王旭阳个人博客---blog&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://www.wxy97.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;王旭阳个人博客 - Blog&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;王旭阳的个人博客是一个汇集技术分享、资源整理和生活感悟的综合性网站，涵盖Java开发、Docker部署、实用工具、读书笔记等内容。站内文章以技术教程和资源整合为主，特别是提供大量开发工具和镜像资源的实用技巧，同时包含个人对产品和设计的思考，适合开发者查阅技术资料或学习专业知识。&lt;/p&gt;
+&lt;h4 id=&#34;4-another-dayu---blog&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://anotherdayu.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Another Dayu - Blog&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Another Dayu 是一个个人博客，内容涵盖技术随笔、工具推荐、翻译文章和生活感悟。博主分享ChatGPT使用技巧、DEVONthink自动化工作流等效率工具心得，同时也关注博客生态建设，探讨VXNA和Folo等博客发现平台。网站采用Blocksy主题构建，风格简约实用，偶尔会整理PIVOT系列的内容策展专题，既有硬核技术思考也有轻松的生活观察。&lt;/p&gt;
+&lt;h4 id=&#34;5-ahhhhfs---资源站&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://www.ahhhhfs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ahhhhfs - 资源站&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;A姐分享是一个综合资源聚合平台，致力于为用户提供大量互联网免费资源，涵盖影视、音乐、软件、AI工具、电商运营、编程开发等数十个分类，通过精心筛选的精品内容满足不同人群需求，同时包含科学上网、建站教程等实用指南，坚持无门槛共享理念打造开放式资源库，每日更新确保内容时效性，帮助用户高效获取各类实用工具与学习资料。&lt;/p&gt;
+&lt;h4 id=&#34;6-v2ex---论坛&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://global.v2ex.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;V2EX - 论坛&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;V2EX聚焦于技术领域，涵盖了编程开发、服务器运维、移动开发、人工智能等各类技术话题。在这里，用户可以分享自己在技术学习和实践过程中的经验与心得，提出技术问题并获得其他用户的帮助。比如，有人会分享使用特定编程语言实现某个功能的代码技巧，也有人会询问关于服务器配置的疑难问题。&lt;/p&gt;
+&lt;h4 id=&#34;7-nodeseek---论坛&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://www.nodeseek.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nodeseek - 论坛&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NodeSeek旨在为主机爱好者打造高品质社区，传递行业新闻，分享技术心得。在这里，用户主要讨论的话题包括服务器行业新闻、优惠信息、开发经验与建站心得、开源项目与实用工具、pt、域名等。我们希望这里能够成为一个有效的主机信息聚集地，希望它能成长为一个有用的社群。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;好玩有意思的&#34;&gt;&amp;raquo;好玩有意思的
+&lt;/h2&gt;&lt;h4 id=&#34;1-火烧云地图---分析和预测火烧云质量&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.sunsetbot.top/map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;火烧云地图 - 分析和预测火烧云质量&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这个项目是一个专业分析和预测火烧云质量的地图工具，基于NCEP-GFS云层数据和CAMS霾情监测，每日进行四次更新（两次大更新覆盖全国，两次小更新专注中东部和东北区域），通过综合考虑火烧云持续时间、亮度、云量、云层高度和气溶胶等多项指标，为摄影爱好者和气象观测者提供从0.001（微烧）到2.5（世纪大烧）的火烧云质量指数，同时配备Windy生态插件和多地区精细化预报，虽然数值预测存在不确定性，但仍为捕捉壮观天象提供了宝贵的参考依据。&lt;/p&gt;
+&lt;h4 id=&#34;2-leximory---语言学习&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://leximory.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Leximory - 语言学习&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Leximory 是一款基于语言学原理设计的语言学习平台，专注于通过大量语言输入自然习得外语能力，提供网页文本一键导入、AI 生词标注、考纲词汇查词、语料本复习、学习小组共享资源和 AI 朗读等核心功能，倡导&amp;quot;阅读中学习&amp;quot;的高效理念，帮助用户在广泛阅读中潜移默化掌握词汇和语法，同时支持多语种学习与社群互动，打造沉浸式的自然语言习得环境。&lt;/p&gt;
+&lt;h4 id=&#34;3-纸由我-paper-me---自定义打印纸&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://paperme.toolooz.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;纸由我 Paper Me - 自定义打印纸&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;纸由我（PaperMe）是一款在线自定义打印纸生成工具，用户可自由设计各类个性化纸张模板，包括横线纸、方格纸、乐谱纸、书法练习纸等20余种类型，支持调整线条样式、间距、颜色及页面尺寸（A4/A5等10种规格），提供多种主题风格和背景纹理，并能添加水印，生成的模板可直接导出为PDF/PNG等格式，适合学习笔记、书法练习、项目管理等多种场景使用，操作简便且无需安装。&lt;/p&gt;
+&lt;h4 id=&#34;4-神奇海螺---趣味在线工具&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://lab.magiconch.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;神奇海螺 - 趣味在线工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;神奇海螺试验场是一个汇集了多种趣味在线工具的创意平台，提供了从拼音缩写释义、图片风格化处理、动画圣地巡礼地图到在线绘画游戏等丰富的互动功能。用户可以在这里体验到电子包浆工具、蒸汽波影像生成器、截图猜动画小游戏等新奇玩法，还能使用全球制霸标记生成、申论文章自动生成等实用工具。该平台由多个独立小工具组成，涵盖了娱乐、学习和创意等多个领域，适合网络文化爱好者和内容创作者探索尝试，所有工具均可在线直接使用无需下载。&lt;/p&gt;
+&lt;h4 id=&#34;5-fancraft---音乐卡片生成&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://fancraft.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fancraft - 音乐卡片生成&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;FanCraft是一个创新的音乐卡片生成平台，让粉丝能够简单快速地为自己喜欢的音乐创作个性化视觉卡片。用户只需选择模板并粘贴网易云音乐或Spotify的歌曲链接，系统就会自动提取音乐信息生成美观的卡片，支持海报和手机小卡样式，完成后可轻松分享至社交平台，实现音乐与创意的完美结合。&lt;/p&gt;
+&lt;h4 id=&#34;6-paint-toys---数字绘画平台&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://paint.toys/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Paint Toys - 数字绘画平台&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;Paint Toys&amp;quot;是一个激发创意的数字绘画平台，提供多种特色画布工具帮助用户探索艺术表达：油彩功能模拟颜料流动效果，致敬波洛克的滴画艺术；单线绘制功能以毕加索风格为灵感，用连续线条激发创造力；文字绘画工具将诗歌与笔触结合，打造数字时代特有的字形画；蒙德里安风格生成器则通过几何色块让用户轻松体验新造型主义，每种工具都通过特定限制引导用户突破常规思维，在数字画布上展现独特艺术视角。&lt;/p&gt;
+&lt;h4 id=&#34;7-md2card---markdown生成卡片&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://md2card.com/zh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MD2Card - markdown生成卡片&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;MD2Card是一个创新的在线工具，能够将Markdown文档一键转换为精美的知识卡片，支持20多种视觉风格主题，包含温暖柔和、极简黑白、赛博朋克等多种设计风格，完整兼容Markdown语法和图表功能，提供实时预览和自动分页功能，无需注册即可免费使用，同时支持API调用和企业私有化部署，既适合个人知识管理也适用于团队内容创作，让技术文档和知识分享变得更加生动专业。&lt;/p&gt;
+&lt;h4 id=&#34;8-查词猫---专业术语查询&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://www.chacimao.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;查词猫 - 专业术语查询&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;查词猫&amp;quot;是一款智能词典工具和语言学习应用，整合了权威词典资源和人工智能技术，提供多语种查词翻译、例句解析、发音指导等功能，同时内置专业知识库和行业术语解释服务。其特色在于将专业术语释义与实用商务内容相结合，不仅帮助用户理解词语含义，还能提供相关的商业应用场景分析，满足语言学习者和职场人士的双重需求，实现一站式知识获取与学习提升。该工具支持多种查询方式，界面简洁易用，是兼具学习辅助和商业参考价值的智能平台。&lt;/p&gt;
+&lt;h4 id=&#34;9-vectorcraftr---svg插图库&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://vectorcraftr.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vectorCraftr - SVG插图库&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Vectorcraftr是一个提供精美SVG插图的免费资源库，所有插图均可商用且无需署名，涵盖工作场景、休闲活动、团队协作等多样化主题，用户可通过关键词搜索或分类快速找到所需插图，其设计风格简洁现代，适合用于网页设计、PPT演示、营销材料等多种用途。该平台界面直观，支持即时预览和下载，为设计师和内容创作者提供了高质量的视觉素材解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;10-一单书---电子书查询&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://yidanshu.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一单书 - 电子书查询&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一单书是一个电子书搜索和推荐平台，聚合各类优质书籍资源，提供热门书单如豆瓣TOP250、微信读书榜单等，涵盖小说、文学、历史、心理学等多领域，并实时更新阅读推荐值，帮助用户快速找到值得阅读的书籍。&lt;/p&gt;
+&lt;h4 id=&#34;11-小兔搜搜---网盘资源&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://xiaotusoso.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小兔搜搜 - 网盘资源&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;小兔搜搜是一个综合性资源搜索与导航平台，聚合了网盘资源、电子书搜索、热点资讯及优惠福利等实用内容，拥有AI工具导航、学术资源库、营销方案合集等特色板块，同时整合各大平台热点榜单与本地生活服务，为用户提供一站式信息检索与生活服务入口。&lt;/p&gt;
+&lt;h4 id=&#34;12-hubweb---apple-苹果产品参数&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://hubweb.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hubweb - Apple 苹果产品参数&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个收集了Apple 苹果产品的参数网站「HubWeb」包括了 MacBook、iPhone、iPad、Watch、Apple TV 等的参数。支持对选中的产品进行横向参数对比，网站内容分成三大块：Apple 处理器、Apple 设备信息以及其他参数。&lt;/p&gt;
+&lt;h4 id=&#34;13-excalidraw---在线白板&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://excalidraw.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Excalidraw - 在线白板&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Excalidraw是一个具有手绘风格的开源在线白板工具，支持多人实时协作绘图，提供简洁直观的绘图界面和丰富的形状工具，用户可以通过简单的操作创建流程图、草图等可视化内容，所有绘图数据采用端到端加密确保安全性，无需注册即可免费使用，适用于快速构思、头脑风暴或教学演示等多种场景。&lt;/p&gt;
+&lt;h4 id=&#34;14-drawnix---在线白板&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://drawnix.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Drawnix - 在线白板&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Drawnix 是一款基于 Plait 框架打造的免费开源白板工具，提供思维导图、流程图和自由绘画等功能。依托插件化架构，用户能够随需扩展多种交互组件。每一次操作都能实时保存至浏览器缓存，确保内容不丢失。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;开发类&#34;&gt;&amp;raquo;开发类
+&lt;/h2&gt;&lt;h4 id=&#34;1-linux-command---linux-命令搜索大全&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://github.com/jaywcjlove/linux-command&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;linux-command - Linux 命令搜索大全&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这个项目是一个非盈利性的Linux命令搜索工具，提供了600多个常用Linux命令的详细手册、学习资料和实用详解，内容来自网络和网友共同贡献，支持Web在线查询和Docker部署，适合开发者快速查阅命令用法，网站无广告且支持多种访问方式（GitHub、Gitee等），所有命令数据开源可自由部署，用户还可以通过npm安装集成到本地开发环境，是学习和管理Linux系统的实用速查手册。&lt;/p&gt;
+&lt;h4 id=&#34;2-渡渡鸟镜像同步站---容器镜像服务&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://docker.aityp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;渡渡鸟镜像同步站 - 容器镜像服务&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;渡渡鸟镜像同步站是一个专注于为开发者提供便捷可靠容器镜像服务的平台，它实时同步多个主流Docker仓库（包括gcr.io、quay.io等官方源）的上万种镜像，涵盖Kubernetes组件、数据库、AI框架等常见开发工具，通过国内高速节点解决官方源拉取缓慢问题，所有镜像保持与官方源严格同步，支持多架构镜像和灵活检索，特别适合国内开发者在云原生、大数据等领域的开发和测试需求。&lt;/p&gt;
+&lt;h4 id=&#34;3-linuxmirrors---一键脚本&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://linuxmirrors.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinuxMirrors - 一键脚本&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LinuxMirrors 是一个专注于简化 Linux 系统软件源更换的开源项目，提供一键式脚本支持国内外主流 Linux 发行版和教育网镜像源自动切换，具备智能识别系统、中文交互界面和快速部署特点，通过全球网络加速确保访问稳定性，支持自定义选项满足高级需求，采用 MIT 许可协议完全开源，帮助用户高效完成软件源配置优化。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;//换源
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://linuxmirrors.cn/main.sh) 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;//安装docker
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bash &amp;lt;(curl -sSL https://linuxmirrors.cn/docker.sh)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;4-docker-从入门到实践---docker学习指南&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://yeasy.gitbook.io/docker_practice&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Docker 从入门到实践 - docker学习指南&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;《Docker从入门到实践》是一个开源的Docker学习指南，通过系统化的章节安排，从基础概念到高级应用全面讲解容器技术。该项目涵盖Docker核心知识点包括镜像管理、容器操作、网络配置和数据存储等，并提供私有仓库部署、Swarm集群等企业级实践方案，特别适合开发者和运维人员循序渐进地掌握容器化技术。书中包含丰富的实战案例和最佳实践，内容持续更新并开放贡献，可通过在线文档和本地运行容器两种方式阅读学习，是系统学习Docker技术的高质量开源教程。&lt;/p&gt;
+&lt;h4 id=&#34;5-itgoyoawesome-docker&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://github.com/itgoyo/awesome-docker&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Itgoyo/awesome-docker&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Itgoyo/awesome-docker 是一个收集整理各类实用Docker项目的开源仓库，包含了管理面板Portainer、自动化脚本工具qinglong/qiandao、下载工具qBittorrent/Transmission、媒体服务Jellyfin/EMBY、直播录制bililive-go等多元化应用，还涵盖了电子书管理、网络测速、文件同步等实用工具，为Docker爱好者提供了一系列有趣且实用的资源集合。&lt;/p&gt;
+&lt;h4 id=&#34;6-coracooawesome_&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://github.com/coracoo/awesome_docker_cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;coracoo/awesome_docker_cn&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;coracoo/awesome_docker_cn 一个收集了上百款支持 Docker 部署的开源项目仓库，内容涵盖 NAS 操作系统、服务器管理、影音娱乐、知识库工具、文件管理等多个领域。项目由 NAS 爱好者整理，每个条目均标注了详细介绍、Docker 镜像地址及部署教程，方便用户快速搭建自己的应用服务。覆盖场景包括家庭相册管理、自动签到工具、AI 生产力应用、游戏服务器等，适合技术爱好者探索使用，其中部分项目为国内开发者原创或二次优化版本。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;工具类&#34;&gt;&amp;raquo;工具类
+&lt;/h2&gt;&lt;h4 id=&#34;1-infini-cloud---支持webdav的云存储&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://infini-cloud.net/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;infini-cloud - 支持webdav的云存储&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;InfiniCLOUD是一款可靠的自托管一体化云存储服务，提供高达10TB的存储空间和200Mbps的传输速度，支持跨设备访问与WebDAV协作，专注于数据安全与灾难防护，通过长期订阅可获额外存储奖励，适合个人和企业进行安全便捷的云端数据管理。&lt;/p&gt;
+&lt;h4 id=&#34;2-取文件---临时文件&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://quwenjian.cc/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;取文件 - 临时文件&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;取文件-Quwenjian是一个便捷安全的在线文件共享平台，用户可以生成取件码将文件分享给他人，接收方只需输入对应的取件码即可提取文件，无需注册登录，还支持文件加密功能，简化了文件传输过程，注重隐私保护和服务易用性。&lt;/p&gt;
+&lt;h4 id=&#34;3-send---临时文件&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://send.vis.ee/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Send - 临时文件&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Send是一个简单私密的文件分享工具，支持端到端加密传输，用户通过拖放或点击即可上传最大2.5GB的文件并生成分享链接，所有文件链接会定时自动过期销毁，确保传输内容到期彻底消失，为需要临时分享敏感文件的用户提供安全便捷的解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;4-billddesk---远程控制&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://desk.hsslive.cn/#/remote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BilldDesk - 远程控制&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;BillDesk 是一款支持跨设备远程控制的工具，通过设备码和连接密码实现安全连接，提供灵活的远程操作体验，用户可自定义码率、帧率和分辨率等参数以适应不同网络环境和画质需求，支持多种视频和音频内容模式优化。&lt;/p&gt;
+&lt;h4 id=&#34;5-easytier---异地组网&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://easytier.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EasyTier - 异地组网&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;EasyTier是一个去中心化的异地组网解决方案，采用Rust语言开发，具有高度安全性和易用性。它支持多平台运行，通过AES-GCM或WireGuard加密保障通信安全，具备NAT穿透、子网代理和智能路由功能，可实现节点间的直接通信与子网共享，同时支持TCP/UDP/QUIC等多种协议，适合需要构建分布式网络的用户使用。&lt;/p&gt;
+&lt;h4 id=&#34;6-kwrt---软路由固件定制&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://openwrt.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kwrt - 软路由固件定制&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;OpenWrt.ai 是一个提供 OpenWrt 软路由固件定制与编译的在线平台，支持上千种设备型号，用户可以根据需求灵活选择软件包、主题、内核版本等配置项，快速生成个性化固件。该平台集成了大量常用插件（如去广告、内网穿透、智能家居等）和美观主题，支持旁路由、IPv6、Docker 等多种功能，并附带详细教程，适用于网络爱好者、智能家居玩家和小型企业快速部署定制化路由方案。&lt;/p&gt;
+&lt;h4 id=&#34;7-聚合图床---图床&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://www.superbed.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;聚合图床 - 图床&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;聚合图床（Superbed）是一个免费的在线图片托管平台，提供高速稳定的图片上传和外链服务，支持多种对象存储服务商包括七牛云、腾讯云、又拍云、阿里云、AWS等。用户可通过拖拽、粘贴或链接方式上传图片，平台采用AI自动检测确保内容合规，特别适合电商和内容创作者使用，目前已经托管超过4100万张图片并保持稳定运行。&lt;/p&gt;
+&lt;h4 id=&#34;8-下载狗---解析下载&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://www.xiazaitool.com/dy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;下载狗 - 解析下载&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;这是一款功能强大的视频解析工具，可以轻松提取无水印短视频并支持批量下载，适用于主流平台的内容获取，操作简单便捷，用户只需粘贴视频链接即可快速解析高清源文件，同时提供压缩下载选项，满足不同场景下的视频保存需求，帮助用户高效收藏和分享喜欢的短视频内容。&lt;/p&gt;
+&lt;h4 id=&#34;9-it-tools---在线工具&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://it-tools.tech/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;it-tools - 在线工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;IT Tools 是一个专为开发者设计的在线工具合集网站，提供超过60种实用工具，涵盖编码转换、数据加解密、格式处理、网络计算等开发常见需求类型。站点支持包括哈希生成器、JSON/YAML转换、正则表达式测试、二维码生成、Git命令速查等工具，采用简洁直观的界面设计，所有功能完全基于浏览器实现无需安装，帮助开发者快速完成日常工作中的小型技术任务处理。&lt;/p&gt;
+&lt;h4 id=&#34;10-csdn-文章解锁工具&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://csdn.zeroai.chat/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CSDN 文章解锁工具&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;CSDN文章解锁工具是一款便捷的在线服务工具，可以帮助用户快速解除CSDN平台文章的阅读限制，用户只需输入文章链接即可免费获取文章完整内容，操作简单高效，还能查看解锁历史记录，适合需要频繁查阅CSDN技术资料的用户使用，是解决付费文章阅读问题的实用解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;11-思绪思维导图&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://wanglin2.github.io/mind-map/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;思绪思维导图&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;思维导图制作工具是一款在线的可视化思维管理工具，支持节点编辑、多主题切换、结构化布局等功能，帮助用户高效整理思路、制定计划和项目梳理，操作简洁直观，适用于学习笔记、创意发散和会议记录等多种场景。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;应用类&#34;&gt;&amp;raquo;应用类
+&lt;/h2&gt;&lt;h4 id=&#34;1-crx-搜搜---扩展商店&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Crx 搜搜 - 扩展商店&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Crx搜搜是一个强大且便捷的浏览器扩展和应用商店，汇聚了海量热门插件和工具，支持快速浏览、下载和安装各类实用扩展，涵盖翻译、生产力、广告拦截、股市追踪等丰富功能。该平台提供直观的分类和搜索，帮助用户轻松找到所需扩展，同时展示下载排行和最新更新，让用户第一时间掌握优质插件资源，是提升工作效率和浏览器体验的首选站点。&lt;/p&gt;
+&lt;h4 id=&#34;2-wallhaven---壁纸下载&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://wallhaven.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wallhaven - 壁纸下载&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Wallhaven 是一款专注于提供高清壁纸资源管理与社区互动的多功能平台，涵盖网站、桌面客户端及移动应用，致力于为用户打造个性化的视觉体验。其核心功能包括海量壁纸资源检索、精准筛选、一键下载与自动更换壁纸，同时支持用户上传作品并参与社区交流。平台汇聚全球创作者的高质量内容，覆盖风景、动漫、艺术、游戏等多元主题，分辨率从1080p至8K全面适配不同设备。&lt;/p&gt;
+&lt;h4 id=&#34;3-悠久的小宝库&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://u9baoku.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;悠久的小宝库&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;于分享优质互联网资源的平台，汇集各类实用工具软件、优惠活动和数码攻略，涵盖系统优化、影音处理、办公学习等多元领域，以简洁页面和免注册下载为特色，持续更新精选内容，为技术爱好者和新手用户提供一站式数字生活解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;4-423down&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://www.423down.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;423down&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于各类免费资源、工具软件和产品推广的综合网站，提供影视观影平台、福利游戏、解锁资源分享服务等，同时涵盖Windows系统、安卓模拟器、图像处理软件等实用工具的更新介绍，致力于为用户发现和推荐优质的免费资源、实用软件及高性价比商品。&lt;/p&gt;
+&lt;h4 id=&#34;5-os-ssr&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://www.osssr.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OS-SSR&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;提供各类实用软件和工具的资源平台，涵盖网络代理、图像处理、媒体播放、系统优化等多个领域，为用户精选推荐高品质且功能强大的应用程序，帮助用户提升工作效率和数字生活质量。&lt;/p&gt;
+&lt;h4 id=&#34;6-果核剥壳&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://www.ghxi.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;果核剥壳&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于分享正版软件优惠、科技资讯和优质资源的综合性平台，提供大量电脑软件、安卓应用、系统工具和实用教程等，致力于打造纯净数字生态，帮助用户安全获取各类工具及行业最新动态，涵盖正版特惠套装、AI检测、圈内新闻和原创测评等内容，设有专题栏目整理高频需求资源，并以视频形式展示软件使用技巧，保持每日更新资源库，同时运营微信公众号推送精选内容。&lt;/p&gt;
+&lt;h4 id=&#34;7-阿酷杂货铺&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://www.coolexe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;阿酷杂货铺&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于分享优质互联网资源的站点，提供各类电脑软件、系统工具、虚拟工具、文本编辑、格式转换等实用工具的推荐与介绍，帮助用户提升工作效率和数据安全性。网站内容涵盖远程连接工具、系统优化软件、浏览器增强插件等，适合不同需求的用户快速获取高效便捷的数字解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;8-ai-看过来&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://www.gewuzhizhi.vip/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI 看过来&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于分享优质软件和学习资源的平台，提供AI工具专题、生产力软件推荐、电子书阅读器、系统优化工具以及各类实用软件合集，涵盖办公、娱乐、教育等多个领域，同时包含丰富的学习资料和教程，每日更新精选内容，帮助用户发现高效实用的数字化工具和学习资源。&lt;/p&gt;
+&lt;h4 id=&#34;9-4-分贝&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://www.4fb.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;4 分贝&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于免费福利资讯和实用工具的资源站，为用户提供涵盖软件工具、视频教程、安卓应用等多元内容，集合绿色软件、影视资源、系统优化工具和原创教程，强调无广告纯净体验。&lt;/p&gt;
+&lt;h4 id=&#34;10-app-喵&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://www.appmiu.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APP 喵&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AP一个专注于发现和推荐互联网上有趣实用软件资源的平台，提供包括动漫追番、学习工具、小说阅读、设计创作等各类应用推荐，涵盖网站、手机应用和电脑软件等多种类型，致力于帮助用户轻松找到适合自己的优质数字工具。&lt;/p&gt;
+&lt;h4 id=&#34;11-优米格&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://www.yomige.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;优米格&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于提供各类软件工具资源的综合性平台，涵盖Windows、Mac、安卓和iOS系统的实用工具，包括远程桌面控制、视频录制、IPTV播放器、磁力解析等解决方案，同时分享AI工具、Github项目及影视资源，优化系统激活及提升数字工作效率，适合开发者、运维人员和日常用户探索使用。&lt;/p&gt;
+&lt;h4 id=&#34;12-小奕&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://xiaoyi.vc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小奕&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注收录各种优秀软件的资源站点，提供包括效率工具、网盘应用、壁纸合集、本地AI模型等多元化内容推荐，尤其关注开源工具和实用软件的动态，同时分享影视播放器、输入法方案等数字生活解决方案，通过精选软件和科技趣闻帮助用户提升效率与体验，适合技术爱好者探索新鲜工具和资源。&lt;/p&gt;
+&lt;h4 id=&#34;13-macked&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://macked.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MacKed&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;一个专注于Mac平台软件资源分享的网站，提供各类实用的macOS应用程序下载，包括系统工具、设计软件、媒体播放器等。网站页面简洁，按分类和热度展示热门软件，并设有FAQ帮助用户解决常见使用问题。平台同时提供软件搜索功能和社交账号登录支持，定期更新各类生产力工具和创意软件资源。&lt;/p&gt;
+&lt;h4 id=&#34;14-ourmacs&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://ourmacs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OurMacs&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;OurMacs 一款专注于 Mac 软件聚合搜索与免费下载的工具应用 轻量级网页收集器 让麦可收藏成为你数字生活中的得力助手，轻松管理你的线上世界，连接你的创意与未来。&lt;/p&gt;
+&lt;h4 id=&#34;15-apsgo-软购&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://apsgo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APSGO 软购&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;APSGO软购商城是一个专业的正版软件销售平台，提供丰富的办公、安全、设计、开发等各类软件产品，满足不同用户的需求，通过优惠价格和优质服务为用户打造安全便捷的正版软件购物体验。平台注重正版授权保障，搭配专业客服支持，致力于为用户提供高效可靠的数字解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;16-数码荔枝&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://lizhi.shop/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;数码荔枝&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;数码荔枝 x 软件商店是中国领先的正版软件销售平台，专注于为Windows、Mac和移动设备用户提供高效的解决方案，涵盖文档编辑、文件管理、影音处理等各类实用工具。该平台通过精心筛选优质软件、提供专业化推荐及本地化服务，让消费者轻松获取高品质正版应用，同时保障优惠价格和可靠的售后服务，成为用户信赖的一站式正版软件采购平台。&lt;/p&gt;
+&lt;h4 id=&#34;17-粼光开源集&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://www.lgboxs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;粼光开源集&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;粼光开源集是一个致力于打造优质开源应用商店的平台，涵盖人工智能、图片处理、影音娱乐、效率工具、文本阅读、编程代码和设计工具等丰富类别，为用户精选各类实用的开源软件和工具。网站提供了详细的应用分类与专题合集，包括独立开发者资源、热门中文项目集合等，帮助用户快速找到所需的高质量开源解决方案。其界面简洁清晰，重点展示最新更新的优秀应用，并为每个工具提供介绍和功能说明，让用户轻松探索开源世界的便利与创新。&lt;/p&gt;
+&lt;h4 id=&#34;18-fcportables&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://www.fcportables.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FcporTables&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;FC Portables是一个专注于提供各类便携式软件资源的网站，涵盖图形设计、视频编辑、系统工具、数据恢复等多个专业领域的技术软件，其特色在于经过优化的便携版本无需安装即可直接运行，适合技术人员和普通用户在不同设备间灵活使用。网站界面简明分类清晰，每日更新精选实用工具，尤其适合需要快速部署软件或对系统清洁度要求高的用户场景，通过优化算法确保软件运行的稳定性和兼容性。&lt;/p&gt;
+&lt;h4 id=&#34;19-repack-скачать&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://lrepacks.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;REPACK скачать&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;专注于对各类商业软件进行专业化的重新封装优化，内容包括系统工具、多媒体处理、网络应用等十多个分类的数百款软件，所有repack版均经过深度测试并完整保留原版功能，同时通过智能安装脚本自动处理运行库依赖问题，用户可通过捐赠或提交需求来支持项目发展。&lt;/p&gt;
+&lt;h4 id=&#34;20-nirsoft&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://www.nirsoft.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nirsoft&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;NirSoft是一个专注于开发小型免费实用工具的网站，由Nir Sofer创建，提供密码恢复、网络监控、桌面工具等多样化的实用程序，专为解决Windows系统中的常见问题而设计，工具简洁高效，涵盖浏览器数据查看、IP地址查询、系统优化等多个领域，适合技术人员和普通用户使用。&lt;/p&gt;
+&lt;h4 id=&#34;21-sordum&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://www.sordum.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sordum&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Sordum.org是一个提供多种实用Windows系统工具的网站，主要包含程序管理、文件权限控制、网络优化和系统维护等类型的工具，例如AskAdmin可用于限制用户访问特定应用程序和文件，ReIcon能保存和恢复桌面图标布局，PowerRun允许以高权限运行系统工具，网站所有工具均为免费提供且注重用户的隐私保护，方便Windows用户进行系统优化和安全设置。&lt;/p&gt;
+&lt;h4 id=&#34;22-蓝鲨应用库&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://www.lsapk.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝鲨应用库&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;网站涵盖了办公商务、通讯社交、系统工具、健康运动、影音播放等多类别应用，并设有‘站长推荐’栏目精选优质内容。该平台每日更新海量应用资源，致力于为用户打造一站式数字生活解决方案，是寻找精品应用和影视资源的热门站点之一。&lt;/p&gt;
+&lt;h4 id=&#34;23-异星软件空间&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://www.yxssp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;异星软件空间&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;异星软件空间是一个非营利性个人博客，专注于分享各类实用的软件、游戏、素材和应用资源，涵盖办公、设计、娱乐等多个领域，致力于为用户提供优质的数字化工具推荐。网站不提供商业服务，所有资源仅供学习研究使用，鼓励用户支持正版软件，同时注重版权保护和网络安全。&lt;/p&gt;
+&lt;h4 id=&#34;24-apkcombo&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://apkcombo.com/zh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APKcombo&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;APKCombo 是一个专注于提供安卓应用和游戏下载资源的平台，汇集了海量热门应用和游戏，包括社交媒体工具、实用软件、大型游戏和休闲娱乐应用等，用户可通过其搜索系统快速找到目标应用的安装包，平台支持多语言访问，并持续更新内容，适合需要获取最新或特定版本 APK 文件的安卓用户，同时提供详细的安装指导和文件校验信息确保下载安全。&lt;/p&gt;
+&lt;h4 id=&#34;25-apkpure&#34;&gt;25. &lt;a class=&#34;link&#34; href=&#34;https://apkpure.com/cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APKpure&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;APKPure是一个专注于为安卓用户提供丰富应用资源的综合平台，让用户更容易发现、下载和管理应用，支持安全高效的安装体验。该平台涵盖游戏、工具、社交等各类应用，通过专业审核确保应用安全性，并提供快速下载通道，可帮助用户获取最新或热门应用资源。&lt;/p&gt;
+&lt;h4 id=&#34;26-switch520&#34;&gt;26. &lt;a class=&#34;link&#34; href=&#34;https://www.gamer520.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Switch520&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;switch520旨在为游戏爱好者打造最全的游戏库，switch520可以提供免费switch游戏下载，switch520还可以下载ps4游戏，3ds游戏下载，psv游戏下载以及各种主机。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;影视类&#34;&gt;&amp;raquo;影视类
+&lt;/h2&gt;&lt;h4 id=&#34;1-seedhub&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://github.com/xxsdaohangwang/seedhub&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SeedHub&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;SeedHub是一个专注于动漫影视资源分享的在线平台，提供海量高清影视资源的种子下载服务，用户可通过该网站免费获取热门电影、电视剧和动漫的磁力链接，平台每日更新大量资源，界面简洁易用且无需注册登录，支持迅雷等下载工具直接获取资源，满足影视爱好者对各类内容的观看需求。&lt;/p&gt;
+&lt;h4 id=&#34;2-观影-gying&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://www.gying.in/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;观影 GYING&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;观影 GYING 全网高清影视聚合网站，支持下载、在线播放。&lt;/p&gt;
+&lt;h4 id=&#34;3-影视站分享集合&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://linux.do/t/topic/434836&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;影视站分享集合&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Linux.do 集合。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;装机必备&#34;&gt;&amp;raquo;装机必备
+&lt;/h2&gt;&lt;h4 id=&#34;1-it-天空---技术交流&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.itsk.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IT 天空 - 技术交流&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;IT天空是一个专注于系统封装和硬件驱动的专业技术交流平台，提供自主开发的Windows系统部署工具集，涵盖系统封装、驱动集成、PE制作等领域。网站成立于2006年，拥有活跃的技术社区，发布原创工具包括万能驱动、系统封装助理和预安装环境等实用工具，同时开设硬件讨论区和封装教程专栏，致力于成为装机技术人员的资源中心和学习平台，其工具以高效易用著称。&lt;/p&gt;
+&lt;h4 id=&#34;2-rr-org---群晖系统引导与恢复&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://rrorg.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RR Org - 群晖系统引导与恢复&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Redpill Recovery (RR) 是一个专注于群晖系统引导与恢复的开源工具，可智能识别硬件并自动适配多款群晖型号，支持自定义内核模块和高级参数配置。它优化了驱动兼容性，提供图形化操作菜单，支持插件扩展功能，并内置快速修复工具，适合硬件玩家实现自定义NAS解决方案。项目强调安全性和稳定性，适用于系统迁移和设备恢复场景，开发者持续更新维护以确保与最新群晖版本兼容。&lt;/p&gt;
+&lt;h4 id=&#34;3-又要重装&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://yyczxt.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;又要重装&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;又要重装系统站&amp;quot;是一个专注于分享各类操作系统资源的平台，涵盖了Windows、Linux、ChromeOS等多种系统的精简、优化版本，特别为需要频繁重装系统的用户提供经过测试的可靠系统包，网站保持实时更新系统版本数据，用户可通过讨论区交流安装心得，从游戏优化到办公轻量化的不同需求都能找到适配方案，其特色是收集了国内外热门修改版系统并提供详细的版本特性说明，方便用户根据自身硬件配置和使用场景选择合适的系统镜像。&lt;/p&gt;
+&lt;h4 id=&#34;4-山己几子木&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://msdn.sjjzm.com/win11.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;山己几子木&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;提供了不同位宽和版本的系统镜像文件，包括针对普通用户的消费者版和面向企业的商业版两种主要类型，涵盖了x64和ARM64两种处理器架构。每个镜像文件都详细列出了完整的文件名、校验信息（SHA-256、SHA-1、MD5）、发布时间和文件大小，确保用户下载的安全性和完整性。页面还贴心地提供了安装指南，并分享了多个主流网盘的下载链接，方便用户根据自己的网络环境选择最优下载方式，为用户提供了一个可靠、便捷的系统获取渠道。&lt;/p&gt;
+&lt;h4 id=&#34;5-msdn-系统库&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://www.xitongku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MSDN 系统库&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;MSDN系统库是一个专注于提供原版Windows操作系统资源的服务平台，致力于维护纯净的Windows生态环境，为用户提供家庭版、专业版等各版本官方系统镜像及配套技术支持，同时还延伸开发了U盘装机工具、远程控制等实用功能，并设有交流社群帮助用户解决问题，其特色在于保持系统原汁原味的同时提供周边工具链服务。&lt;/p&gt;
+&lt;h4 id=&#34;6-驱动下载&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://driver.zol.com.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;驱动下载&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ZOL驱动下载是专为用户打造的全方位硬件驱动资源平台，涵盖主板、显卡、声卡、网卡等各类设备的官方驱动程序。其分类清晰，支持按品牌或产品精准查找下载，并提供万能驱动解决方案以应对常见设备问题。网站紧跟厂商更新动态，确保收录最新官方驱动，同时还包含笔记本、打印设备等外设驱动资源，并定期汇总热门驱动排行，为用户提供便捷的一站式驱动下载与管理服务，有效解决驱动安装与升级需求。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;关于-ai&#34;&gt;&amp;raquo;关于 AI
+&lt;/h2&gt;&lt;h4 id=&#34;1-chatbot-arena---llm对比&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://lmarena.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chatbot Arena - LLM对比&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LMArena是一个全球性的AI反馈平台，通过用户投票比较AI生成内容来推动技术进步，累计已收获超350万次投票。用户可匿名参与Prompt对战，平台公开对话记录以促进AI研究，但不建议提交敏感信息。其核心功能包括实时聊天对比、社区排行榜和开放式协作机制，强调通过集体智慧优化模型表现，所有数据默认公开共享以支持AI发展。该网站由独立团队运营，需注意响应内容可能存在AI生成的误差。&lt;/p&gt;
+&lt;h4 id=&#34;2-chubai---模拟角色&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://chub.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ChubAI - 模拟角色&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Chub AI是一个面向大众的生成式人工智能平台，提供无需登录即可使用的便捷搜索功能，让用户能够轻松体验AI技术带来的创新服务，其简洁友好的界面设计降低了使用门槛，使各类用户都能快速获得AI生成的内容支持，该平台的&amp;quot;Legacy Site&amp;quot;选项还为习惯传统界面的用户提供了过渡选择，体现了产品设计的包容性和用户友好理念。&lt;/p&gt;
+&lt;h4 id=&#34;3-sillytavern---模拟角色&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://github.com/SillyTavern/SillyTavern&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SillyTavern - 模拟角色&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;SillyTavern是一个为高级用户设计的本地安装LLM前端界面，提供统一的操作界面支持多种文本生成API（KoboldAI、Ooba、Claude等），具备移动友好布局、视觉小说模式、图像生成集成、TTS语音合成、WorldInfo设定库等功能，通过200多位开发者持续优化，其可扩展架构允许用户自定义UI主题、添加第三方插件，并通过详尽的官方文档帮助用户探索AI聊天的无限可能性。&lt;/p&gt;
+&lt;h4 id=&#34;4-aishort---提示词&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://chatprompt.aijuhe.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AiShort - 提示词&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;AI Short是一个AI提示词管理和共享平台，通过提供标签筛选、关键词搜索和一键复制提示词的功能，帮助用户提升与AI对话的效率和质量。用户可以在这个平台上找到适合不同场景的提示词，无论是工作、学习还是创意写作，通过优化的提示词获得更精确、实用的反馈，有效提升生产力。AI Short提供了浏览器扩展，支持Chrome、Edge等浏览器，使用户能更加便捷地使用提示词。&lt;/p&gt;
+&lt;h4 id=&#34;5-langgpt-结构化提示词&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LangGPT 结构化提示词&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LangGPT 是国内最大的结构化提示词社区，致力于通过模块化、标准化的方法论帮助用户轻松编写高质量提示词，其开源项目曾登上GitHub全球热榜前十，社区汇聚了大量提示词爱好者与工程师，提供丰富的教程、工具和交流平台，目标是让每个人都能掌握高效的大模型交互技巧。&lt;/p&gt;
+&lt;h4 id=&#34;6-deepseek-导航网&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://deepseek404.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DeepSeek 导航网&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DeepSeek 导航网是一个专注于DeepSeek相关资源的聚合平台，收录DeepSeek的官方网页版、客户端、API接口、模型下载以及多种适配软件，涵盖办公效率、即时通讯、浏览器插件、媒体影音等类别，并提供免费攻略、热门排行、资源汇总等实用信息，帮助用户高效获取DeepSeek生态的各种工具和服务。&lt;/p&gt;
+&lt;h4 id=&#34;7-deepseek-实用集成&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DeepSeek 实用集成&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;DeepSeek 实用集成&amp;quot;是一个专注于将DeepSeek大模型能力无缝接入各类软件的开源项目合集，涵盖浏览器插件、办公工具、开发环境、即时通讯等多个领域，帮助开发者快速集成AI功能。该项目提供丰富的应用场景和工具支持，从PDF阅读助手到金融分析工具，从代码编写插件到智能聊天机器人，通过API密钥即可轻松调用DeepSeek的强大自然语言处理能力，助力提升工作效率和智能化体验。所有集成方案均开源透明，支持跨平台使用。&lt;/p&gt;
+&lt;h4 id=&#34;8-deepseek导航&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://freedeepseek.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DeepSeek导航&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;DeepSeek 导航是一个聚合多个平台的 DeepSeek 模型免费使用入口的站点，提供了包括官方在线服务、第三方部署以及各大云服务商的接入渠道，旨在为用户快速找到稳定、高效且无需翻墙的 AI 对话体验。该网站汇总了丰富的 DeepSeek 模型应用，涵盖联网搜索、多轮对话、知识库集成等多种功能，方便用户直接使用，其中部分服务由知名企业支持，适合不同场景需求。&lt;/p&gt;
+&lt;h4 id=&#34;9-llm-api-代理&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://api-proxy.me/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LLM API 代理&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LLM API代理服务是一个免费的轻量级工具，旨在解决大型语言模型API的地区访问限制问题。它通过提供全球可用的代理节点，支持OpenAI、Google Gemini、Anthropic等主流API的无障碍调用，同时自动过滤敏感信息保障用户隐私，其高效架构确保了快速响应，且兼容流式和非流式数据传输模式，让开发者无需修改原有代码即可将目标API域名替换为代理地址实现全球访问。&lt;/p&gt;
+&lt;h4 id=&#34;10-composio&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://mcp.composio.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Composio&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Composio是一个集成化工具平台，汇集100多种云服务与API接口，提供一站式解决方案帮助开发者快速连接各类SaaS应用，包括电子邮件、项目管理、CRM系统、AI模型等，其内置身份验证和自动化功能简化了开发流程，支持通过统一界面对多工具进行搜索、调用和管理，尤其适用于构建集成式AI智能体和自动化工作流。&lt;/p&gt;
+&lt;h4 id=&#34;11-aillm-模型图标集&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://lobehub.com/zh/icons&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI/LLM 模型图标集&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;LobeHub提供一整套丰富的AI模型矢量图标资源库，包含1060多个免费图标，覆盖OpenAI、Claude、Google等主流AI品牌和开源项目，支持多种格式导出（SVG/PNG/WebP）并兼容React组件开发，为开发者和设计师提供便捷的视觉素材解决方案。通过开源社区协作持续更新，满足AI产品在界面设计中的品牌标识需求。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;恶意文件检测平台&#34;&gt;&amp;raquo;恶意文件检测平台
+&lt;/h2&gt;&lt;h4 id=&#34;1-virscan&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.virscan.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VirScan&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;VirScan是一个多引擎在线病毒检测平台，允许用户上传不超过100MB的文件进行安全分析，该平台整合了多个反病毒引擎的扫描能力，通过文件哈希值或直接上传的方式快速检测恶意软件，并提供详细的检测报告，同时严格遵守服务条款和隐私政策，与多家网络安全机构保持合作关系，旨在为用户提供便捷的文件安全检测服务，保障网络环境安全。&lt;/p&gt;
+&lt;h4 id=&#34;2-virustotal&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://www.virustotal.com/gui/home/upload&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VIRUSTOTAL&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;VirusTotal 是一款免费的在线服务，可以扫描文件和网址，检测恶意软件、病毒和其他类型的恶意内容。该服务将文件和网址提交给多个防病毒引擎和工具进行分析，提供综合性的检测结果。&lt;/p&gt;
+&lt;h4 id=&#34;3-微步在线云沙箱&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://s.threatbook.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;微步在线云沙箱&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;微步在线云沙箱是由ThreatBook推出的云端恶意代码分析平台，支持用户上传近70种常见文件类型进行深度检测，包括Windows/Linux可执行程序、办公文档、脚本及压缩文件等，通过动态和静态分析技术识别潜在威胁，其200MB大文件处理能力和无需安装的网页交互模式为安全研究人员提供了便捷的云端分析环境，企业用户还可通过API实现自动化安全检测流程。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

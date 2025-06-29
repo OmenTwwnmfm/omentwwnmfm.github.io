@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Plugin on OmenTwwnmfm</title>
+        <link>http://localhost:1313/tags/plugin/</link>
+        <description>Recent content in Plugin on OmenTwwnmfm</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Power by OmenTwwnmfm</copyright>
+        <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/plugin/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NO.003 扩展脚本篇</title>
+        <link>http://localhost:1313/p/hw-no.003/</link>
+        <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/hw-no.003/</guid>
+        <description>&lt;hr&gt;
+&lt;h4 id=&#34;1-acg助手---提供哔哩哔哩bilibili视频下载消息推送&#34;&gt;1. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/kpbnombpnpcffllnianjibmpadjolanh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;ACG助手 - 提供哔哩哔哩(bilibili)视频下载消息推送&lt;/strong&gt;&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ACG助手是一款功能强大的Chrome浏览器扩展，专为B站（bilibili）用户设计，提供视频下载、直播录制、消息推送、快捷键增强等多项实用功能，全面提升用户观看体验。它不仅支持免费下载1080P高帧率视频（需订阅解锁部分高级功能），还具备弹窗信息聚合、深色模式适配、弹幕加载优化等特色。用户可通过官方账号反馈问题，登录后配置可跨设备同步。该扩展界面友好、定制选项丰富，深受用户好评，是B站深度用户的必备工具。&lt;/p&gt;
+&lt;h4 id=&#34;2-bitwarden-密码管理器&#34;&gt;2. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Bitwarden 密码管理器&lt;/strong&gt;&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Bitwarden是一款安全可靠的跨平台密码管理器，通过AES-256位加密技术保护您的所有账户密码，支持自动填充登录信息并在多设备间安全同步。它能帮助用户为每个账户生成独特密码，解决重复使用相同密码的安全隐患，所有数据在离开设备前就已加密，即使开发团队也无法访问您的敏感信息，同时提供Chrome插件、桌面端和移动端应用，让密码管理变得简单又安全。&lt;/p&gt;
+&lt;h4 id=&#34;3-b-站空降助手&#34;&gt;3. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/eaoelafamejbnggahofapllmfhlhajdd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;B 站空降助手&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;B站空降助手是一款基于Chrome浏览器的实用扩展，移植自SponsorBlock项目，旨在优化B站用户的观看体验。它能智能跳过视频中的特定片段（如赞助广告、片头片尾等），并提供时间轴标记功能。该插件支持简体中文界面，拥有活跃的用户社区供交流反馈，属于娱乐类工具，适用于内核版本88以上的主流浏览器。开发者鼓励用户通过GitHub或QQ群提出建议，以持续改进功能。&lt;/p&gt;
+&lt;h4 id=&#34;4-clearurls&#34;&gt;4. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/lckanjgmijmafbedllaakclkaicjfmnk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;ClearURLs&lt;/strong&gt;&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;ClearURLs 是一款保护用户隐私的浏览器扩展，能够自动清除网页URL中的跟踪参数（如Google的utm_source或Amazon的冗长追踪代码），从而阻止网站收集用户的浏览数据。该工具支持实时清理链接、阻止广告域名、绕过跟踪重定向，并具备复制清洁链接的右键菜单功能。通过消除不必要的追踪元素，它让用户在享受网络服务时减少数据泄露风险，同时内置了多链接批量清理工具和防Ping跟踪等高级隐私保护特性。&lt;/p&gt;
+&lt;h4 id=&#34;5-global-speed-视频速度控制&#34;&gt;5. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/jpbjcnkcffbooppibceonlgknpkniiff&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Global Speed: 视频速度控制&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;Global Speed&amp;quot;是一款功能强大的浏览器视频速度控制插件，支持在腾讯视频、爱奇艺、B站等主流平台调节播放速度，支持快捷键操作、音视频增强和实时滤镜，提供自定义网址规则和隐私保护，完全开源且不收集用户数据。它能智能识别页面上的音视频元素，让用户自由调整播放速度、快进快退、调节音量和画面效果，是学习娱乐的实用工具，兼容多种浏览器并支持多语言界面。&lt;/p&gt;
+&lt;h4 id=&#34;6-keptab&#34;&gt;6. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/feodekcipceogpeomnijgmdlmocbggbi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Keptab&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Keptab是一款高效的浏览器标签页管理工具，通过一键保存所有标签页为可编辑列表，帮助用户整理凌乱的浏览窗口。它采用IndexedDB存储技术保障数据安全，支持实时快速搜索已保存的标签页，具有明暗双色模式适配不同环境，其轻量化设计和流畅体验让它成为OneTab的优质替代品，特别适合需要管理大量待阅网页的用户提升工作效率。&lt;/p&gt;
+&lt;h4 id=&#34;7-reader-view&#34;&gt;7. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/ecabifbgmdmgdllomnfinbmaellmclnh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Reader View&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Reader View是一款浏览器扩展工具，能将杂乱网页转换为简洁的阅读模式，自动移除广告、侧边栏等干扰元素，支持调整字体、背景色和页面宽度，提供文本朗读、编辑、打印等功能，并支持数学公式渲染和文本高亮，适合专注于阅读长篇文章或技术文档的用户，基于Mozilla开源技术实现。&lt;/p&gt;
+&lt;h4 id=&#34;8-smoothscroll&#34;&gt;8. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/nbokbjkabcmbfdlbddjidfmibcpneigj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SmoothScroll&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;SmoothScroll是一款高效的Chrome扩展工具，专注于提升网页浏览的滚动体验，其特色在于模拟iOS流畅的滚动动画效果，支持鼠标滚轮、键盘按键以及触摸板的精准操作，同时允许用户自定义滚动速度和视觉表现，适用于多种网页内容，包括复杂的嵌入式元素；该工具运行轻量，完全尊重用户隐私，承诺不收集任何个人信息，并能通过内置的排除列表功能灵活适配特定网页。&lt;/p&gt;
+&lt;h4 id=&#34;9-supercopy-超级复制&#34;&gt;9. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/onepmapfbjohnegdmfhndpefjkppbjkm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SuperCopy 超级复制&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;SuperCopy是一款强大的Chrome浏览器扩展工具，专为解决网页内容复制限制而设计。它能突破网站对右键、选择和复制功能的封锁，适用于百度文库、各大文学网、微信公众号等平台，让用户轻松获取被禁止复制的文字内容。插件支持自动记忆和智能联想功能，开启后会自动应用于同域名下的其他页面。虽然可能影响部分网站原有功能，但关闭即可恢复，是学术研究、内容创作和信息收集的高效辅助工具。&lt;/p&gt;
+&lt;h4 id=&#34;10-user-agent-switcher-and-manager&#34;&gt;10. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/bhchdcejhohfmigjafbampogmaanbfkg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;User-Agent Switcher and Manager&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;User-Agent Switcher and Manager是一款Chrome浏览器扩展工具，允许用户自定义或切换浏览器标识(UA)，模拟不同设备访问网站，适用于需要查看移动端页面或隐藏真实浏览环境的场景。它支持按域名设置特定UA、随机生成UA字符串、为不同窗口分配独立UA等功能，采用双因素技术确保伪装可靠性，且仅在需要时才启用UA欺骗以节省资源，同时提供排除特定域名等精细化控制选项。&lt;/p&gt;
+&lt;h4 id=&#34;11-videotogether&#34;&gt;11. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/dpjiaamadbcfheiamdaamhgpomlkohbn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VideoTogether&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;VideoTogether是一个支持多设备同步观看的在线协作观影平台，让身处异地的亲友能实时共享观影体验。它突破平台限制，兼容Windows、Linux、安卓和苹果全系设备，通过AirPlay还能支持Apple TV。该平台不仅支持B站、爱奇艺、腾讯视频、YouTube等主流视频网站的进度同步，还能实时共享本地视频播放进度。网站主仅需嵌入一行代码即可为自有视频站点添加&amp;quot;一起看&amp;quot;功能，实现跨平台、跨地域的同步观影互动。&lt;/p&gt;
+&lt;h4 id=&#34;12-itab新标签页&#34;&gt;12. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/mhloojimgilafopcmlcikiidgbbnelip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;iTab新标签页&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;iTab新标签页是一款创新组件式浏览器标签页工具，采用iOS风格小组件设计，提供个性化学习工作台体验。它集成了天气、日历、热搜榜等丰富组件，支持多搜索引擎聚合与智能翻译，拥有海量精美壁纸和资源图标库，具备书签管理、数据同步和极简模式功能，让用户享受高效流畅的浏览体验。&lt;/p&gt;
+&lt;h4 id=&#34;13-ublock-origin&#34;&gt;13. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;uBlock Origin&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;uBlock Origin 是一款开源的浏览器内容过滤扩展，专注于高效拦截广告、追踪器及恶意网站，同时保持极低的资源占用。它支持自定义规则订阅，能加载多种过滤列表如EasyList、EasyPrivacy等，并兼容hosts文件规则，适合追求简洁高效的上网体验。相比同类工具，其性能更优且完全免费，允许用户精细控制每个网站的过滤策略，但不具备全局开关功能，需手动管理各网页的拦截状态。&lt;/p&gt;
+&lt;h4 id=&#34;14-扩展管理器extension-manager&#34;&gt;14. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/gjldcdngmdknpinoemndlidpcabkggco&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;扩展管理器（Extension Manager）&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;扩展管理器（Extension Manager）是一款高效的浏览器增强工具，支持一键开启/禁用扩展，提供智能分组、自动按频率排序及快捷右键管理功能。具备智能搜索、视图切换和网站规则匹配特性，优化扩展资源占用，并能自定义扩展别名，支持暗黑模式，帮助用户灵活管理浏览器扩展。&lt;/p&gt;
+&lt;h4 id=&#34;15-捕捉网页截图---fireshot的&#34;&gt;15. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/mcbpblocgmgfnpjjppndjkmgjaogfceg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;捕捉网页截图 - FireShot的&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;&amp;ldquo;捕捉网页截图 - FireShot&amp;quot;是一款功能强大的浏览器扩展工具，可完整、选择或局部捕获网页内容，支持编辑标注并保存为多种格式。它能直接保存至本地或云服务，具备复制到剪贴板、打印、邮件分享等实用功能，曾获评PCMag年度最佳免费扩展，兼容多个主流浏览器，通过简单的操作帮助用户高效管理网页截图需求。&lt;/p&gt;
+&lt;h4 id=&#34;16-沉浸式翻译---网页翻译插件--pdf翻译--免费&#34;&gt;16. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/bpoadfkcbjbfhfodiogcnhhhpibjhbnh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;沉浸式翻译 - 网页翻译插件 | PDF翻译 | 免费&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;沉浸式翻译是一款功能强大的AI双语翻译工具，支持网页翻译、PDF翻译和视频字幕翻译等多种场景，提供智能双语对照阅读体验，支持包括ChatGPT、DeepL等17种翻译引擎，通过智能识别网页主内容区域优化主流网站的翻译效果，特色功能包括划词翻译、术语库自定义和图片OCR翻译，适用于学习、工作和跨语言内容获取，旨在为用户提供优雅流畅的多语言阅读解决方案。&lt;/p&gt;
+&lt;h4 id=&#34;17-猫抓&#34;&gt;17. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;猫抓&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;“猫抓”是一款简单实用的Chrome扩展工具，专为网页资源嗅探设计，能够快速抓取页面中的音频、视频等媒体内容，支持用户直接下载或分析流媒体链接。它基于开源项目开发，提供透明代码和文档支持，同时尊重版权提醒用户合法使用。该插件兼容主流浏览器内核，界面简洁友好，尤其适合需要批量下载资源的用户，是媒体收集爱好者的高效助手。开发者持续维护更新，并积极通过GitHub与社区互动解决问题。&lt;/p&gt;
+&lt;h4 id=&#34;18-篡改猴&#34;&gt;18. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;篡改猴&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;篡改猴是一款强大的浏览器扩展工具，允许用户通过自定义脚本实现网页功能增强与个性化修改，支持自动管理脚本、跨设备同步和一键开关功能，提供丰富的用户脚本资源库，让用户能自由优化浏览体验，适用于各类网页操作自动化需求。&lt;/p&gt;
+&lt;h4 id=&#34;19-automa&#34;&gt;19. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/infppggnoaenmfagbfknfkancpbljcca&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Automa&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Automa是一款功能强大的Chrome浏览器扩展工具，可帮助用户自动化完成网页操作任务，通过可视化的流程图设计实现表单自动填充、数据采集、截图、定时执行重复操作等功能。它支持自定义JavaScript脚本扩展功能，并兼容Edge等Chromium内核浏览器，适合需要自动化处理网页任务的工作场景，所有操作均本地执行无需云端服务。&lt;/p&gt;
+&lt;h4 id=&#34;20-bewlybewly&#34;&gt;20. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/bbbiejemhfihiooipfcjmjmbfdmobobp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BewlyBewly&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;BewlyBewly是一款专为Bilibili设计的浏览器扩展，通过重新设计页面布局和添加个性化功能来提升用户体验。它能让用户自定义主页风格、优化视频浏览界面，并增加实用工具如快捷键操作和深色模式适配。这款扩展深受用户喜爱，提供更符合个人偏好的B站交互方式，适合追求个性化浏览体验的B站用户使用。&lt;/p&gt;
+&lt;h4 id=&#34;21-cerebr&#34;&gt;21. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/kjojanemcpiamhohkcpcddpkbnciojkj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cerebr&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;Cerebr 是一款基于 Chrome 的 AI 助手扩展，可帮助用户高效处理 PDF 文件，支持对本地或网页 PDF 进行总结、提问和对话。通过快捷键唤出侧边栏操作界面，能快速清空记录和复用历史问题，适用于学习、办公等生产力场景，并已开源供开发者参与优化。&lt;/p&gt;
+&lt;h4 id=&#34;22-https-everywhere&#34;&gt;22. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/ikclbgejgcbdlhjmckecmdljlpbhmbmf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HTTPS Everywhere&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;HTTPS Everywhere 是一款安全浏览器扩展，能自动将所有网页请求从 HTTP 跳转到更安全的 HTTPS 加密连接，有效防止敏感数据被窃取或篡改，特别适合公共网络环境使用，支持自动更新规则库，简单安装即可为浏览提供额外保护层。&lt;/p&gt;
+&lt;h4 id=&#34;23-simpleundoclose&#34;&gt;23. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/emhohdghchmjepmigjojkehidlielknj&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SimpleUndoClose&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;SimpleUndoClose是一款简洁实用的浏览器恢复标签页扩展，一键记录用户关闭的标签页并按关闭时间排序，支持键盘快捷键操作和自定义显示设置，界面清爽无广告，能快速找回误关的网页，相比同类工具更加轻量高效。&lt;/p&gt;
+&lt;h4 id=&#34;24-singlefile&#34;&gt;24. &lt;a class=&#34;link&#34; href=&#34;https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SingleFile&lt;/a&gt;
+&lt;/h4&gt;&lt;p&gt;SingleFile是一款实用的浏览器插件，能将完整网页及所有资源保存为单个HTML文件，支持文字标注、内容编辑和区块删除功能，可批量处理多标签页保存，适合用于网页存档和资料收集，操作简单且兼容各类网站显示格式。&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

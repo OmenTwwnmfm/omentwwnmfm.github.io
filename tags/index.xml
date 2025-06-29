@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on OmenTwwnmfm</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Recent content in Tags on OmenTwwnmfm</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Power by OmenTwwnmfm</copyright>
+        <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Daily</title>
+        <link>http://localhost:1313/tags/daily/</link>
+        <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/daily/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tools</title>
+        <link>http://localhost:1313/tags/tools/</link>
+        <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/tools/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Website</title>
+        <link>http://localhost:1313/tags/website/</link>
+        <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/website/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Internet</title>
+        <link>http://localhost:1313/tags/internet/</link>
+        <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/internet/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>System</title>
+        <link>http://localhost:1313/tags/system/</link>
+        <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/system/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Prompt</title>
+        <link>http://localhost:1313/tags/prompt/</link>
+        <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/prompt/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Plugin</title>
+        <link>http://localhost:1313/tags/plugin/</link>
+        <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/plugin/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
