@@ -14757,13 +14757,6 @@ font-weight: bold;
         
         <guid>https://www.oootons.top/about/</guid>
         <description>&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;主站点：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.omentwwnmfm.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;strong&gt;https://www.omentwwnmfm.top&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;备站点：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.oootons.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;strong&gt;https://www.oootons.top&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://omentwwnmfm.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;strong&gt;https://omentwwnmfm.github.io&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;声明&#34;&gt;&lt;strong&gt;声明&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;欢迎来到 OmenTwwnmfm&amp;rsquo;s Blog ，主要记录和探讨技术、生活、旅行、读书等各类话题。所有内容均为个人观点，不代表任何组织或机构的立场。我会尽力确保信息的准确性，但因时间和认知有限，内容难免存在疏漏或错误。希望这些分享能为你带来启发，也欢迎理性讨论与交流。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;免责声明：&lt;/strong&gt;&lt;/p&gt;
@@ -14774,6 +14767,42 @@ font-weight: bold;
 &lt;li&gt;&lt;strong&gt;责任限制&lt;/strong&gt;：因依赖本博客内容而直接或间接造成的损失，本人概不负责。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;内容授权&lt;/strong&gt;：原创文章未经许可不得转载，转载时需注明来源。部分内容可能引用自公开资源，如有侵权请联系删除。&lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;服务&#34;&gt;&lt;strong&gt;服务&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;主站点在腾讯云服务器上由 halo 部署，备站点在 GitHub 上由 hugo 静态部署&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主站点：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.omentwwnmfm.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://www.omentwwnmfm.top&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;备站点：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.oootons.top&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://www.oootons.top&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;备站点：&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://omentwwnmfm.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://omentwwnmfm.github.io&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;腾讯云&#34;&gt;&lt;strong&gt;腾讯云&lt;/strong&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1Panel：现代化开源的 Linux 服务器运维管理面板，进行腾讯云服务器管理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://1panel.omentwwnmfm.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://1panel.omentwwnmfm.top/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vaultwarden：开源密码管理器，与官方 Bitwarden 客户端兼容&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vaultwarden.omentwwnmfm.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://vaultwarden.omentwwnmfm.top/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Umami：免费开源现代化的网站分析工具，统计网站访问流量&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://umami.omentwwnmfm.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://umami.omentwwnmfm.top/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Uptime Kuma：开源自托管的轻量级监控工具，监控网站、端口、服务等&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://status.omentwwnmfm.top/status/omentwwnmfm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://status.omentwwnmfm.top&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;github-pages&#34;&gt;GitHub Pages
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;OmenTwwnmfm&amp;rsquo;s Navigation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://navigation.omentwwnmfm.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://navigation.omentwwnmfm.top/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OmenTwwnmfm&amp;rsquo;s Siliconflow&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://siliconflow.omentwwnmfm.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://siliconflow.omentwwnmfm.top/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;claw-cloud-run&#34;&gt;Claw Cloud Run
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;免费版 Bitwarden 确实不提供 TOTP 等多因素认证(MFA)功能。密码安全至关重要，为解决这一问题，通过 Claw Cloud Run 平台部署了基于 vaultwarden/server:latest 的 Docker 镜像服务，该服务完全免费并开放给大家注册使用。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vaultwarden.oootons.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;https://vaultwarden.oootons.top/&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 </description>
         </item>
